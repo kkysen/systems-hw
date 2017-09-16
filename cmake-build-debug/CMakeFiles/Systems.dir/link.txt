@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Systems.dir/main.c.o CMakeFiles/Systems.dir/Euler/euler.c.o  -o Systems.exe -Wl,--out-implib,libSystems.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

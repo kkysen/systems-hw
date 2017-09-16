@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/kkyse/workspace/Systems/Euler/euler.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+stdbool.h
+-
+
+/cygdrive/c/Users/kkyse/workspace/Systems/main.c
+stdio.h
+-
+
