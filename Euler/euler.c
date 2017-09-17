@@ -6,6 +6,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
+#include <math.h>
+#include <time.h>
 
 #define NUM_PROBLEMS 599
 
@@ -50,7 +52,7 @@ void register_solution(Euler *const euler, const uint problem_num, const Solutio
     memcpy(euler->solutions + euler->num_solutions++, &solution, sizeof(Solution));
 }
 
-int solution_cmp(const Solution *const s1, const Solution *const s2) {
+static inline int solution_cmp(const Solution *const s1, const Solution *const s2) {
     return s1->num - s2->num;
 }
 
@@ -63,17 +65,36 @@ void sort_solutions(Euler *const euler) {
     qsort(euler->solutions, sizeof(Solution), euler->num_solutions, (const void *) solution_cmp);
 }
 
+char *answer_to_string(answer_t answer) {
+    const uint buffer_len = 20;
+    char *s = (char *) malloc(buffer_len * sizeof(char));
+    if (answer < 0) {
+        strcpy(s, "unfinished or wrong");
+    } else {
+        sprintf(s, "%llu", answer);
+    }
+    return s;
+}
+
+static inline double elapsed(clock_t start) {
+    return (clock() - start) / (double) CLOCKS_PER_SEC;
+}
+
 void run_solutions(Euler *const euler) {
     //sort_solutions(Euler);
-    for (uint i = 0; i < euler->num_solutions; i++) {
+    const uint num_solutions = euler->num_solutions;
+    clock_t total_start = clock();
+    for (uint i = 0; i < num_solutions; i++) {
         Solution solution = euler->solutions[i];
+        clock_t start = clock();
         const answer_t answer = solution.solution();
-        if (answer < 0) {
-            printf("Euler #%d: %s: unfinished\n", solution.num, solution.name);
-        } else {
-            printf("Euler #%d: %s: %lld\n", solution.num, solution.name, answer);
-        }
+        double time = elapsed(start);
+        const char *const answer_str = answer_to_string(answer);
+        printf("Euler #%u: %s: %s (%f sec)\n", solution.num, solution.name, answer_str, time);
+        free((char *) answer_str);
     }
+    double total_time = elapsed(total_start);
+    printf("\n%u Euler solutions (%f sec)\n", num_solutions, total_time);
 }
 
 // Multiples of 3 and 5
@@ -117,7 +138,7 @@ answer_t euler3() {
     return n;
 }
 
-bool is_palindrome(uint i) {
+static inline bool is_palindrome(uint i) {
     uint temp = i;
     uint reversed = 0;
     while (temp) {
@@ -143,14 +164,12 @@ int largest_palindrome_product(uint min, uint max) {
 
 // Largest Palindrome Product
 answer_t euler4() {
-    int answer = largest_palindrome_product(100, 999);
-    if (answer == -1) {
-        return -1;
-    }
+    return largest_palindrome_product(100, 999);
 }
 
-bool all_divisible(uint i) {
-    for (uint j = 1; j <= 20; ++j) {
+static inline bool all_divisible(uint i) {
+    const uint divisible_up_to = 20;
+    for (uint j = 1; j <= divisible_up_to; ++j) {
         if (i % j) {
             return false;
         }
@@ -160,7 +179,7 @@ bool all_divisible(uint i) {
 
 // very slow, TODO optimize
 // Smallest Multiple
-answer_t euler5() {
+answer_t euler5_slow() {
     for (uint i = 1;; ++i) {
         if (all_divisible(i)) {
             return i;
@@ -168,11 +187,55 @@ answer_t euler5() {
     }
 }
 
-uint sum_squares(uint n) {
+uint gcd(uint a, uint b) {
+    if (a == 0 || b == 0) {
+        return 0;
+    }
+    int shift = __builtin_ctz(a | b);
+    a >>= shift;
+    b >>= shift;
+    a >>= __builtin_ctz(a);
+    do {
+        b >>= __builtin_ctz(b);
+        if (a > b) {
+            a ^= b;
+            b ^= a;
+            a ^= b;
+        }
+        b -= a;
+    } while (b != 0);
+    return a << shift;
+    // normal Euclid GCD algorithm, about 3x slower than
+    // above binary GCD algorithm with CTZ instruction
+//    uint c;
+//    while (a != 0) {
+//        c = a;
+//        a = b % a;
+//        b = c;
+//    }
+//    return b;
+}
+
+uint lcm(const uint a, const uint b) {
+    return a / gcd(a, b) * b;
+}
+
+// optimized
+// Smallest Multiple
+answer_t euler5() {
+    const uint divisible_up_to = 20; //20000000; // 20 mil takes 1 sec
+    uint all_lcm = 1;
+    for (uint i = 1; i < divisible_up_to; ++i) {
+        all_lcm = lcm(i, all_lcm);
+    }
+    return all_lcm;
+}
+
+static inline uint sum_squares(uint n) {
     return (n * (n + 1) * ((n << 1) + 1)) / 6;
 }
 
-uint square_sums(uint n) {
+static inline uint square_sums(uint n) {
     const uint sum = (n * (n + 1)) >> 1;
     return sum * sum;
 }
@@ -286,7 +349,7 @@ typedef enum DayOfWeek {
     Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 } DayOfWeek;
 
-DayOfWeek day_of_week(const byte d, const Month m, uint y) {
+static inline DayOfWeek day_of_week(const byte d, const Month m, uint y) {
     y -= m < 3;
     return (DayOfWeek) ((y + y / 4 - y / 100 + y / 400 + "-bed=pen+mad."[m] + d) % 7);
 }
@@ -429,11 +492,73 @@ answer_t euler13() {
     return strtoll(first_digits, NULL, 10);
 }
 
+uint collatz_chain_length(uint *const restrict cache, const uint cache_size, const uint n);
+
+static inline uint collatz_chain_length_direct(uint *const restrict cache, const uint cache_size, const uint n) {
+    if (n == 1) {
+        return 1;
+    }
+    const uint next_num = (n & 1) == 1 ? n + (n << 1) + 1 : n >> 1;
+    return collatz_chain_length(cache, cache_size, next_num) + 1;
+}
+
+uint collatz_chain_length(uint *const restrict cache, const uint cache_size, const uint n) {
+    if (n >= cache_size) {
+        return collatz_chain_length_direct(cache, cache_size, n);
+    }
+    //printf("%u\n", n);
+    if (cache[n] == 0) {
+        cache[n] = collatz_chain_length_direct(cache, cache_size, n);
+    }
+    return cache[n];
+}
+
+// Longest Collatz Sequence
+answer_t euler14() {
+    const uint MAX = 1000000;
+    const uint cache_size = MAX;
+    uint *const cache = (uint *const) calloc(cache_size, sizeof(uint));
+    uint max_chain_length = 1;
+    uint max_starting_num = 1;
+    for (uint i = 1; i < MAX; ++i) {
+        //printf("\t%u\n", i);
+        const uint chain_length = collatz_chain_length(cache, cache_size, i);
+        if (chain_length > max_chain_length) {
+            max_chain_length = chain_length;
+            max_starting_num = i;
+        }
+    }
+    return max_starting_num;
+}
+
 // Counting Sundays
 answer_t euler19() {
     Date start = {1, January, 1901};
     Date end = {31, December, 2000};
     return num_sundays_on_first_of_month(start, end);
+}
+
+static inline double integral(double x) {
+    const double t = x - 1;
+    return t - 0.5 * (t * sqrt(1 - t * t) + asin(t));
+}
+
+// Concave Triangle
+answer_t euler587() {
+    const double L_section_area = 1 - M_PI / 4;
+    const double inv_L_section_area = 1 / L_section_area;
+    const double c = 1;
+    const double integral1 = integral(1);
+    for (uint i = 1;; ++i) {
+        const double slope = 1.0 / i;
+        const double a = slope * slope + 1;
+        const double b = -2 * (slope + 1);
+        const double x = (2 * c) / (-b + sqrt(b * b - 4 * a * c)); // reciprocal quadratic formula
+        const double concave_triangle_area = 0.5 * x * (1 - sqrt((-x + 2) * x)) + integral1 - integral(x);
+        if (concave_triangle_area * inv_L_section_area < 0.001) {
+            return i;
+        }
+    }
 }
 
 #define EULER(n, name) register_solution(euler, n, euler##n, name)
@@ -451,8 +576,11 @@ void register_solutions(Euler *const euler) {
     EULER(10, "Summation of Primes");
     
     EULER(13, "Large Sum");
+    EULER(14, "Longest Collatz Sequence");
     
     EULER(19, "Counting Sundays");
+    
+    EULER(587, "Concave Triangle");
 }
 
 int main() {

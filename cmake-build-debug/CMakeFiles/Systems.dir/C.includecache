@@ -15,6 +15,10 @@ string.h
 -
 stdbool.h
 -
+math.h
+-
+time.h
+-
 
 /cygdrive/c/Users/kkyse/workspace/Systems/main.c
 stdio.h
