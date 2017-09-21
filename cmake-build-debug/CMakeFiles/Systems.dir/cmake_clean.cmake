@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Systems.dir/main.c.o"
   "CMakeFiles/Systems.dir/Euler/euler.c.o"
+  "CMakeFiles/Systems.dir/Strings/strings.c.o"
+  "CMakeFiles/Systems.dir/test.c.o"
+  "CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.o"
   "Systems.pdb"
   "Systems.exe"
   "libSystems.dll.a"

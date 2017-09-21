@@ -5,5 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCE_FILES
         main.c
-        Euler/euler.c)
+        Euler/euler.c
+        Strings/strings.c test.c ArrayPointers/arrays_pointers.c)
 add_executable(Systems ${SOURCE_FILES})

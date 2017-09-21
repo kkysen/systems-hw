@@ -123,6 +123,33 @@ Systems/fast:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/build
 .PHONY : Systems/fast
 
+ArrayPointers/arrays_pointers.o: ArrayPointers/arrays_pointers.c.o
+
+.PHONY : ArrayPointers/arrays_pointers.o
+
+# target to build an object file
+ArrayPointers/arrays_pointers.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.o
+.PHONY : ArrayPointers/arrays_pointers.c.o
+
+ArrayPointers/arrays_pointers.i: ArrayPointers/arrays_pointers.c.i
+
+.PHONY : ArrayPointers/arrays_pointers.i
+
+# target to preprocess a source file
+ArrayPointers/arrays_pointers.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.i
+.PHONY : ArrayPointers/arrays_pointers.c.i
+
+ArrayPointers/arrays_pointers.s: ArrayPointers/arrays_pointers.c.s
+
+.PHONY : ArrayPointers/arrays_pointers.s
+
+# target to generate assembly for a file
+ArrayPointers/arrays_pointers.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.s
+.PHONY : ArrayPointers/arrays_pointers.c.s
+
 Euler/euler.o: Euler/euler.c.o
 
 .PHONY : Euler/euler.o
@@ -149,6 +176,33 @@ Euler/euler.s: Euler/euler.c.s
 Euler/euler.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Euler/euler.c.s
 .PHONY : Euler/euler.c.s
+
+Strings/strings.o: Strings/strings.c.o
+
+.PHONY : Strings/strings.o
+
+# target to build an object file
+Strings/strings.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/strings.c.o
+.PHONY : Strings/strings.c.o
+
+Strings/strings.i: Strings/strings.c.i
+
+.PHONY : Strings/strings.i
+
+# target to preprocess a source file
+Strings/strings.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/strings.c.i
+.PHONY : Strings/strings.c.i
+
+Strings/strings.s: Strings/strings.c.s
+
+.PHONY : Strings/strings.s
+
+# target to generate assembly for a file
+Strings/strings.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/strings.c.s
+.PHONY : Strings/strings.c.s
 
 main.o: main.c.o
 
@@ -177,6 +231,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/main.c.s
 .PHONY : main.c.s
 
+test.o: test.c.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/test.c.o
+.PHONY : test.c.o
+
+test.i: test.c.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/test.c.s
+.PHONY : test.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Systems"
+	@echo "... ArrayPointers/arrays_pointers.o"
+	@echo "... ArrayPointers/arrays_pointers.i"
+	@echo "... ArrayPointers/arrays_pointers.s"
 	@echo "... Euler/euler.o"
 	@echo "... Euler/euler.i"
 	@echo "... Euler/euler.s"
+	@echo "... Strings/strings.o"
+	@echo "... Strings/strings.i"
+	@echo "... Strings/strings.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

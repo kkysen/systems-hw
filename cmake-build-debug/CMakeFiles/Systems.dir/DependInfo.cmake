@@ -4,8 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/cygdrive/c/Users/kkyse/workspace/Systems/ArrayPointers/arrays_pointers.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.o"
   "/cygdrive/c/Users/kkyse/workspace/Systems/Euler/euler.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/Euler/euler.c.o"
+  "/cygdrive/c/Users/kkyse/workspace/Systems/Strings/strings.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/Strings/strings.c.o"
   "/cygdrive/c/Users/kkyse/workspace/Systems/main.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/main.c.o"
+  "/cygdrive/c/Users/kkyse/workspace/Systems/test.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

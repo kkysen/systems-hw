@@ -20,6 +20,12 @@ math.h
 time.h
 -
 
+/cygdrive/c/Users/kkyse/workspace/Systems/Strings/strings.c
+stdio.h
+-
+stdlib.h
+-
+
 /cygdrive/c/Users/kkyse/workspace/Systems/main.c
 stdio.h
 -

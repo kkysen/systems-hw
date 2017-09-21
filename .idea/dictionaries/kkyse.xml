@@ -2,7 +2,14 @@
   <dictionary name="kkyse">
     <words>
       <w>collatz</w>
+      <w>dest</w>
       <w>printf</w>
+      <w>strcat</w>
+      <w>strcpy</w>
+      <w>strlen</w>
+      <w>strncat</w>
+      <w>strncpy</w>
+      <w>strnlen</w>
     </words>
   </dictionary>
 </component>

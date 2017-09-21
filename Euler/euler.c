@@ -374,7 +374,6 @@ uint num_sundays_on_first_of_month(Date start, Date end) {
 
 // Large Sum
 answer_t euler13() {
-    const uint num_nums = 100;
     const uint num_digits = 50;
     const char *num_strings[] = {
             "37107287533902102798797998220837590246510135740250",
@@ -478,6 +477,7 @@ answer_t euler13() {
             "20849603980134001723930671666823555245252804609722",
             "53503534226472524250874054075591789781264330331690",
     };
+    const uint num_nums = sizeof(num_strings) / sizeof(*num_strings);
     double *const nums = (double *const) malloc(num_nums * sizeof(double));
     for (uint i = 0; i < num_nums; ++i) {
         nums[i] = strtod(num_strings[i], NULL);
@@ -583,11 +583,20 @@ void register_solutions(Euler *const euler) {
     EULER(587, "Concave Triangle");
 }
 
-int main() {
+int main2() {
     Euler *const euler = new_euler();
     register_solutions(euler);
     run_solutions(euler);
     free_euler(euler);
     printf("\nall done\n");
+    
+    strlen("");
+    
+    char *const s = (char *) malloc(100);
+    s[0] = 0;
+    strcat(s, "Hello");
+    strcat(s, ", World\n");
+    printf(s);
+    
     return 0;
 }
