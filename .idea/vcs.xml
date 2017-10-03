@@ -4,5 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ArrayPointers" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Euler" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/StringFunctionDemonstrations" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Strings" vcs="Git" />
   </component>
 </project>

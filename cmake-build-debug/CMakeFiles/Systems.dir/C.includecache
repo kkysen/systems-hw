@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/kkyse/workspace/Systems/ArrayPointers/arrays_pointers.c
+stdlib.h
+-
+time.h
+-
+stdio.h
+-
+assert.h
+-
+
 /cygdrive/c/Users/kkyse/workspace/Systems/Euler/euler.c
 stdlib.h
 -
@@ -20,6 +30,18 @@ math.h
 time.h
 -
 
+/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+wait.h
+-
+string.h
+-
+
 /cygdrive/c/Users/kkyse/workspace/Systems/Strings/strings.c
 stdio.h
 -
@@ -28,5 +50,11 @@ stdlib.h
 
 /cygdrive/c/Users/kkyse/workspace/Systems/main.c
 stdio.h
+-
+
+/cygdrive/c/Users/kkyse/workspace/Systems/test.c
+stdio.h
+-
+stdlib.h
 -
 

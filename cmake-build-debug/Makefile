@@ -177,6 +177,60 @@ Euler/euler.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Euler/euler.c.s
 .PHONY : Euler/euler.c.s
 
+Shell/shell.o: Shell/shell.c.o
+
+.PHONY : Shell/shell.o
+
+# target to build an object file
+Shell/shell.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/shell.c.o
+.PHONY : Shell/shell.c.o
+
+Shell/shell.i: Shell/shell.c.i
+
+.PHONY : Shell/shell.i
+
+# target to preprocess a source file
+Shell/shell.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/shell.c.i
+.PHONY : Shell/shell.c.i
+
+Shell/shell.s: Shell/shell.c.s
+
+.PHONY : Shell/shell.s
+
+# target to generate assembly for a file
+Shell/shell.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/shell.c.s
+.PHONY : Shell/shell.c.s
+
+StringFunctionDemonstrations/string_function_demos.o: StringFunctionDemonstrations/string_function_demos.c.o
+
+.PHONY : StringFunctionDemonstrations/string_function_demos.o
+
+# target to build an object file
+StringFunctionDemonstrations/string_function_demos.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o
+.PHONY : StringFunctionDemonstrations/string_function_demos.c.o
+
+StringFunctionDemonstrations/string_function_demos.i: StringFunctionDemonstrations/string_function_demos.c.i
+
+.PHONY : StringFunctionDemonstrations/string_function_demos.i
+
+# target to preprocess a source file
+StringFunctionDemonstrations/string_function_demos.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.i
+.PHONY : StringFunctionDemonstrations/string_function_demos.c.i
+
+StringFunctionDemonstrations/string_function_demos.s: StringFunctionDemonstrations/string_function_demos.c.s
+
+.PHONY : StringFunctionDemonstrations/string_function_demos.s
+
+# target to generate assembly for a file
+StringFunctionDemonstrations/string_function_demos.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.s
+.PHONY : StringFunctionDemonstrations/string_function_demos.c.s
+
 Strings/strings.o: Strings/strings.c.o
 
 .PHONY : Strings/strings.o
@@ -273,6 +327,12 @@ help:
 	@echo "... Euler/euler.o"
 	@echo "... Euler/euler.i"
 	@echo "... Euler/euler.s"
+	@echo "... Shell/shell.o"
+	@echo "... Shell/shell.i"
+	@echo "... Shell/shell.s"
+	@echo "... StringFunctionDemonstrations/string_function_demos.o"
+	@echo "... StringFunctionDemonstrations/string_function_demos.i"
+	@echo "... StringFunctionDemonstrations/string_function_demos.s"
 	@echo "... Strings/strings.o"
 	@echo "... Strings/strings.i"
 	@echo "... Strings/strings.s"

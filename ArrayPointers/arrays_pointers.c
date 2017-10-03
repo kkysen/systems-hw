@@ -5,8 +5,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <assert.h>
 
 #define LENGTH 10
+
+void print_array(const int *const a, const size_t length, const char *const name) {
+    for (size_t i = 0; i < length; ++i) {
+        printf("%s[%zu] = %d\n", name, i, a[i]);
+    }
+}
 
 int main() {
     srand((unsigned int) time(NULL));
@@ -30,9 +37,7 @@ int main() {
         *--d = *++c;
     }
     
-    for (i = 0; i < LENGTH; ++i) {
-        printf("b[%d] = %d\n", i, b[i]);
-    }
+    print_array(b, LENGTH, "b");
     
     return 0;
 }

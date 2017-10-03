@@ -177,13 +177,63 @@ CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.o.provides: CMakeFiles/Sy
 CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.o.provides.build: CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.o
 
 
+CMakeFiles/Systems.dir/Shell/shell.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/Shell/shell.c.o: ../Shell/shell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Systems.dir/Shell/shell.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/Shell/shell.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell.c
+
+CMakeFiles/Systems.dir/Shell/shell.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/Shell/shell.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell.c > CMakeFiles/Systems.dir/Shell/shell.c.i
+
+CMakeFiles/Systems.dir/Shell/shell.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/Shell/shell.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell.c -o CMakeFiles/Systems.dir/Shell/shell.c.s
+
+CMakeFiles/Systems.dir/Shell/shell.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/Shell/shell.c.o.requires
+
+CMakeFiles/Systems.dir/Shell/shell.c.o.provides: CMakeFiles/Systems.dir/Shell/shell.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/shell.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/Shell/shell.c.o.provides
+
+CMakeFiles/Systems.dir/Shell/shell.c.o.provides.build: CMakeFiles/Systems.dir/Shell/shell.c.o
+
+
+CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o: ../StringFunctionDemonstrations/string_function_demos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/StringFunctionDemonstrations/string_function_demos.c
+
+CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/StringFunctionDemonstrations/string_function_demos.c > CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.i
+
+CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/StringFunctionDemonstrations/string_function_demos.c -o CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.s
+
+CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o.requires
+
+CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o.provides: CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o.provides
+
+CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o.provides.build: CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o
+
+
 # Object files for target Systems
 Systems_OBJECTS = \
 "CMakeFiles/Systems.dir/main.c.o" \
 "CMakeFiles/Systems.dir/Euler/euler.c.o" \
 "CMakeFiles/Systems.dir/Strings/strings.c.o" \
 "CMakeFiles/Systems.dir/test.c.o" \
-"CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.o"
+"CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.o" \
+"CMakeFiles/Systems.dir/Shell/shell.c.o" \
+"CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o"
 
 # External object files for target Systems
 Systems_EXTERNAL_OBJECTS =
@@ -193,9 +243,11 @@ Systems.exe: CMakeFiles/Systems.dir/Euler/euler.c.o
 Systems.exe: CMakeFiles/Systems.dir/Strings/strings.c.o
 Systems.exe: CMakeFiles/Systems.dir/test.c.o
 Systems.exe: CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.o
+Systems.exe: CMakeFiles/Systems.dir/Shell/shell.c.o
+Systems.exe: CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o
 Systems.exe: CMakeFiles/Systems.dir/build.make
 Systems.exe: CMakeFiles/Systems.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable Systems.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable Systems.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Systems.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -208,6 +260,8 @@ CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Euler/euler.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Strings/strings.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/test.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Shell/shell.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o.requires
 
 .PHONY : CMakeFiles/Systems.dir/requires
 

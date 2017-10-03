@@ -1,15 +1,22 @@
 <component name="ProjectDictionaryState">
   <dictionary name="kkyse">
     <words>
+      <w>arraysize</w>
       <w>collatz</w>
       <w>dest</w>
+      <w>jawad</w>
+      <w>membersize</w>
       <w>printf</w>
       <w>strcat</w>
+      <w>strchr</w>
+      <w>strcmp</w>
       <w>strcpy</w>
       <w>strlen</w>
       <w>strncat</w>
+      <w>strncmp</w>
       <w>strncpy</w>
       <w>strnlen</w>
+      <w>strstr</w>
     </words>
   </dictionary>
 </component>

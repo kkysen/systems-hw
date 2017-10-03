@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Systems.dir/Strings/strings.c.o"
   "CMakeFiles/Systems.dir/test.c.o"
   "CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.o"
+  "CMakeFiles/Systems.dir/Shell/shell.c.o"
+  "CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o"
   "Systems.pdb"
   "Systems.exe"
   "libSystems.dll.a"
