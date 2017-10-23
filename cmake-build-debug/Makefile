@@ -177,6 +177,168 @@ Euler/euler.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Euler/euler.c.s
 .PHONY : Euler/euler.c.s
 
+LinkedList/linked_list.o: LinkedList/linked_list.c.o
+
+.PHONY : LinkedList/linked_list.o
+
+# target to build an object file
+LinkedList/linked_list.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LinkedList/linked_list.c.o
+.PHONY : LinkedList/linked_list.c.o
+
+LinkedList/linked_list.i: LinkedList/linked_list.c.i
+
+.PHONY : LinkedList/linked_list.i
+
+# target to preprocess a source file
+LinkedList/linked_list.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LinkedList/linked_list.c.i
+.PHONY : LinkedList/linked_list.c.i
+
+LinkedList/linked_list.s: LinkedList/linked_list.c.s
+
+.PHONY : LinkedList/linked_list.s
+
+# target to generate assembly for a file
+LinkedList/linked_list.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LinkedList/linked_list.c.s
+.PHONY : LinkedList/linked_list.c.s
+
+LinkedList/linked_list_test.o: LinkedList/linked_list_test.c.o
+
+.PHONY : LinkedList/linked_list_test.o
+
+# target to build an object file
+LinkedList/linked_list_test.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LinkedList/linked_list_test.c.o
+.PHONY : LinkedList/linked_list_test.c.o
+
+LinkedList/linked_list_test.i: LinkedList/linked_list_test.c.i
+
+.PHONY : LinkedList/linked_list_test.i
+
+# target to preprocess a source file
+LinkedList/linked_list_test.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LinkedList/linked_list_test.c.i
+.PHONY : LinkedList/linked_list_test.c.i
+
+LinkedList/linked_list_test.s: LinkedList/linked_list_test.c.s
+
+.PHONY : LinkedList/linked_list_test.s
+
+# target to generate assembly for a file
+LinkedList/linked_list_test.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LinkedList/linked_list_test.c.s
+.PHONY : LinkedList/linked_list_test.c.s
+
+MusicLibraryOrganizer/main.o: MusicLibraryOrganizer/main.c.o
+
+.PHONY : MusicLibraryOrganizer/main.o
+
+# target to build an object file
+MusicLibraryOrganizer/main.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/main.c.o
+.PHONY : MusicLibraryOrganizer/main.c.o
+
+MusicLibraryOrganizer/main.i: MusicLibraryOrganizer/main.c.i
+
+.PHONY : MusicLibraryOrganizer/main.i
+
+# target to preprocess a source file
+MusicLibraryOrganizer/main.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/main.c.i
+.PHONY : MusicLibraryOrganizer/main.c.i
+
+MusicLibraryOrganizer/main.s: MusicLibraryOrganizer/main.c.s
+
+.PHONY : MusicLibraryOrganizer/main.s
+
+# target to generate assembly for a file
+MusicLibraryOrganizer/main.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/main.c.s
+.PHONY : MusicLibraryOrganizer/main.c.s
+
+MusicLibraryOrganizer/song.o: MusicLibraryOrganizer/song.c.o
+
+.PHONY : MusicLibraryOrganizer/song.o
+
+# target to build an object file
+MusicLibraryOrganizer/song.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/song.c.o
+.PHONY : MusicLibraryOrganizer/song.c.o
+
+MusicLibraryOrganizer/song.i: MusicLibraryOrganizer/song.c.i
+
+.PHONY : MusicLibraryOrganizer/song.i
+
+# target to preprocess a source file
+MusicLibraryOrganizer/song.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/song.c.i
+.PHONY : MusicLibraryOrganizer/song.c.i
+
+MusicLibraryOrganizer/song.s: MusicLibraryOrganizer/song.c.s
+
+.PHONY : MusicLibraryOrganizer/song.s
+
+# target to generate assembly for a file
+MusicLibraryOrganizer/song.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/song.c.s
+.PHONY : MusicLibraryOrganizer/song.c.s
+
+MusicLibraryOrganizer/song_library.o: MusicLibraryOrganizer/song_library.c.o
+
+.PHONY : MusicLibraryOrganizer/song_library.o
+
+# target to build an object file
+MusicLibraryOrganizer/song_library.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/song_library.c.o
+.PHONY : MusicLibraryOrganizer/song_library.c.o
+
+MusicLibraryOrganizer/song_library.i: MusicLibraryOrganizer/song_library.c.i
+
+.PHONY : MusicLibraryOrganizer/song_library.i
+
+# target to preprocess a source file
+MusicLibraryOrganizer/song_library.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/song_library.c.i
+.PHONY : MusicLibraryOrganizer/song_library.c.i
+
+MusicLibraryOrganizer/song_library.s: MusicLibraryOrganizer/song_library.c.s
+
+.PHONY : MusicLibraryOrganizer/song_library.s
+
+# target to generate assembly for a file
+MusicLibraryOrganizer/song_library.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/song_library.c.s
+.PHONY : MusicLibraryOrganizer/song_library.c.s
+
+MusicLibraryOrganizer/song_node.o: MusicLibraryOrganizer/song_node.c.o
+
+.PHONY : MusicLibraryOrganizer/song_node.o
+
+# target to build an object file
+MusicLibraryOrganizer/song_node.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/song_node.c.o
+.PHONY : MusicLibraryOrganizer/song_node.c.o
+
+MusicLibraryOrganizer/song_node.i: MusicLibraryOrganizer/song_node.c.i
+
+.PHONY : MusicLibraryOrganizer/song_node.i
+
+# target to preprocess a source file
+MusicLibraryOrganizer/song_node.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/song_node.c.i
+.PHONY : MusicLibraryOrganizer/song_node.c.i
+
+MusicLibraryOrganizer/song_node.s: MusicLibraryOrganizer/song_node.c.s
+
+.PHONY : MusicLibraryOrganizer/song_node.s
+
+# target to generate assembly for a file
+MusicLibraryOrganizer/song_node.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/song_node.c.s
+.PHONY : MusicLibraryOrganizer/song_node.c.s
+
 Shell/shell.o: Shell/shell.c.o
 
 .PHONY : Shell/shell.o
@@ -231,32 +393,140 @@ StringFunctionDemonstrations/string_function_demos.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.s
 .PHONY : StringFunctionDemonstrations/string_function_demos.c.s
 
-Strings/strings.o: Strings/strings.c.o
+Strings/alias.o: Strings/alias.c.o
 
-.PHONY : Strings/strings.o
+.PHONY : Strings/alias.o
 
 # target to build an object file
-Strings/strings.c.o:
-	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/strings.c.o
-.PHONY : Strings/strings.c.o
+Strings/alias.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/alias.c.o
+.PHONY : Strings/alias.c.o
 
-Strings/strings.i: Strings/strings.c.i
+Strings/alias.i: Strings/alias.c.i
 
-.PHONY : Strings/strings.i
+.PHONY : Strings/alias.i
 
 # target to preprocess a source file
-Strings/strings.c.i:
-	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/strings.c.i
-.PHONY : Strings/strings.c.i
+Strings/alias.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/alias.c.i
+.PHONY : Strings/alias.c.i
 
-Strings/strings.s: Strings/strings.c.s
+Strings/alias.s: Strings/alias.c.s
 
-.PHONY : Strings/strings.s
+.PHONY : Strings/alias.s
 
 # target to generate assembly for a file
-Strings/strings.c.s:
-	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/strings.c.s
-.PHONY : Strings/strings.c.s
+Strings/alias.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/alias.c.s
+.PHONY : Strings/alias.c.s
+
+Strings/io.o: Strings/io.c.o
+
+.PHONY : Strings/io.o
+
+# target to build an object file
+Strings/io.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/io.c.o
+.PHONY : Strings/io.c.o
+
+Strings/io.i: Strings/io.c.i
+
+.PHONY : Strings/io.i
+
+# target to preprocess a source file
+Strings/io.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/io.c.i
+.PHONY : Strings/io.c.i
+
+Strings/io.s: Strings/io.c.s
+
+.PHONY : Strings/io.s
+
+# target to generate assembly for a file
+Strings/io.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/io.c.s
+.PHONY : Strings/io.c.s
+
+Strings/python.o: Strings/python.c.o
+
+.PHONY : Strings/python.o
+
+# target to build an object file
+Strings/python.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/python.c.o
+.PHONY : Strings/python.c.o
+
+Strings/python.i: Strings/python.c.i
+
+.PHONY : Strings/python.i
+
+# target to preprocess a source file
+Strings/python.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/python.c.i
+.PHONY : Strings/python.c.i
+
+Strings/python.s: Strings/python.c.s
+
+.PHONY : Strings/python.s
+
+# target to generate assembly for a file
+Strings/python.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/python.c.s
+.PHONY : Strings/python.c.s
+
+Strings/string_funcs.o: Strings/string_funcs.c.o
+
+.PHONY : Strings/string_funcs.o
+
+# target to build an object file
+Strings/string_funcs.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/string_funcs.c.o
+.PHONY : Strings/string_funcs.c.o
+
+Strings/string_funcs.i: Strings/string_funcs.c.i
+
+.PHONY : Strings/string_funcs.i
+
+# target to preprocess a source file
+Strings/string_funcs.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/string_funcs.c.i
+.PHONY : Strings/string_funcs.c.i
+
+Strings/string_funcs.s: Strings/string_funcs.c.s
+
+.PHONY : Strings/string_funcs.s
+
+# target to generate assembly for a file
+Strings/string_funcs.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/string_funcs.c.s
+.PHONY : Strings/string_funcs.c.s
+
+Strings/string_tests.o: Strings/string_tests.c.o
+
+.PHONY : Strings/string_tests.o
+
+# target to build an object file
+Strings/string_tests.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/string_tests.c.o
+.PHONY : Strings/string_tests.c.o
+
+Strings/string_tests.i: Strings/string_tests.c.i
+
+.PHONY : Strings/string_tests.i
+
+# target to preprocess a source file
+Strings/string_tests.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/string_tests.c.i
+.PHONY : Strings/string_tests.c.i
+
+Strings/string_tests.s: Strings/string_tests.c.s
+
+.PHONY : Strings/string_tests.s
+
+# target to generate assembly for a file
+Strings/string_tests.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Strings/string_tests.c.s
+.PHONY : Strings/string_tests.c.s
 
 main.o: main.c.o
 
@@ -327,15 +597,45 @@ help:
 	@echo "... Euler/euler.o"
 	@echo "... Euler/euler.i"
 	@echo "... Euler/euler.s"
+	@echo "... LinkedList/linked_list.o"
+	@echo "... LinkedList/linked_list.i"
+	@echo "... LinkedList/linked_list.s"
+	@echo "... LinkedList/linked_list_test.o"
+	@echo "... LinkedList/linked_list_test.i"
+	@echo "... LinkedList/linked_list_test.s"
+	@echo "... MusicLibraryOrganizer/main.o"
+	@echo "... MusicLibraryOrganizer/main.i"
+	@echo "... MusicLibraryOrganizer/main.s"
+	@echo "... MusicLibraryOrganizer/song.o"
+	@echo "... MusicLibraryOrganizer/song.i"
+	@echo "... MusicLibraryOrganizer/song.s"
+	@echo "... MusicLibraryOrganizer/song_library.o"
+	@echo "... MusicLibraryOrganizer/song_library.i"
+	@echo "... MusicLibraryOrganizer/song_library.s"
+	@echo "... MusicLibraryOrganizer/song_node.o"
+	@echo "... MusicLibraryOrganizer/song_node.i"
+	@echo "... MusicLibraryOrganizer/song_node.s"
 	@echo "... Shell/shell.o"
 	@echo "... Shell/shell.i"
 	@echo "... Shell/shell.s"
 	@echo "... StringFunctionDemonstrations/string_function_demos.o"
 	@echo "... StringFunctionDemonstrations/string_function_demos.i"
 	@echo "... StringFunctionDemonstrations/string_function_demos.s"
-	@echo "... Strings/strings.o"
-	@echo "... Strings/strings.i"
-	@echo "... Strings/strings.s"
+	@echo "... Strings/alias.o"
+	@echo "... Strings/alias.i"
+	@echo "... Strings/alias.s"
+	@echo "... Strings/io.o"
+	@echo "... Strings/io.i"
+	@echo "... Strings/io.s"
+	@echo "... Strings/python.o"
+	@echo "... Strings/python.i"
+	@echo "... Strings/python.s"
+	@echo "... Strings/string_funcs.o"
+	@echo "... Strings/string_funcs.i"
+	@echo "... Strings/string_funcs.s"
+	@echo "... Strings/string_tests.o"
+	@echo "... Strings/string_tests.i"
+	@echo "... Strings/string_tests.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

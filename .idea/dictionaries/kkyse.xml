@@ -3,9 +3,15 @@
     <words>
       <w>arraysize</w>
       <w>collatz</w>
+      <w>delim</w>
       <w>dest</w>
       <w>jawad</w>
       <w>membersize</w>
+      <w>multiline</w>
+      <w>ncat</w>
+      <w>ncmp</w>
+      <w>ncpy</w>
+      <w>nlen</w>
       <w>printf</w>
       <w>strcat</w>
       <w>strchr</w>
