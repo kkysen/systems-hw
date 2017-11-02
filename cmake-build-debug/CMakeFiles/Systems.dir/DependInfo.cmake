@@ -5,7 +5,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/cygdrive/c/Users/kkyse/workspace/Systems/ArrayPointers/arrays_pointers.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.o"
+  "/cygdrive/c/Users/kkyse/workspace/Systems/BackupStrings/string_funcs.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/BackupStrings/string_funcs.c.o"
+  "/cygdrive/c/Users/kkyse/workspace/Systems/BackupStrings/string_tests.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/BackupStrings/string_tests.c.o"
+  "/cygdrive/c/Users/kkyse/workspace/Systems/DevRandom/read_random.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/DevRandom/read_random.c.o"
   "/cygdrive/c/Users/kkyse/workspace/Systems/Euler/euler.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/Euler/euler.c.o"
+  "/cygdrive/c/Users/kkyse/workspace/Systems/GccStrncpyBug/gcc_strncpy_bypass_bug.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_bypass_bug.c.o"
+  "/cygdrive/c/Users/kkyse/workspace/Systems/GccStrncpyBug/gcc_strncpy_cause_bug.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_cause_bug.c.o"
   "/cygdrive/c/Users/kkyse/workspace/Systems/LinkedList/linked_list.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/LinkedList/linked_list.c.o"
   "/cygdrive/c/Users/kkyse/workspace/Systems/LinkedList/linked_list_test.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/LinkedList/linked_list_test.c.o"
   "/cygdrive/c/Users/kkyse/workspace/Systems/MusicLibraryOrganizer/main.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/MusicLibraryOrganizer/main.c.o"
@@ -13,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/cygdrive/c/Users/kkyse/workspace/Systems/MusicLibraryOrganizer/song_library.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/MusicLibraryOrganizer/song_library.c.o"
   "/cygdrive/c/Users/kkyse/workspace/Systems/MusicLibraryOrganizer/song_node.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/MusicLibraryOrganizer/song_node.c.o"
   "/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/Shell/shell.c.o"
+  "/cygdrive/c/Users/kkyse/workspace/Systems/Stacktrace/stacktrace.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/Stacktrace/stacktrace.c.o"
   "/cygdrive/c/Users/kkyse/workspace/Systems/StringFunctionDemonstrations/string_function_demos.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/StringFunctionDemonstrations/string_function_demos.c.o"
   "/cygdrive/c/Users/kkyse/workspace/Systems/Strings/alias.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/Strings/alias.c.o"
   "/cygdrive/c/Users/kkyse/workspace/Systems/Strings/io.c" "/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles/Systems.dir/Strings/io.c.o"

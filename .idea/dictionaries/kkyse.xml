@@ -1,6 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="kkyse">
     <words>
+      <w>addr</w>
       <w>arraysize</w>
       <w>collatz</w>
       <w>delim</w>
@@ -12,6 +13,7 @@
       <w>ncmp</w>
       <w>ncpy</w>
       <w>nlen</w>
+      <w>opcode</w>
       <w>printf</w>
       <w>strcat</w>
       <w>strchr</w>
@@ -23,6 +25,7 @@
       <w>strncpy</w>
       <w>strnlen</w>
       <w>strstr</w>
+      <w>subsignal</w>
     </words>
   </dictionary>
 </component>

@@ -3,7 +3,11 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ArrayPointers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BackupStrings" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DevRandom" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Euler" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FileStat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GccStrncpyBug" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/LinkedList" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/MusicLibraryOrganizer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/StringFunctionDemonstrations" vcs="Git" />

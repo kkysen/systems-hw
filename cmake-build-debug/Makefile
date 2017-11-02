@@ -150,6 +150,87 @@ ArrayPointers/arrays_pointers.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArrayPointers/arrays_pointers.c.s
 .PHONY : ArrayPointers/arrays_pointers.c.s
 
+BackupStrings/string_funcs.o: BackupStrings/string_funcs.c.o
+
+.PHONY : BackupStrings/string_funcs.o
+
+# target to build an object file
+BackupStrings/string_funcs.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/BackupStrings/string_funcs.c.o
+.PHONY : BackupStrings/string_funcs.c.o
+
+BackupStrings/string_funcs.i: BackupStrings/string_funcs.c.i
+
+.PHONY : BackupStrings/string_funcs.i
+
+# target to preprocess a source file
+BackupStrings/string_funcs.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/BackupStrings/string_funcs.c.i
+.PHONY : BackupStrings/string_funcs.c.i
+
+BackupStrings/string_funcs.s: BackupStrings/string_funcs.c.s
+
+.PHONY : BackupStrings/string_funcs.s
+
+# target to generate assembly for a file
+BackupStrings/string_funcs.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/BackupStrings/string_funcs.c.s
+.PHONY : BackupStrings/string_funcs.c.s
+
+BackupStrings/string_tests.o: BackupStrings/string_tests.c.o
+
+.PHONY : BackupStrings/string_tests.o
+
+# target to build an object file
+BackupStrings/string_tests.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/BackupStrings/string_tests.c.o
+.PHONY : BackupStrings/string_tests.c.o
+
+BackupStrings/string_tests.i: BackupStrings/string_tests.c.i
+
+.PHONY : BackupStrings/string_tests.i
+
+# target to preprocess a source file
+BackupStrings/string_tests.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/BackupStrings/string_tests.c.i
+.PHONY : BackupStrings/string_tests.c.i
+
+BackupStrings/string_tests.s: BackupStrings/string_tests.c.s
+
+.PHONY : BackupStrings/string_tests.s
+
+# target to generate assembly for a file
+BackupStrings/string_tests.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/BackupStrings/string_tests.c.s
+.PHONY : BackupStrings/string_tests.c.s
+
+DevRandom/read_random.o: DevRandom/read_random.c.o
+
+.PHONY : DevRandom/read_random.o
+
+# target to build an object file
+DevRandom/read_random.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/DevRandom/read_random.c.o
+.PHONY : DevRandom/read_random.c.o
+
+DevRandom/read_random.i: DevRandom/read_random.c.i
+
+.PHONY : DevRandom/read_random.i
+
+# target to preprocess a source file
+DevRandom/read_random.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/DevRandom/read_random.c.i
+.PHONY : DevRandom/read_random.c.i
+
+DevRandom/read_random.s: DevRandom/read_random.c.s
+
+.PHONY : DevRandom/read_random.s
+
+# target to generate assembly for a file
+DevRandom/read_random.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/DevRandom/read_random.c.s
+.PHONY : DevRandom/read_random.c.s
+
 Euler/euler.o: Euler/euler.c.o
 
 .PHONY : Euler/euler.o
@@ -176,6 +257,60 @@ Euler/euler.s: Euler/euler.c.s
 Euler/euler.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Euler/euler.c.s
 .PHONY : Euler/euler.c.s
+
+GccStrncpyBug/gcc_strncpy_bypass_bug.o: GccStrncpyBug/gcc_strncpy_bypass_bug.c.o
+
+.PHONY : GccStrncpyBug/gcc_strncpy_bypass_bug.o
+
+# target to build an object file
+GccStrncpyBug/gcc_strncpy_bypass_bug.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_bypass_bug.c.o
+.PHONY : GccStrncpyBug/gcc_strncpy_bypass_bug.c.o
+
+GccStrncpyBug/gcc_strncpy_bypass_bug.i: GccStrncpyBug/gcc_strncpy_bypass_bug.c.i
+
+.PHONY : GccStrncpyBug/gcc_strncpy_bypass_bug.i
+
+# target to preprocess a source file
+GccStrncpyBug/gcc_strncpy_bypass_bug.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_bypass_bug.c.i
+.PHONY : GccStrncpyBug/gcc_strncpy_bypass_bug.c.i
+
+GccStrncpyBug/gcc_strncpy_bypass_bug.s: GccStrncpyBug/gcc_strncpy_bypass_bug.c.s
+
+.PHONY : GccStrncpyBug/gcc_strncpy_bypass_bug.s
+
+# target to generate assembly for a file
+GccStrncpyBug/gcc_strncpy_bypass_bug.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_bypass_bug.c.s
+.PHONY : GccStrncpyBug/gcc_strncpy_bypass_bug.c.s
+
+GccStrncpyBug/gcc_strncpy_cause_bug.o: GccStrncpyBug/gcc_strncpy_cause_bug.c.o
+
+.PHONY : GccStrncpyBug/gcc_strncpy_cause_bug.o
+
+# target to build an object file
+GccStrncpyBug/gcc_strncpy_cause_bug.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_cause_bug.c.o
+.PHONY : GccStrncpyBug/gcc_strncpy_cause_bug.c.o
+
+GccStrncpyBug/gcc_strncpy_cause_bug.i: GccStrncpyBug/gcc_strncpy_cause_bug.c.i
+
+.PHONY : GccStrncpyBug/gcc_strncpy_cause_bug.i
+
+# target to preprocess a source file
+GccStrncpyBug/gcc_strncpy_cause_bug.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_cause_bug.c.i
+.PHONY : GccStrncpyBug/gcc_strncpy_cause_bug.c.i
+
+GccStrncpyBug/gcc_strncpy_cause_bug.s: GccStrncpyBug/gcc_strncpy_cause_bug.c.s
+
+.PHONY : GccStrncpyBug/gcc_strncpy_cause_bug.s
+
+# target to generate assembly for a file
+GccStrncpyBug/gcc_strncpy_cause_bug.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_cause_bug.c.s
+.PHONY : GccStrncpyBug/gcc_strncpy_cause_bug.c.s
 
 LinkedList/linked_list.o: LinkedList/linked_list.c.o
 
@@ -365,6 +500,33 @@ Shell/shell.s: Shell/shell.c.s
 Shell/shell.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/shell.c.s
 .PHONY : Shell/shell.c.s
+
+Stacktrace/stacktrace.o: Stacktrace/stacktrace.c.o
+
+.PHONY : Stacktrace/stacktrace.o
+
+# target to build an object file
+Stacktrace/stacktrace.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Stacktrace/stacktrace.c.o
+.PHONY : Stacktrace/stacktrace.c.o
+
+Stacktrace/stacktrace.i: Stacktrace/stacktrace.c.i
+
+.PHONY : Stacktrace/stacktrace.i
+
+# target to preprocess a source file
+Stacktrace/stacktrace.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Stacktrace/stacktrace.c.i
+.PHONY : Stacktrace/stacktrace.c.i
+
+Stacktrace/stacktrace.s: Stacktrace/stacktrace.c.s
+
+.PHONY : Stacktrace/stacktrace.s
+
+# target to generate assembly for a file
+Stacktrace/stacktrace.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Stacktrace/stacktrace.c.s
+.PHONY : Stacktrace/stacktrace.c.s
 
 StringFunctionDemonstrations/string_function_demos.o: StringFunctionDemonstrations/string_function_demos.c.o
 
@@ -594,9 +756,24 @@ help:
 	@echo "... ArrayPointers/arrays_pointers.o"
 	@echo "... ArrayPointers/arrays_pointers.i"
 	@echo "... ArrayPointers/arrays_pointers.s"
+	@echo "... BackupStrings/string_funcs.o"
+	@echo "... BackupStrings/string_funcs.i"
+	@echo "... BackupStrings/string_funcs.s"
+	@echo "... BackupStrings/string_tests.o"
+	@echo "... BackupStrings/string_tests.i"
+	@echo "... BackupStrings/string_tests.s"
+	@echo "... DevRandom/read_random.o"
+	@echo "... DevRandom/read_random.i"
+	@echo "... DevRandom/read_random.s"
 	@echo "... Euler/euler.o"
 	@echo "... Euler/euler.i"
 	@echo "... Euler/euler.s"
+	@echo "... GccStrncpyBug/gcc_strncpy_bypass_bug.o"
+	@echo "... GccStrncpyBug/gcc_strncpy_bypass_bug.i"
+	@echo "... GccStrncpyBug/gcc_strncpy_bypass_bug.s"
+	@echo "... GccStrncpyBug/gcc_strncpy_cause_bug.o"
+	@echo "... GccStrncpyBug/gcc_strncpy_cause_bug.i"
+	@echo "... GccStrncpyBug/gcc_strncpy_cause_bug.s"
 	@echo "... LinkedList/linked_list.o"
 	@echo "... LinkedList/linked_list.i"
 	@echo "... LinkedList/linked_list.s"
@@ -618,6 +795,9 @@ help:
 	@echo "... Shell/shell.o"
 	@echo "... Shell/shell.i"
 	@echo "... Shell/shell.s"
+	@echo "... Stacktrace/stacktrace.o"
+	@echo "... Stacktrace/stacktrace.i"
+	@echo "... Stacktrace/stacktrace.s"
 	@echo "... StringFunctionDemonstrations/string_function_demos.o"
 	@echo "... StringFunctionDemonstrations/string_function_demos.i"
 	@echo "... StringFunctionDemonstrations/string_function_demos.s"

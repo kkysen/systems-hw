@@ -15,7 +15,7 @@
 
 #define membersize(type, member) (sizeof(((type *)0)->member))
 
-#define arraysize(array) (sizeof(array) / sizeof(*(array)))
+#define arraylen(array) (sizeof(array) / sizeof(*(array)))
 
 const char *DEFAULT_SONGS_CSV = "songs.csv";
 
@@ -29,7 +29,7 @@ SongLibrary *SongLibrary_new() {
 const SongNode *SongLibrary_all_songs(const SongLibrary *const this) {
     // put songs in a temp array first, because linked list uses reverse order
     const Song **const songs = (const Song **) malloc(this->num_songs * sizeof(Song *));
-    for (size_t row = 0, i = 0; row < arraysize(this->table); ++row) {
+    for (size_t row = 0, i = 0; row < arraylen(this->table); ++row) {
         for (const SongNode *head = this->table[row]; head; head = head->next, ++i) {
             songs[i] = &head->song;
         }
@@ -120,7 +120,7 @@ const SongNode *SongLibrary_find_by_artist(const SongLibrary *const this, const 
 
 const SongNode *SongLibrary_find_by_name(const SongLibrary *const this, const char *const name) {
     assert(name);
-    for (size_t i = 0; i < arraysize(this->table); ++i) {
+    for (size_t i = 0; i < arraylen(this->table); ++i) {
         const SongNode *const row = this->table[i];
         const SongNode *const found = row->c->find_by_name(row, name);
         if (found) {
@@ -157,7 +157,7 @@ void SongLibrary_print(const SongLibrary *const this) {
 //    for (size_t i = 0; i * 8 < sizeof(this->table); ++i) {
 //        printf("%zu: %zu\n", i, ((size_t *) this->table)[i]);
 //    }
-    for (size_t i = 0; i < arraysize(this->table); ++i) {
+    for (size_t i = 0; i < arraylen(this->table); ++i) {
         const SongNode *const row = this->table[i];
         if (row) {
 //            printf("printing row %zu\n", i);
@@ -169,7 +169,7 @@ void SongLibrary_print(const SongLibrary *const this) {
 void SongLibrary_shuffle_and_print(const SongLibrary *const this, const size_t num_songs) {
     for (size_t i = 0; i < num_songs; ++i) {
         size_t rand_index = rand() % this->num_songs;
-        for (size_t j = 0; j < arraysize(this->lengths); ++j) {
+        for (size_t j = 0; j < arraylen(this->lengths); ++j) {
             const size_t index = this->lengths[j];
             if (rand_index < index) {
                 const SongNode *const row = this->table[j];
@@ -196,7 +196,7 @@ void SongLibrary_remove_song(SongLibrary *const this, const Song song) {
 }
 
 void SongLibrary_remove_all_songs(SongLibrary *const this) {
-    for (size_t i = 0; i < arraysize(this->table); ++i) {
+    for (size_t i = 0; i < arraylen(this->table); ++i) {
         SongNode *const row = this->table[i];
         if (row) {
             row->c->free(row);

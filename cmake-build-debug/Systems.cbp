@@ -83,7 +83,28 @@
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ArrayPointers/arrays_pointers.c">
 			<Option target="Systems"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/BackupStrings/string_funcs.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/BackupStrings/string_funcs.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/BackupStrings/string_tests.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/BackupStrings/string_tests.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/DevRandom/read_random.c">
+			<Option target="Systems"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Euler/euler.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/GccStrncpyBug/gcc_strncpy_bypass_bug.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/GccStrncpyBug/gcc_strncpy_cause_bug.c">
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LinkedList/linked_list.c">
@@ -123,6 +144,12 @@
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Stacktrace/stacktrace.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Stacktrace/stacktrace.h">
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StringFunctionDemonstrations/string_function_demos.c">

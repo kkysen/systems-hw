@@ -16,7 +16,7 @@ typedef unsigned int uint;
 
 #define DEBUG_ALIAS false
 
-#define arraysize(array) (sizeof((array)) / sizeof(*(array)))
+#define arraylen(array) (sizeof((array)) / sizeof(*(array)))
 
 typedef struct alias_t {
     const char *const name;
@@ -116,7 +116,7 @@ static const char *const default_locations[] = {
 };
 
 bool save_aliases_default_locations(const Aliases *const aliases) {
-    for (uint i = 0; i < arraysize(default_locations); ++i) {
+    for (uint i = 0; i < arraylen(default_locations); ++i) {
         if (!save_aliases(aliases, make_relative_to_home(default_locations[i]))) {
             return false;
         }
@@ -154,7 +154,7 @@ static const char *const alias_names[] = {
 
 void make_aliases() {
     Aliases *const aliases = new_default_Aliases();
-    alias_fbs(aliases, (const char **) alias_names, arraysize(alias_names));
+    alias_fbs(aliases, (const char **) alias_names, arraylen(alias_names));
     int num_tries = 100;
     while (num_tries-- && !save_aliases_default_locations(aliases));
     free_Aliases(aliases);
