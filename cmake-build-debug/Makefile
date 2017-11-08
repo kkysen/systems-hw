@@ -258,6 +258,33 @@ Euler/euler.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Euler/euler.c.s
 .PHONY : Euler/euler.c.s
 
+FileStats/file_stats.o: FileStats/file_stats.c.o
+
+.PHONY : FileStats/file_stats.o
+
+# target to build an object file
+FileStats/file_stats.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/FileStats/file_stats.c.o
+.PHONY : FileStats/file_stats.c.o
+
+FileStats/file_stats.i: FileStats/file_stats.c.i
+
+.PHONY : FileStats/file_stats.i
+
+# target to preprocess a source file
+FileStats/file_stats.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/FileStats/file_stats.c.i
+.PHONY : FileStats/file_stats.c.i
+
+FileStats/file_stats.s: FileStats/file_stats.c.s
+
+.PHONY : FileStats/file_stats.s
+
+# target to generate assembly for a file
+FileStats/file_stats.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/FileStats/file_stats.c.s
+.PHONY : FileStats/file_stats.c.s
+
 GccStrncpyBug/gcc_strncpy_bypass_bug.o: GccStrncpyBug/gcc_strncpy_bypass_bug.c.o
 
 .PHONY : GccStrncpyBug/gcc_strncpy_bypass_bug.o
@@ -365,6 +392,60 @@ LinkedList/linked_list_test.s: LinkedList/linked_list_test.c.s
 LinkedList/linked_list_test.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LinkedList/linked_list_test.c.s
 .PHONY : LinkedList/linked_list_test.c.s
+
+ListDir/file_stats.o: ListDir/file_stats.c.o
+
+.PHONY : ListDir/file_stats.o
+
+# target to build an object file
+ListDir/file_stats.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ListDir/file_stats.c.o
+.PHONY : ListDir/file_stats.c.o
+
+ListDir/file_stats.i: ListDir/file_stats.c.i
+
+.PHONY : ListDir/file_stats.i
+
+# target to preprocess a source file
+ListDir/file_stats.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ListDir/file_stats.c.i
+.PHONY : ListDir/file_stats.c.i
+
+ListDir/file_stats.s: ListDir/file_stats.c.s
+
+.PHONY : ListDir/file_stats.s
+
+# target to generate assembly for a file
+ListDir/file_stats.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ListDir/file_stats.c.s
+.PHONY : ListDir/file_stats.c.s
+
+ListDir/listdir.o: ListDir/listdir.c.o
+
+.PHONY : ListDir/listdir.o
+
+# target to build an object file
+ListDir/listdir.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ListDir/listdir.c.o
+.PHONY : ListDir/listdir.c.o
+
+ListDir/listdir.i: ListDir/listdir.c.i
+
+.PHONY : ListDir/listdir.i
+
+# target to preprocess a source file
+ListDir/listdir.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ListDir/listdir.c.i
+.PHONY : ListDir/listdir.c.i
+
+ListDir/listdir.s: ListDir/listdir.c.s
+
+.PHONY : ListDir/listdir.s
+
+# target to generate assembly for a file
+ListDir/listdir.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ListDir/listdir.c.s
+.PHONY : ListDir/listdir.c.s
 
 MusicLibraryOrganizer/main.o: MusicLibraryOrganizer/main.c.o
 
@@ -768,6 +849,9 @@ help:
 	@echo "... Euler/euler.o"
 	@echo "... Euler/euler.i"
 	@echo "... Euler/euler.s"
+	@echo "... FileStats/file_stats.o"
+	@echo "... FileStats/file_stats.i"
+	@echo "... FileStats/file_stats.s"
 	@echo "... GccStrncpyBug/gcc_strncpy_bypass_bug.o"
 	@echo "... GccStrncpyBug/gcc_strncpy_bypass_bug.i"
 	@echo "... GccStrncpyBug/gcc_strncpy_bypass_bug.s"
@@ -780,6 +864,12 @@ help:
 	@echo "... LinkedList/linked_list_test.o"
 	@echo "... LinkedList/linked_list_test.i"
 	@echo "... LinkedList/linked_list_test.s"
+	@echo "... ListDir/file_stats.o"
+	@echo "... ListDir/file_stats.i"
+	@echo "... ListDir/file_stats.s"
+	@echo "... ListDir/listdir.o"
+	@echo "... ListDir/listdir.i"
+	@echo "... ListDir/listdir.s"
 	@echo "... MusicLibraryOrganizer/main.o"
 	@echo "... MusicLibraryOrganizer/main.i"
 	@echo "... MusicLibraryOrganizer/main.s"

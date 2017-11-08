@@ -609,6 +609,78 @@ CMakeFiles/Systems.dir/DevRandom/read_random.c.o.provides: CMakeFiles/Systems.di
 CMakeFiles/Systems.dir/DevRandom/read_random.c.o.provides.build: CMakeFiles/Systems.dir/DevRandom/read_random.c.o
 
 
+CMakeFiles/Systems.dir/FileStats/file_stats.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/FileStats/file_stats.c.o: ../FileStats/file_stats.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Systems.dir/FileStats/file_stats.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/FileStats/file_stats.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/FileStats/file_stats.c
+
+CMakeFiles/Systems.dir/FileStats/file_stats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/FileStats/file_stats.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/FileStats/file_stats.c > CMakeFiles/Systems.dir/FileStats/file_stats.c.i
+
+CMakeFiles/Systems.dir/FileStats/file_stats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/FileStats/file_stats.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/FileStats/file_stats.c -o CMakeFiles/Systems.dir/FileStats/file_stats.c.s
+
+CMakeFiles/Systems.dir/FileStats/file_stats.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/FileStats/file_stats.c.o.requires
+
+CMakeFiles/Systems.dir/FileStats/file_stats.c.o.provides: CMakeFiles/Systems.dir/FileStats/file_stats.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/FileStats/file_stats.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/FileStats/file_stats.c.o.provides
+
+CMakeFiles/Systems.dir/FileStats/file_stats.c.o.provides.build: CMakeFiles/Systems.dir/FileStats/file_stats.c.o
+
+
+CMakeFiles/Systems.dir/ListDir/listdir.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/ListDir/listdir.c.o: ../ListDir/listdir.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Systems.dir/ListDir/listdir.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/ListDir/listdir.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/ListDir/listdir.c
+
+CMakeFiles/Systems.dir/ListDir/listdir.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/ListDir/listdir.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/ListDir/listdir.c > CMakeFiles/Systems.dir/ListDir/listdir.c.i
+
+CMakeFiles/Systems.dir/ListDir/listdir.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/ListDir/listdir.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/ListDir/listdir.c -o CMakeFiles/Systems.dir/ListDir/listdir.c.s
+
+CMakeFiles/Systems.dir/ListDir/listdir.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/ListDir/listdir.c.o.requires
+
+CMakeFiles/Systems.dir/ListDir/listdir.c.o.provides: CMakeFiles/Systems.dir/ListDir/listdir.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ListDir/listdir.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/ListDir/listdir.c.o.provides
+
+CMakeFiles/Systems.dir/ListDir/listdir.c.o.provides.build: CMakeFiles/Systems.dir/ListDir/listdir.c.o
+
+
+CMakeFiles/Systems.dir/ListDir/file_stats.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/ListDir/file_stats.c.o: ../ListDir/file_stats.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Systems.dir/ListDir/file_stats.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/ListDir/file_stats.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/ListDir/file_stats.c
+
+CMakeFiles/Systems.dir/ListDir/file_stats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/ListDir/file_stats.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/ListDir/file_stats.c > CMakeFiles/Systems.dir/ListDir/file_stats.c.i
+
+CMakeFiles/Systems.dir/ListDir/file_stats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/ListDir/file_stats.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/ListDir/file_stats.c -o CMakeFiles/Systems.dir/ListDir/file_stats.c.s
+
+CMakeFiles/Systems.dir/ListDir/file_stats.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/ListDir/file_stats.c.o.requires
+
+CMakeFiles/Systems.dir/ListDir/file_stats.c.o.provides: CMakeFiles/Systems.dir/ListDir/file_stats.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ListDir/file_stats.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/ListDir/file_stats.c.o.provides
+
+CMakeFiles/Systems.dir/ListDir/file_stats.c.o.provides.build: CMakeFiles/Systems.dir/ListDir/file_stats.c.o
+
+
 # Object files for target Systems
 Systems_OBJECTS = \
 "CMakeFiles/Systems.dir/main.c.o" \
@@ -633,7 +705,10 @@ Systems_OBJECTS = \
 "CMakeFiles/Systems.dir/Stacktrace/stacktrace.c.o" \
 "CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_bypass_bug.c.o" \
 "CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_cause_bug.c.o" \
-"CMakeFiles/Systems.dir/DevRandom/read_random.c.o"
+"CMakeFiles/Systems.dir/DevRandom/read_random.c.o" \
+"CMakeFiles/Systems.dir/FileStats/file_stats.c.o" \
+"CMakeFiles/Systems.dir/ListDir/listdir.c.o" \
+"CMakeFiles/Systems.dir/ListDir/file_stats.c.o"
 
 # External object files for target Systems
 Systems_EXTERNAL_OBJECTS =
@@ -661,9 +736,12 @@ Systems.exe: CMakeFiles/Systems.dir/Stacktrace/stacktrace.c.o
 Systems.exe: CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_bypass_bug.c.o
 Systems.exe: CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_cause_bug.c.o
 Systems.exe: CMakeFiles/Systems.dir/DevRandom/read_random.c.o
+Systems.exe: CMakeFiles/Systems.dir/FileStats/file_stats.c.o
+Systems.exe: CMakeFiles/Systems.dir/ListDir/listdir.c.o
+Systems.exe: CMakeFiles/Systems.dir/ListDir/file_stats.c.o
 Systems.exe: CMakeFiles/Systems.dir/build.make
 Systems.exe: CMakeFiles/Systems.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable Systems.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable Systems.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Systems.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -694,6 +772,9 @@ CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Stacktrace/stacktrace.c.
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_bypass_bug.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/GccStrncpyBug/gcc_strncpy_cause_bug.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/DevRandom/read_random.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/FileStats/file_stats.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/ListDir/listdir.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/ListDir/file_stats.c.o.requires
 
 .PHONY : CMakeFiles/Systems.dir/requires
 

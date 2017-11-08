@@ -3,9 +3,12 @@
     <words>
       <w>addr</w>
       <w>arraysize</w>
+      <w>closedir</w>
       <w>collatz</w>
       <w>delim</w>
       <w>dest</w>
+      <w>fdopendir</w>
+      <w>fstatat</w>
       <w>jawad</w>
       <w>membersize</w>
       <w>multiline</w>
@@ -14,7 +17,9 @@
       <w>ncpy</w>
       <w>nlen</w>
       <w>opcode</w>
+      <w>opendir</w>
       <w>printf</w>
+      <w>readdir</w>
       <w>strcat</w>
       <w>strchr</w>
       <w>strcmp</w>

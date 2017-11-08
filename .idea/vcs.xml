@@ -6,9 +6,10 @@
     <mapping directory="$PROJECT_DIR$/BackupStrings" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/DevRandom" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Euler" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/FileStat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FileStats" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GccStrncpyBug" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/LinkedList" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ListDir" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/MusicLibraryOrganizer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/StringFunctionDemonstrations" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Strings" vcs="Git" />
