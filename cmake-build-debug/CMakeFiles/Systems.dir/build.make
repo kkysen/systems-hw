@@ -681,6 +681,54 @@ CMakeFiles/Systems.dir/ListDir/file_stats.c.o.provides: CMakeFiles/Systems.dir/L
 CMakeFiles/Systems.dir/ListDir/file_stats.c.o.provides.build: CMakeFiles/Systems.dir/ListDir/file_stats.c.o
 
 
+CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o: ../SignalHandlerExample/sighandler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/SignalHandlerExample/sighandler.c
+
+CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/SignalHandlerExample/sighandler.c > CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.i
+
+CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/SignalHandlerExample/sighandler.c -o CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.s
+
+CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o.requires
+
+CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o.provides: CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o.provides
+
+CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o.provides.build: CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o
+
+
+CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o: ../SignalHandlerExample/stacktrace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/SignalHandlerExample/stacktrace.c
+
+CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/SignalHandlerExample/stacktrace.c > CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.i
+
+CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/SignalHandlerExample/stacktrace.c -o CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.s
+
+CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o.requires
+
+CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o.provides: CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o.provides
+
+CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o.provides.build: CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o
+
+
 # Object files for target Systems
 Systems_OBJECTS = \
 "CMakeFiles/Systems.dir/main.c.o" \
@@ -708,7 +756,9 @@ Systems_OBJECTS = \
 "CMakeFiles/Systems.dir/DevRandom/read_random.c.o" \
 "CMakeFiles/Systems.dir/FileStats/file_stats.c.o" \
 "CMakeFiles/Systems.dir/ListDir/listdir.c.o" \
-"CMakeFiles/Systems.dir/ListDir/file_stats.c.o"
+"CMakeFiles/Systems.dir/ListDir/file_stats.c.o" \
+"CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o" \
+"CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o"
 
 # External object files for target Systems
 Systems_EXTERNAL_OBJECTS =
@@ -739,9 +789,11 @@ Systems.exe: CMakeFiles/Systems.dir/DevRandom/read_random.c.o
 Systems.exe: CMakeFiles/Systems.dir/FileStats/file_stats.c.o
 Systems.exe: CMakeFiles/Systems.dir/ListDir/listdir.c.o
 Systems.exe: CMakeFiles/Systems.dir/ListDir/file_stats.c.o
+Systems.exe: CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o
+Systems.exe: CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o
 Systems.exe: CMakeFiles/Systems.dir/build.make
 Systems.exe: CMakeFiles/Systems.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable Systems.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C executable Systems.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Systems.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -775,6 +827,8 @@ CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/DevRandom/read_random.c.
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/FileStats/file_stats.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/ListDir/listdir.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/ListDir/file_stats.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o.requires
 
 .PHONY : CMakeFiles/Systems.dir/requires
 

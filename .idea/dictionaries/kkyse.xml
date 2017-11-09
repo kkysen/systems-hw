@@ -2,6 +2,7 @@
   <dictionary name="kkyse">
     <words>
       <w>addr</w>
+      <w>arraylen</w>
       <w>arraysize</w>
       <w>closedir</w>
       <w>collatz</w>
@@ -19,7 +20,12 @@
       <w>opcode</w>
       <w>opendir</w>
       <w>printf</w>
+      <w>proc</w>
       <w>readdir</w>
+      <w>readlink</w>
+      <w>sigemptyset</w>
+      <w>sighandler</w>
+      <w>sigusr</w>
       <w>strcat</w>
       <w>strchr</w>
       <w>strcmp</w>
@@ -31,6 +37,7 @@
       <w>strnlen</w>
       <w>strstr</w>
       <w>subsignal</w>
+      <w>wmissing</w>
     </words>
   </dictionary>
 </component>

@@ -33,13 +33,13 @@ struct string {
 #define PTR_MAX_STRLEN ((sizeof(addr) * 8) / 4)
 
 #ifdef __APPLE__
-    #define addr2line_fmt "atos -o %s %p"
+    #define addr2line_base "atos -o %s %p"
 #else
-    #define addr2line_fmt "addr2line -f -p -e %s %p"
+    #define addr2line_base "addr2line -f -p -e %s %p"
 #endif
 
 #define addr2line_cmd_len(program_name_len) \
-    (arraylen(addr2line_fmt) - arraylen("%s%p") + PTR_MAX_STRLEN + (program_name_len))
+    (arraylen(addr2line_base) - arraylen("%s%p") + PTR_MAX_STRLEN + (program_name_len))
 
 struct string addr2line_cmd = {0};
 
@@ -49,7 +49,7 @@ int addr2line(const char *const program_name, const void *const addr) {
         addr2line_cmd.size = addr2line_cmd_len(program_name_length);
         addr2line_cmd.ptr = (char *) realloc(addr2line_cmd.ptr, addr2line_cmd_len(program_name_length) * sizeof(char));
     }
-    sprintf(addr2line_cmd.ptr, addr2line_fmt, program_name, addr);
+    sprintf(addr2line_cmd.ptr, addr2line_base, program_name, addr);
     return system(addr2line_cmd.ptr);
 }
 

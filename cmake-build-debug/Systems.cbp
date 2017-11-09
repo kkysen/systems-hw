@@ -161,6 +161,18 @@
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell.c">
 			<Option target="Systems"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/SignalHandlerExample/sigaction.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/SignalHandlerExample/sighandler.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/SignalHandlerExample/stacktrace.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/SignalHandlerExample/stacktrace.h">
+			<Option target="Systems"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Stacktrace/stacktrace.c">
 			<Option target="Systems"/>
 		</Unit>

@@ -25,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Systems.dir/FileStats/file_stats.c.o"
   "CMakeFiles/Systems.dir/ListDir/listdir.c.o"
   "CMakeFiles/Systems.dir/ListDir/file_stats.c.o"
+  "CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o"
+  "CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o"
   "Systems.pdb"
   "Systems.exe"
   "libSystems.dll.a"
