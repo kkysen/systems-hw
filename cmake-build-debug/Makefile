@@ -258,6 +258,33 @@ Euler/euler.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Euler/euler.c.s
 .PHONY : Euler/euler.c.s
 
+Exec/exec.o: Exec/exec.c.o
+
+.PHONY : Exec/exec.o
+
+# target to build an object file
+Exec/exec.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Exec/exec.c.o
+.PHONY : Exec/exec.c.o
+
+Exec/exec.i: Exec/exec.c.i
+
+.PHONY : Exec/exec.i
+
+# target to preprocess a source file
+Exec/exec.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Exec/exec.c.i
+.PHONY : Exec/exec.c.i
+
+Exec/exec.s: Exec/exec.c.s
+
+.PHONY : Exec/exec.s
+
+# target to generate assembly for a file
+Exec/exec.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Exec/exec.c.s
+.PHONY : Exec/exec.c.s
+
 FileStats/file_stats.o: FileStats/file_stats.c.o
 
 .PHONY : FileStats/file_stats.o
@@ -555,6 +582,87 @@ MusicLibraryOrganizer/song_node.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/song_node.c.s
 .PHONY : MusicLibraryOrganizer/song_node.c.s
 
+Shell/aliases.o: Shell/aliases.c.o
+
+.PHONY : Shell/aliases.o
+
+# target to build an object file
+Shell/aliases.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/aliases.c.o
+.PHONY : Shell/aliases.c.o
+
+Shell/aliases.i: Shell/aliases.c.i
+
+.PHONY : Shell/aliases.i
+
+# target to preprocess a source file
+Shell/aliases.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/aliases.c.i
+.PHONY : Shell/aliases.c.i
+
+Shell/aliases.s: Shell/aliases.c.s
+
+.PHONY : Shell/aliases.s
+
+# target to generate assembly for a file
+Shell/aliases.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/aliases.c.s
+.PHONY : Shell/aliases.c.s
+
+Shell/argv.o: Shell/argv.c.o
+
+.PHONY : Shell/argv.o
+
+# target to build an object file
+Shell/argv.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/argv.c.o
+.PHONY : Shell/argv.c.o
+
+Shell/argv.i: Shell/argv.c.i
+
+.PHONY : Shell/argv.i
+
+# target to preprocess a source file
+Shell/argv.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/argv.c.i
+.PHONY : Shell/argv.c.i
+
+Shell/argv.s: Shell/argv.c.s
+
+.PHONY : Shell/argv.s
+
+# target to generate assembly for a file
+Shell/argv.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/argv.c.s
+.PHONY : Shell/argv.c.s
+
+Shell/builtins.o: Shell/builtins.c.o
+
+.PHONY : Shell/builtins.o
+
+# target to build an object file
+Shell/builtins.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/builtins.c.o
+.PHONY : Shell/builtins.c.o
+
+Shell/builtins.i: Shell/builtins.c.i
+
+.PHONY : Shell/builtins.i
+
+# target to preprocess a source file
+Shell/builtins.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/builtins.c.i
+.PHONY : Shell/builtins.c.i
+
+Shell/builtins.s: Shell/builtins.c.s
+
+.PHONY : Shell/builtins.s
+
+# target to generate assembly for a file
+Shell/builtins.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/builtins.c.s
+.PHONY : Shell/builtins.c.s
+
 Shell/shell.o: Shell/shell.c.o
 
 .PHONY : Shell/shell.o
@@ -581,6 +689,114 @@ Shell/shell.s: Shell/shell.c.s
 Shell/shell.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/shell.c.s
 .PHONY : Shell/shell.c.s
+
+Shell/shell_util.o: Shell/shell_util.c.o
+
+.PHONY : Shell/shell_util.o
+
+# target to build an object file
+Shell/shell_util.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/shell_util.c.o
+.PHONY : Shell/shell_util.c.o
+
+Shell/shell_util.i: Shell/shell_util.c.i
+
+.PHONY : Shell/shell_util.i
+
+# target to preprocess a source file
+Shell/shell_util.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/shell_util.c.i
+.PHONY : Shell/shell_util.c.i
+
+Shell/shell_util.s: Shell/shell_util.c.s
+
+.PHONY : Shell/shell_util.s
+
+# target to generate assembly for a file
+Shell/shell_util.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/shell_util.c.s
+.PHONY : Shell/shell_util.c.s
+
+Shell/stacktrace.o: Shell/stacktrace.c.o
+
+.PHONY : Shell/stacktrace.o
+
+# target to build an object file
+Shell/stacktrace.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/stacktrace.c.o
+.PHONY : Shell/stacktrace.c.o
+
+Shell/stacktrace.i: Shell/stacktrace.c.i
+
+.PHONY : Shell/stacktrace.i
+
+# target to preprocess a source file
+Shell/stacktrace.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/stacktrace.c.i
+.PHONY : Shell/stacktrace.c.i
+
+Shell/stacktrace.s: Shell/stacktrace.c.s
+
+.PHONY : Shell/stacktrace.s
+
+# target to generate assembly for a file
+Shell/stacktrace.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/stacktrace.c.s
+.PHONY : Shell/stacktrace.c.s
+
+Shell/test_split.o: Shell/test_split.c.o
+
+.PHONY : Shell/test_split.o
+
+# target to build an object file
+Shell/test_split.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/test_split.c.o
+.PHONY : Shell/test_split.c.o
+
+Shell/test_split.i: Shell/test_split.c.i
+
+.PHONY : Shell/test_split.i
+
+# target to preprocess a source file
+Shell/test_split.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/test_split.c.i
+.PHONY : Shell/test_split.c.i
+
+Shell/test_split.s: Shell/test_split.c.s
+
+.PHONY : Shell/test_split.s
+
+# target to generate assembly for a file
+Shell/test_split.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/test_split.c.s
+.PHONY : Shell/test_split.c.s
+
+Shell/util.o: Shell/util.c.o
+
+.PHONY : Shell/util.o
+
+# target to build an object file
+Shell/util.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/util.c.o
+.PHONY : Shell/util.c.o
+
+Shell/util.i: Shell/util.c.i
+
+.PHONY : Shell/util.i
+
+# target to preprocess a source file
+Shell/util.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/util.c.i
+.PHONY : Shell/util.c.i
+
+Shell/util.s: Shell/util.c.s
+
+.PHONY : Shell/util.s
+
+# target to generate assembly for a file
+Shell/util.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/util.c.s
+.PHONY : Shell/util.c.s
 
 SignalHandlerExample/sighandler.o: SignalHandlerExample/sighandler.c.o
 
@@ -903,6 +1119,9 @@ help:
 	@echo "... Euler/euler.o"
 	@echo "... Euler/euler.i"
 	@echo "... Euler/euler.s"
+	@echo "... Exec/exec.o"
+	@echo "... Exec/exec.i"
+	@echo "... Exec/exec.s"
 	@echo "... FileStats/file_stats.o"
 	@echo "... FileStats/file_stats.i"
 	@echo "... FileStats/file_stats.s"
@@ -936,9 +1155,30 @@ help:
 	@echo "... MusicLibraryOrganizer/song_node.o"
 	@echo "... MusicLibraryOrganizer/song_node.i"
 	@echo "... MusicLibraryOrganizer/song_node.s"
+	@echo "... Shell/aliases.o"
+	@echo "... Shell/aliases.i"
+	@echo "... Shell/aliases.s"
+	@echo "... Shell/argv.o"
+	@echo "... Shell/argv.i"
+	@echo "... Shell/argv.s"
+	@echo "... Shell/builtins.o"
+	@echo "... Shell/builtins.i"
+	@echo "... Shell/builtins.s"
 	@echo "... Shell/shell.o"
 	@echo "... Shell/shell.i"
 	@echo "... Shell/shell.s"
+	@echo "... Shell/shell_util.o"
+	@echo "... Shell/shell_util.i"
+	@echo "... Shell/shell_util.s"
+	@echo "... Shell/stacktrace.o"
+	@echo "... Shell/stacktrace.i"
+	@echo "... Shell/stacktrace.s"
+	@echo "... Shell/test_split.o"
+	@echo "... Shell/test_split.i"
+	@echo "... Shell/test_split.s"
+	@echo "... Shell/util.o"
+	@echo "... Shell/util.i"
+	@echo "... Shell/util.s"
 	@echo "... SignalHandlerExample/sighandler.o"
 	@echo "... SignalHandlerExample/sighandler.i"
 	@echo "... SignalHandlerExample/sighandler.s"

@@ -1,0 +1,6 @@
+expand aliases
+
+print current working directory as line prompt
+
+make sure signal sent to child doesn't go to parent, too
+i.e., SIGINT sent to child shouldn't kill parent, the shell, too

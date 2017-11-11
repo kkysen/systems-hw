@@ -11,6 +11,7 @@
       <w>fdopendir</w>
       <w>fopen</w>
       <w>fstatat</w>
+      <w>iutf</w>
       <w>jawad</w>
       <w>membersize</w>
       <w>multiline</w>
@@ -36,8 +37,12 @@
       <w>strncmp</w>
       <w>strncpy</w>
       <w>strnlen</w>
+      <w>strsep</w>
       <w>strstr</w>
+      <w>stty</w>
       <w>subsignal</w>
+      <w>termios</w>
+      <w>unalias</w>
       <w>wmissing</w>
     </words>
   </dictionary>

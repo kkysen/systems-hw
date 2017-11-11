@@ -8,7 +8,6 @@ set(SOURCE_FILES
         Euler/euler.c
         test.c
         ArrayPointers/arrays_pointers.c
-        Shell/shell.c
         StringFunctionDemonstrations/string_function_demos.c
         Strings/string_funcs.c
         Strings/string_tests.c
@@ -18,5 +17,15 @@ set(SOURCE_FILES
         Strings/python.c
         BackupStrings/string_funcs.c
         BackupStrings/string_tests.c
-        LinkedList/linked_list.c LinkedList/linked_list_test.c LinkedList/linked_list_test.h MusicLibraryOrganizer/song_node.c MusicLibraryOrganizer/song_node.h MusicLibraryOrganizer/song_library.c MusicLibraryOrganizer/song_library.h MusicLibraryOrganizer/song.c MusicLibraryOrganizer/song.h MusicLibraryOrganizer/main.c MusicLibraryOrganizer/main.h Stacktrace/stacktrace.c Stacktrace/stacktrace.h GccStrncpyBug/gcc_strncpy_bypass_bug.c GccStrncpyBug/gcc_strncpy_cause_bug.c DevRandom/read_random.c FileStats/file_stats.c ListDir/listdir.c ListDir/file_stats.c ListDir/file_stats.h ListDir/listdir.h SignalHandlerExample/sighandler.c SignalHandlerExample/stacktrace.c SignalHandlerExample/stacktrace.h SignalHandlerExample/sigaction.h)
+        LinkedList/linked_list.c LinkedList/linked_list_test.c LinkedList/linked_list_test.h MusicLibraryOrganizer/song_node.c MusicLibraryOrganizer/song_node.h MusicLibraryOrganizer/song_library.c MusicLibraryOrganizer/song_library.h MusicLibraryOrganizer/song.c MusicLibraryOrganizer/song.h MusicLibraryOrganizer/main.c MusicLibraryOrganizer/main.h Stacktrace/stacktrace.c Stacktrace/stacktrace.h GccStrncpyBug/gcc_strncpy_bypass_bug.c GccStrncpyBug/gcc_strncpy_cause_bug.c DevRandom/read_random.c FileStats/file_stats.c ListDir/listdir.c ListDir/file_stats.c ListDir/file_stats.h ListDir/listdir.h SignalHandlerExample/sighandler.c SignalHandlerExample/stacktrace.c SignalHandlerExample/stacktrace.h SignalHandlerExample/sigaction.h Exec/exec.c
+        Shell/shell.c
+        Shell/shell.h
+        Shell/test_split.c
+        Shell/argv.c
+        Shell/argv.h
+        Shell/util.c
+        Shell/util.h
+        Shell/stacktrace.c
+        Shell/stacktrace.h
+        Shell/sigaction.h Shell/builtins.c Shell/builtins.h Shell/shell_util.c Shell/shell_util.h Shell/aliases.c Shell/aliases.h)
 add_executable(Systems ${SOURCE_FILES})

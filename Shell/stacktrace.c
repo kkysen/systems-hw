@@ -12,12 +12,12 @@
 #include <unistd.h>
 #include <limits.h>
 
+#include "util.h"
+
 #ifdef __linux__
     #include <err.h>
     #include <execinfo.h>
 #endif
-
-#define arraylen(array) (sizeof(array) / sizeof(*(array)))
 
 #define PTR_MAX_STRLEN (((sizeof(void *) * 8) / 4) + 1)
 
@@ -85,6 +85,7 @@ void print_stack_trace() {
 
 void stack_trace_signal_handler_posix(int signal, siginfo_t *siginfo, void *context) {
 //    printf("Stacktrace:\n");
+    printf("\n");
     switch (signal) {
         catch_signal(SIGSEGV, "Segmentation Fault");
         catch_signal(SIGINT, "Interrupt: Interactive attention signal, usually Ctrl+C");

@@ -101,6 +101,9 @@
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Euler/euler.c">
 			<Option target="Systems"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Exec/exec.c">
+			<Option target="Systems"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/FileStats/file_stats.c">
 			<Option target="Systems"/>
 		</Unit>
@@ -158,7 +161,52 @@
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/MusicLibraryOrganizer/song_node.h">
 			<Option target="Systems"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/aliases.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/aliases.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/argv.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/argv.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins.h">
+			<Option target="Systems"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell_util.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell_util.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/sigaction.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/stacktrace.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/stacktrace.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/test_split.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util.h">
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/SignalHandlerExample/sigaction.h">
