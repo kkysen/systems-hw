@@ -13,14 +13,17 @@ argv.o:
 builtins.o:
 	$(CC) -c builtins.c
 
+cd.o:
+	$(CC) -c cd.c
+
 aliases.o:
 	$(CC) -c aliases.c
 
 $(OUT).o:
 	$(CC) -c $(OUT).c
 
-all: clean $(OUT).o util.o stacktrace.o argv.o builtins.o aliases.o
-	$(CC) -o $(OUT) $(OUT).o util.o stacktrace.o argv.o builtins.o aliases.o
+all: clean $(OUT).o util.o stacktrace.o argv.o builtins.o cd.o aliases.o
+	$(CC) -o $(OUT) $(OUT).o util.o stacktrace.o argv.o builtins.o cd.o aliases.o
 
 clean:
 	rm -f *.o

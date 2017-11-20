@@ -33,10 +33,6 @@ static size_t num_aliases = 0;
 static size_t aliases_capacity = 0;
 static const Alias *aliases = NULL;
 
-void free_aliases() {
-    free((Alias *) aliases);
-}
-
 void realloc_aliases(const ssize_t step) {
     aliases_capacity += step;
     aliases = realloc((Alias *) aliases, aliases_capacity * sizeof(Alias));
@@ -85,6 +81,13 @@ void free_Alias(const Alias *const alias) {
     free((char **) alias->argv);
 }
 
+void free_aliases() {
+    for (size_t i = 0; i < num_aliases; ++i) {
+        free_Alias(aliases + i);
+    }
+    free((Alias *) aliases);
+}
+
 void add_alias(const char *const name, const char *const value) {
     grow_aliases();
     set_Alias(num_aliases - 1, name, value);
@@ -105,6 +108,7 @@ bool remove_alias(const char *const name) {
         return false;
     }
     --num_aliases;
+    free_Alias(aliases + i);
     memmove((Alias *) aliases + i, aliases + i + 1, (num_aliases - i) * sizeof(Alias));
     shrink_aliases();
     return true;

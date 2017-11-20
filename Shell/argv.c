@@ -15,16 +15,21 @@ const char **argv = NULL;
 size_t argc = 0;
 size_t argc_max = 0;
 
-#define is_whitespace(c) ((c) == ' ' || (c) == '\t' || (c) == '\n' || (c) == '\r')
+#define is_newline(c) ((c) == '\n' || (c) == '\r')
+#define is_whitespace(c) ((c) == ' ' || (c) == '\t' || is_newline(c))
 
 /*
  * Returns length of s if all whitespace sections were replaced by a single space.
  * num_tokens will be set to number of tokens separated by whitespace.
  */
 size_t stripped_length(const char *s, size_t *const num_tokens) {
+    *num_tokens = 0;
+    if (is_newline(s[0]) && (s[1] == 0 || (is_newline(s[1]) && s[2] == 0))) {
+        // no input, only newline
+        return 0;
+    }
     char c;
     size_t length = 0;
-    *num_tokens = 0;
     for (--s; (c = *++s); ++length) {
 //        printf("%c\n", c);
         if (is_whitespace(c)) {
@@ -80,8 +85,8 @@ void grow_argv(const size_t new_argc) {
 const char **split(const char *const line) {
     size_t num_tokens;
     const size_t stripped_len = stripped_length(line, &num_tokens);
-    
     argc = num_tokens;
+    printf("argc = %zu, args_len = %zu\n", argc, stripped_len);
     if (argc == 0) {
         return NULL;
     }

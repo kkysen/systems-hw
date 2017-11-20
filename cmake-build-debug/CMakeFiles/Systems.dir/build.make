@@ -753,28 +753,28 @@ CMakeFiles/Systems.dir/Shell/shell.c.o.provides: CMakeFiles/Systems.dir/Shell/sh
 CMakeFiles/Systems.dir/Shell/shell.c.o.provides.build: CMakeFiles/Systems.dir/Shell/shell.c.o
 
 
-CMakeFiles/Systems.dir/Shell/test_split.c.o: CMakeFiles/Systems.dir/flags.make
-CMakeFiles/Systems.dir/Shell/test_split.c.o: ../Shell/test_split.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Systems.dir/Shell/test_split.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/Shell/test_split.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/Shell/test_split.c
+CMakeFiles/Systems.dir/Shell/test_argv.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/Shell/test_argv.c.o: ../Shell/test_argv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Systems.dir/Shell/test_argv.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/Shell/test_argv.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/Shell/test_argv.c
 
-CMakeFiles/Systems.dir/Shell/test_split.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/Shell/test_split.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/Shell/test_split.c > CMakeFiles/Systems.dir/Shell/test_split.c.i
+CMakeFiles/Systems.dir/Shell/test_argv.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/Shell/test_argv.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/Shell/test_argv.c > CMakeFiles/Systems.dir/Shell/test_argv.c.i
 
-CMakeFiles/Systems.dir/Shell/test_split.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/Shell/test_split.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/Shell/test_split.c -o CMakeFiles/Systems.dir/Shell/test_split.c.s
+CMakeFiles/Systems.dir/Shell/test_argv.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/Shell/test_argv.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/Shell/test_argv.c -o CMakeFiles/Systems.dir/Shell/test_argv.c.s
 
-CMakeFiles/Systems.dir/Shell/test_split.c.o.requires:
+CMakeFiles/Systems.dir/Shell/test_argv.c.o.requires:
 
-.PHONY : CMakeFiles/Systems.dir/Shell/test_split.c.o.requires
+.PHONY : CMakeFiles/Systems.dir/Shell/test_argv.c.o.requires
 
-CMakeFiles/Systems.dir/Shell/test_split.c.o.provides: CMakeFiles/Systems.dir/Shell/test_split.c.o.requires
-	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/test_split.c.o.provides.build
-.PHONY : CMakeFiles/Systems.dir/Shell/test_split.c.o.provides
+CMakeFiles/Systems.dir/Shell/test_argv.c.o.provides: CMakeFiles/Systems.dir/Shell/test_argv.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/test_argv.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/Shell/test_argv.c.o.provides
 
-CMakeFiles/Systems.dir/Shell/test_split.c.o.provides.build: CMakeFiles/Systems.dir/Shell/test_split.c.o
+CMakeFiles/Systems.dir/Shell/test_argv.c.o.provides.build: CMakeFiles/Systems.dir/Shell/test_argv.c.o
 
 
 CMakeFiles/Systems.dir/Shell/argv.c.o: CMakeFiles/Systems.dir/flags.make
@@ -921,6 +921,246 @@ CMakeFiles/Systems.dir/Shell/aliases.c.o.provides: CMakeFiles/Systems.dir/Shell/
 CMakeFiles/Systems.dir/Shell/aliases.c.o.provides.build: CMakeFiles/Systems.dir/Shell/aliases.c.o
 
 
+CMakeFiles/Systems.dir/Shell/cd.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/Shell/cd.c.o: ../Shell/cd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Systems.dir/Shell/cd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/Shell/cd.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/Shell/cd.c
+
+CMakeFiles/Systems.dir/Shell/cd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/Shell/cd.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/Shell/cd.c > CMakeFiles/Systems.dir/Shell/cd.c.i
+
+CMakeFiles/Systems.dir/Shell/cd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/Shell/cd.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/Shell/cd.c -o CMakeFiles/Systems.dir/Shell/cd.c.s
+
+CMakeFiles/Systems.dir/Shell/cd.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/Shell/cd.c.o.requires
+
+CMakeFiles/Systems.dir/Shell/cd.c.o.provides: CMakeFiles/Systems.dir/Shell/cd.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/cd.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/Shell/cd.c.o.provides
+
+CMakeFiles/Systems.dir/Shell/cd.c.o.provides.build: CMakeFiles/Systems.dir/Shell/cd.c.o
+
+
+CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o: ../ArgParse/arg_parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/arg_parse.c
+
+CMakeFiles/Systems.dir/ArgParse/arg_parse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/ArgParse/arg_parse.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/arg_parse.c > CMakeFiles/Systems.dir/ArgParse/arg_parse.c.i
+
+CMakeFiles/Systems.dir/ArgParse/arg_parse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/ArgParse/arg_parse.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/arg_parse.c -o CMakeFiles/Systems.dir/ArgParse/arg_parse.c.s
+
+CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o.requires
+
+CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o.provides: CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o.provides
+
+CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o.provides.build: CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o
+
+
+CMakeFiles/Systems.dir/ArgParse/util.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/ArgParse/util.c.o: ../ArgParse/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Systems.dir/ArgParse/util.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/ArgParse/util.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/util.c
+
+CMakeFiles/Systems.dir/ArgParse/util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/ArgParse/util.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/util.c > CMakeFiles/Systems.dir/ArgParse/util.c.i
+
+CMakeFiles/Systems.dir/ArgParse/util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/ArgParse/util.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/util.c -o CMakeFiles/Systems.dir/ArgParse/util.c.s
+
+CMakeFiles/Systems.dir/ArgParse/util.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/ArgParse/util.c.o.requires
+
+CMakeFiles/Systems.dir/ArgParse/util.c.o.provides: CMakeFiles/Systems.dir/ArgParse/util.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArgParse/util.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/ArgParse/util.c.o.provides
+
+CMakeFiles/Systems.dir/ArgParse/util.c.o.provides.build: CMakeFiles/Systems.dir/ArgParse/util.c.o
+
+
+CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o: ../ArgParse/stacktrace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/stacktrace.c
+
+CMakeFiles/Systems.dir/ArgParse/stacktrace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/ArgParse/stacktrace.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/stacktrace.c > CMakeFiles/Systems.dir/ArgParse/stacktrace.c.i
+
+CMakeFiles/Systems.dir/ArgParse/stacktrace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/ArgParse/stacktrace.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/stacktrace.c -o CMakeFiles/Systems.dir/ArgParse/stacktrace.c.s
+
+CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o.requires
+
+CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o.provides: CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o.provides
+
+CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o.provides.build: CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o
+
+
+CMakeFiles/Systems.dir/Forking/fork.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/Forking/fork.c.o: ../Forking/fork.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Systems.dir/Forking/fork.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/Forking/fork.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/Forking/fork.c
+
+CMakeFiles/Systems.dir/Forking/fork.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/Forking/fork.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/Forking/fork.c > CMakeFiles/Systems.dir/Forking/fork.c.i
+
+CMakeFiles/Systems.dir/Forking/fork.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/Forking/fork.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/Forking/fork.c -o CMakeFiles/Systems.dir/Forking/fork.c.s
+
+CMakeFiles/Systems.dir/Forking/fork.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/Forking/fork.c.o.requires
+
+CMakeFiles/Systems.dir/Forking/fork.c.o.provides: CMakeFiles/Systems.dir/Forking/fork.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Forking/fork.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/Forking/fork.c.o.provides
+
+CMakeFiles/Systems.dir/Forking/fork.c.o.provides.build: CMakeFiles/Systems.dir/Forking/fork.c.o
+
+
+CMakeFiles/Systems.dir/Forking/util.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/Forking/util.c.o: ../Forking/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Systems.dir/Forking/util.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/Forking/util.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/Forking/util.c
+
+CMakeFiles/Systems.dir/Forking/util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/Forking/util.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/Forking/util.c > CMakeFiles/Systems.dir/Forking/util.c.i
+
+CMakeFiles/Systems.dir/Forking/util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/Forking/util.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/Forking/util.c -o CMakeFiles/Systems.dir/Forking/util.c.s
+
+CMakeFiles/Systems.dir/Forking/util.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/Forking/util.c.o.requires
+
+CMakeFiles/Systems.dir/Forking/util.c.o.provides: CMakeFiles/Systems.dir/Forking/util.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Forking/util.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/Forking/util.c.o.provides
+
+CMakeFiles/Systems.dir/Forking/util.c.o.provides.build: CMakeFiles/Systems.dir/Forking/util.c.o
+
+
+CMakeFiles/Systems.dir/Forking/stacktrace.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/Forking/stacktrace.c.o: ../Forking/stacktrace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Systems.dir/Forking/stacktrace.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/Forking/stacktrace.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/Forking/stacktrace.c
+
+CMakeFiles/Systems.dir/Forking/stacktrace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/Forking/stacktrace.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/Forking/stacktrace.c > CMakeFiles/Systems.dir/Forking/stacktrace.c.i
+
+CMakeFiles/Systems.dir/Forking/stacktrace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/Forking/stacktrace.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/Forking/stacktrace.c -o CMakeFiles/Systems.dir/Forking/stacktrace.c.s
+
+CMakeFiles/Systems.dir/Forking/stacktrace.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/Forking/stacktrace.c.o.requires
+
+CMakeFiles/Systems.dir/Forking/stacktrace.c.o.provides: CMakeFiles/Systems.dir/Forking/stacktrace.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Forking/stacktrace.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/Forking/stacktrace.c.o.provides
+
+CMakeFiles/Systems.dir/Forking/stacktrace.c.o.provides.build: CMakeFiles/Systems.dir/Forking/stacktrace.c.o
+
+
+CMakeFiles/Systems.dir/Piping/piping.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/Piping/piping.c.o: ../Piping/piping.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Systems.dir/Piping/piping.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/Piping/piping.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/Piping/piping.c
+
+CMakeFiles/Systems.dir/Piping/piping.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/Piping/piping.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/Piping/piping.c > CMakeFiles/Systems.dir/Piping/piping.c.i
+
+CMakeFiles/Systems.dir/Piping/piping.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/Piping/piping.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/Piping/piping.c -o CMakeFiles/Systems.dir/Piping/piping.c.s
+
+CMakeFiles/Systems.dir/Piping/piping.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/Piping/piping.c.o.requires
+
+CMakeFiles/Systems.dir/Piping/piping.c.o.provides: CMakeFiles/Systems.dir/Piping/piping.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Piping/piping.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/Piping/piping.c.o.provides
+
+CMakeFiles/Systems.dir/Piping/piping.c.o.provides.build: CMakeFiles/Systems.dir/Piping/piping.c.o
+
+
+CMakeFiles/Systems.dir/Piping/util.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/Piping/util.c.o: ../Piping/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Systems.dir/Piping/util.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/Piping/util.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/Piping/util.c
+
+CMakeFiles/Systems.dir/Piping/util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/Piping/util.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/Piping/util.c > CMakeFiles/Systems.dir/Piping/util.c.i
+
+CMakeFiles/Systems.dir/Piping/util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/Piping/util.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/Piping/util.c -o CMakeFiles/Systems.dir/Piping/util.c.s
+
+CMakeFiles/Systems.dir/Piping/util.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/Piping/util.c.o.requires
+
+CMakeFiles/Systems.dir/Piping/util.c.o.provides: CMakeFiles/Systems.dir/Piping/util.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Piping/util.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/Piping/util.c.o.provides
+
+CMakeFiles/Systems.dir/Piping/util.c.o.provides.build: CMakeFiles/Systems.dir/Piping/util.c.o
+
+
+CMakeFiles/Systems.dir/Piping/stacktrace.c.o: CMakeFiles/Systems.dir/flags.make
+CMakeFiles/Systems.dir/Piping/stacktrace.c.o: ../Piping/stacktrace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Systems.dir/Piping/stacktrace.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Systems.dir/Piping/stacktrace.c.o   -c /cygdrive/c/Users/kkyse/workspace/Systems/Piping/stacktrace.c
+
+CMakeFiles/Systems.dir/Piping/stacktrace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Systems.dir/Piping/stacktrace.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/kkyse/workspace/Systems/Piping/stacktrace.c > CMakeFiles/Systems.dir/Piping/stacktrace.c.i
+
+CMakeFiles/Systems.dir/Piping/stacktrace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Systems.dir/Piping/stacktrace.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/kkyse/workspace/Systems/Piping/stacktrace.c -o CMakeFiles/Systems.dir/Piping/stacktrace.c.s
+
+CMakeFiles/Systems.dir/Piping/stacktrace.c.o.requires:
+
+.PHONY : CMakeFiles/Systems.dir/Piping/stacktrace.c.o.requires
+
+CMakeFiles/Systems.dir/Piping/stacktrace.c.o.provides: CMakeFiles/Systems.dir/Piping/stacktrace.c.o.requires
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Piping/stacktrace.c.o.provides.build
+.PHONY : CMakeFiles/Systems.dir/Piping/stacktrace.c.o.provides
+
+CMakeFiles/Systems.dir/Piping/stacktrace.c.o.provides.build: CMakeFiles/Systems.dir/Piping/stacktrace.c.o
+
+
 # Object files for target Systems
 Systems_OBJECTS = \
 "CMakeFiles/Systems.dir/main.c.o" \
@@ -952,13 +1192,23 @@ Systems_OBJECTS = \
 "CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o" \
 "CMakeFiles/Systems.dir/Exec/exec.c.o" \
 "CMakeFiles/Systems.dir/Shell/shell.c.o" \
-"CMakeFiles/Systems.dir/Shell/test_split.c.o" \
+"CMakeFiles/Systems.dir/Shell/test_argv.c.o" \
 "CMakeFiles/Systems.dir/Shell/argv.c.o" \
 "CMakeFiles/Systems.dir/Shell/util.c.o" \
 "CMakeFiles/Systems.dir/Shell/stacktrace.c.o" \
 "CMakeFiles/Systems.dir/Shell/builtins.c.o" \
 "CMakeFiles/Systems.dir/Shell/shell_util.c.o" \
-"CMakeFiles/Systems.dir/Shell/aliases.c.o"
+"CMakeFiles/Systems.dir/Shell/aliases.c.o" \
+"CMakeFiles/Systems.dir/Shell/cd.c.o" \
+"CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o" \
+"CMakeFiles/Systems.dir/ArgParse/util.c.o" \
+"CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o" \
+"CMakeFiles/Systems.dir/Forking/fork.c.o" \
+"CMakeFiles/Systems.dir/Forking/util.c.o" \
+"CMakeFiles/Systems.dir/Forking/stacktrace.c.o" \
+"CMakeFiles/Systems.dir/Piping/piping.c.o" \
+"CMakeFiles/Systems.dir/Piping/util.c.o" \
+"CMakeFiles/Systems.dir/Piping/stacktrace.c.o"
 
 # External object files for target Systems
 Systems_EXTERNAL_OBJECTS =
@@ -992,16 +1242,26 @@ Systems.exe: CMakeFiles/Systems.dir/SignalHandlerExample/sighandler.c.o
 Systems.exe: CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o
 Systems.exe: CMakeFiles/Systems.dir/Exec/exec.c.o
 Systems.exe: CMakeFiles/Systems.dir/Shell/shell.c.o
-Systems.exe: CMakeFiles/Systems.dir/Shell/test_split.c.o
+Systems.exe: CMakeFiles/Systems.dir/Shell/test_argv.c.o
 Systems.exe: CMakeFiles/Systems.dir/Shell/argv.c.o
 Systems.exe: CMakeFiles/Systems.dir/Shell/util.c.o
 Systems.exe: CMakeFiles/Systems.dir/Shell/stacktrace.c.o
 Systems.exe: CMakeFiles/Systems.dir/Shell/builtins.c.o
 Systems.exe: CMakeFiles/Systems.dir/Shell/shell_util.c.o
 Systems.exe: CMakeFiles/Systems.dir/Shell/aliases.c.o
+Systems.exe: CMakeFiles/Systems.dir/Shell/cd.c.o
+Systems.exe: CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o
+Systems.exe: CMakeFiles/Systems.dir/ArgParse/util.c.o
+Systems.exe: CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o
+Systems.exe: CMakeFiles/Systems.dir/Forking/fork.c.o
+Systems.exe: CMakeFiles/Systems.dir/Forking/util.c.o
+Systems.exe: CMakeFiles/Systems.dir/Forking/stacktrace.c.o
+Systems.exe: CMakeFiles/Systems.dir/Piping/piping.c.o
+Systems.exe: CMakeFiles/Systems.dir/Piping/util.c.o
+Systems.exe: CMakeFiles/Systems.dir/Piping/stacktrace.c.o
 Systems.exe: CMakeFiles/Systems.dir/build.make
 Systems.exe: CMakeFiles/Systems.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking C executable Systems.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking C executable Systems.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Systems.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1038,13 +1298,23 @@ CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/SignalHandlerExample/sig
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/SignalHandlerExample/stacktrace.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Exec/exec.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Shell/shell.c.o.requires
-CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Shell/test_split.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Shell/test_argv.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Shell/argv.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Shell/util.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Shell/stacktrace.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Shell/builtins.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Shell/shell_util.c.o.requires
 CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Shell/aliases.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Shell/cd.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/ArgParse/util.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Forking/fork.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Forking/util.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Forking/stacktrace.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Piping/piping.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Piping/util.c.o.requires
+CMakeFiles/Systems.dir/requires: CMakeFiles/Systems.dir/Piping/stacktrace.c.o.requires
 
 .PHONY : CMakeFiles/Systems.dir/requires
 

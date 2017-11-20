@@ -80,6 +80,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/arg_parse.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/sigaction.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/stacktrace.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/stacktrace.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/util.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ArgParse/util.h">
+			<Option target="Systems"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ArrayPointers/arrays_pointers.c">
 			<Option target="Systems"/>
 		</Unit>
@@ -105,6 +123,24 @@
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/FileStats/file_stats.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Forking/fork.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Forking/sigaction.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Forking/stacktrace.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Forking/stacktrace.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Forking/util.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Forking/util.h">
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/GccStrncpyBug/gcc_strncpy_bypass_bug.c">
@@ -161,6 +197,24 @@
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/MusicLibraryOrganizer/song_node.h">
 			<Option target="Systems"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Piping/piping.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Piping/sigaction.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Piping/stacktrace.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Piping/stacktrace.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Piping/util.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Piping/util.h">
+			<Option target="Systems"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/aliases.c">
 			<Option target="Systems"/>
 		</Unit>
@@ -177,6 +231,12 @@
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/cd.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/cd.h">
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell.c">
@@ -200,7 +260,7 @@
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/stacktrace.h">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/test_split.c">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/test_argv.c">
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util.c">

@@ -4,23 +4,13 @@
 
 #include "builtins.h"
 
-#include <unistd.h>
 #include <string.h>
+#include <stdio.h>
 
 #include "shell_util.h"
 #include "argv.h"
 #include "aliases.h"
-
-int cd_cmd() {
-    if (argc < 2) {
-        return einval("cd requires an argument, a directory\n");
-    }
-    const char *const dir = argv[1];
-    if (chdir(dir) != 0) {
-        shell_error();
-    }
-    return EXIT_SUCCESS;
-}
+#include "cd.h"
 
 int exit_cmd() {
     return EXIT_FAILURE; // terminate while(status) loop

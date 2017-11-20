@@ -123,6 +123,87 @@ Systems/fast:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/build
 .PHONY : Systems/fast
 
+ArgParse/arg_parse.o: ArgParse/arg_parse.c.o
+
+.PHONY : ArgParse/arg_parse.o
+
+# target to build an object file
+ArgParse/arg_parse.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArgParse/arg_parse.c.o
+.PHONY : ArgParse/arg_parse.c.o
+
+ArgParse/arg_parse.i: ArgParse/arg_parse.c.i
+
+.PHONY : ArgParse/arg_parse.i
+
+# target to preprocess a source file
+ArgParse/arg_parse.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArgParse/arg_parse.c.i
+.PHONY : ArgParse/arg_parse.c.i
+
+ArgParse/arg_parse.s: ArgParse/arg_parse.c.s
+
+.PHONY : ArgParse/arg_parse.s
+
+# target to generate assembly for a file
+ArgParse/arg_parse.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArgParse/arg_parse.c.s
+.PHONY : ArgParse/arg_parse.c.s
+
+ArgParse/stacktrace.o: ArgParse/stacktrace.c.o
+
+.PHONY : ArgParse/stacktrace.o
+
+# target to build an object file
+ArgParse/stacktrace.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArgParse/stacktrace.c.o
+.PHONY : ArgParse/stacktrace.c.o
+
+ArgParse/stacktrace.i: ArgParse/stacktrace.c.i
+
+.PHONY : ArgParse/stacktrace.i
+
+# target to preprocess a source file
+ArgParse/stacktrace.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArgParse/stacktrace.c.i
+.PHONY : ArgParse/stacktrace.c.i
+
+ArgParse/stacktrace.s: ArgParse/stacktrace.c.s
+
+.PHONY : ArgParse/stacktrace.s
+
+# target to generate assembly for a file
+ArgParse/stacktrace.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArgParse/stacktrace.c.s
+.PHONY : ArgParse/stacktrace.c.s
+
+ArgParse/util.o: ArgParse/util.c.o
+
+.PHONY : ArgParse/util.o
+
+# target to build an object file
+ArgParse/util.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArgParse/util.c.o
+.PHONY : ArgParse/util.c.o
+
+ArgParse/util.i: ArgParse/util.c.i
+
+.PHONY : ArgParse/util.i
+
+# target to preprocess a source file
+ArgParse/util.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArgParse/util.c.i
+.PHONY : ArgParse/util.c.i
+
+ArgParse/util.s: ArgParse/util.c.s
+
+.PHONY : ArgParse/util.s
+
+# target to generate assembly for a file
+ArgParse/util.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ArgParse/util.c.s
+.PHONY : ArgParse/util.c.s
+
 ArrayPointers/arrays_pointers.o: ArrayPointers/arrays_pointers.c.o
 
 .PHONY : ArrayPointers/arrays_pointers.o
@@ -311,6 +392,87 @@ FileStats/file_stats.s: FileStats/file_stats.c.s
 FileStats/file_stats.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/FileStats/file_stats.c.s
 .PHONY : FileStats/file_stats.c.s
+
+Forking/fork.o: Forking/fork.c.o
+
+.PHONY : Forking/fork.o
+
+# target to build an object file
+Forking/fork.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Forking/fork.c.o
+.PHONY : Forking/fork.c.o
+
+Forking/fork.i: Forking/fork.c.i
+
+.PHONY : Forking/fork.i
+
+# target to preprocess a source file
+Forking/fork.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Forking/fork.c.i
+.PHONY : Forking/fork.c.i
+
+Forking/fork.s: Forking/fork.c.s
+
+.PHONY : Forking/fork.s
+
+# target to generate assembly for a file
+Forking/fork.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Forking/fork.c.s
+.PHONY : Forking/fork.c.s
+
+Forking/stacktrace.o: Forking/stacktrace.c.o
+
+.PHONY : Forking/stacktrace.o
+
+# target to build an object file
+Forking/stacktrace.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Forking/stacktrace.c.o
+.PHONY : Forking/stacktrace.c.o
+
+Forking/stacktrace.i: Forking/stacktrace.c.i
+
+.PHONY : Forking/stacktrace.i
+
+# target to preprocess a source file
+Forking/stacktrace.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Forking/stacktrace.c.i
+.PHONY : Forking/stacktrace.c.i
+
+Forking/stacktrace.s: Forking/stacktrace.c.s
+
+.PHONY : Forking/stacktrace.s
+
+# target to generate assembly for a file
+Forking/stacktrace.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Forking/stacktrace.c.s
+.PHONY : Forking/stacktrace.c.s
+
+Forking/util.o: Forking/util.c.o
+
+.PHONY : Forking/util.o
+
+# target to build an object file
+Forking/util.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Forking/util.c.o
+.PHONY : Forking/util.c.o
+
+Forking/util.i: Forking/util.c.i
+
+.PHONY : Forking/util.i
+
+# target to preprocess a source file
+Forking/util.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Forking/util.c.i
+.PHONY : Forking/util.c.i
+
+Forking/util.s: Forking/util.c.s
+
+.PHONY : Forking/util.s
+
+# target to generate assembly for a file
+Forking/util.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Forking/util.c.s
+.PHONY : Forking/util.c.s
 
 GccStrncpyBug/gcc_strncpy_bypass_bug.o: GccStrncpyBug/gcc_strncpy_bypass_bug.c.o
 
@@ -582,6 +744,87 @@ MusicLibraryOrganizer/song_node.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/MusicLibraryOrganizer/song_node.c.s
 .PHONY : MusicLibraryOrganizer/song_node.c.s
 
+Piping/piping.o: Piping/piping.c.o
+
+.PHONY : Piping/piping.o
+
+# target to build an object file
+Piping/piping.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Piping/piping.c.o
+.PHONY : Piping/piping.c.o
+
+Piping/piping.i: Piping/piping.c.i
+
+.PHONY : Piping/piping.i
+
+# target to preprocess a source file
+Piping/piping.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Piping/piping.c.i
+.PHONY : Piping/piping.c.i
+
+Piping/piping.s: Piping/piping.c.s
+
+.PHONY : Piping/piping.s
+
+# target to generate assembly for a file
+Piping/piping.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Piping/piping.c.s
+.PHONY : Piping/piping.c.s
+
+Piping/stacktrace.o: Piping/stacktrace.c.o
+
+.PHONY : Piping/stacktrace.o
+
+# target to build an object file
+Piping/stacktrace.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Piping/stacktrace.c.o
+.PHONY : Piping/stacktrace.c.o
+
+Piping/stacktrace.i: Piping/stacktrace.c.i
+
+.PHONY : Piping/stacktrace.i
+
+# target to preprocess a source file
+Piping/stacktrace.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Piping/stacktrace.c.i
+.PHONY : Piping/stacktrace.c.i
+
+Piping/stacktrace.s: Piping/stacktrace.c.s
+
+.PHONY : Piping/stacktrace.s
+
+# target to generate assembly for a file
+Piping/stacktrace.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Piping/stacktrace.c.s
+.PHONY : Piping/stacktrace.c.s
+
+Piping/util.o: Piping/util.c.o
+
+.PHONY : Piping/util.o
+
+# target to build an object file
+Piping/util.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Piping/util.c.o
+.PHONY : Piping/util.c.o
+
+Piping/util.i: Piping/util.c.i
+
+.PHONY : Piping/util.i
+
+# target to preprocess a source file
+Piping/util.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Piping/util.c.i
+.PHONY : Piping/util.c.i
+
+Piping/util.s: Piping/util.c.s
+
+.PHONY : Piping/util.s
+
+# target to generate assembly for a file
+Piping/util.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Piping/util.c.s
+.PHONY : Piping/util.c.s
+
 Shell/aliases.o: Shell/aliases.c.o
 
 .PHONY : Shell/aliases.o
@@ -662,6 +905,33 @@ Shell/builtins.s: Shell/builtins.c.s
 Shell/builtins.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/builtins.c.s
 .PHONY : Shell/builtins.c.s
+
+Shell/cd.o: Shell/cd.c.o
+
+.PHONY : Shell/cd.o
+
+# target to build an object file
+Shell/cd.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/cd.c.o
+.PHONY : Shell/cd.c.o
+
+Shell/cd.i: Shell/cd.c.i
+
+.PHONY : Shell/cd.i
+
+# target to preprocess a source file
+Shell/cd.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/cd.c.i
+.PHONY : Shell/cd.c.i
+
+Shell/cd.s: Shell/cd.c.s
+
+.PHONY : Shell/cd.s
+
+# target to generate assembly for a file
+Shell/cd.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/cd.c.s
+.PHONY : Shell/cd.c.s
 
 Shell/shell.o: Shell/shell.c.o
 
@@ -744,32 +1014,32 @@ Shell/stacktrace.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/stacktrace.c.s
 .PHONY : Shell/stacktrace.c.s
 
-Shell/test_split.o: Shell/test_split.c.o
+Shell/test_argv.o: Shell/test_argv.c.o
 
-.PHONY : Shell/test_split.o
+.PHONY : Shell/test_argv.o
 
 # target to build an object file
-Shell/test_split.c.o:
-	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/test_split.c.o
-.PHONY : Shell/test_split.c.o
+Shell/test_argv.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/test_argv.c.o
+.PHONY : Shell/test_argv.c.o
 
-Shell/test_split.i: Shell/test_split.c.i
+Shell/test_argv.i: Shell/test_argv.c.i
 
-.PHONY : Shell/test_split.i
+.PHONY : Shell/test_argv.i
 
 # target to preprocess a source file
-Shell/test_split.c.i:
-	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/test_split.c.i
-.PHONY : Shell/test_split.c.i
+Shell/test_argv.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/test_argv.c.i
+.PHONY : Shell/test_argv.c.i
 
-Shell/test_split.s: Shell/test_split.c.s
+Shell/test_argv.s: Shell/test_argv.c.s
 
-.PHONY : Shell/test_split.s
+.PHONY : Shell/test_argv.s
 
 # target to generate assembly for a file
-Shell/test_split.c.s:
-	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/test_split.c.s
-.PHONY : Shell/test_split.c.s
+Shell/test_argv.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Shell/test_argv.c.s
+.PHONY : Shell/test_argv.c.s
 
 Shell/util.o: Shell/util.c.o
 
@@ -1104,6 +1374,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Systems"
+	@echo "... ArgParse/arg_parse.o"
+	@echo "... ArgParse/arg_parse.i"
+	@echo "... ArgParse/arg_parse.s"
+	@echo "... ArgParse/stacktrace.o"
+	@echo "... ArgParse/stacktrace.i"
+	@echo "... ArgParse/stacktrace.s"
+	@echo "... ArgParse/util.o"
+	@echo "... ArgParse/util.i"
+	@echo "... ArgParse/util.s"
 	@echo "... ArrayPointers/arrays_pointers.o"
 	@echo "... ArrayPointers/arrays_pointers.i"
 	@echo "... ArrayPointers/arrays_pointers.s"
@@ -1125,6 +1404,15 @@ help:
 	@echo "... FileStats/file_stats.o"
 	@echo "... FileStats/file_stats.i"
 	@echo "... FileStats/file_stats.s"
+	@echo "... Forking/fork.o"
+	@echo "... Forking/fork.i"
+	@echo "... Forking/fork.s"
+	@echo "... Forking/stacktrace.o"
+	@echo "... Forking/stacktrace.i"
+	@echo "... Forking/stacktrace.s"
+	@echo "... Forking/util.o"
+	@echo "... Forking/util.i"
+	@echo "... Forking/util.s"
 	@echo "... GccStrncpyBug/gcc_strncpy_bypass_bug.o"
 	@echo "... GccStrncpyBug/gcc_strncpy_bypass_bug.i"
 	@echo "... GccStrncpyBug/gcc_strncpy_bypass_bug.s"
@@ -1155,6 +1443,15 @@ help:
 	@echo "... MusicLibraryOrganizer/song_node.o"
 	@echo "... MusicLibraryOrganizer/song_node.i"
 	@echo "... MusicLibraryOrganizer/song_node.s"
+	@echo "... Piping/piping.o"
+	@echo "... Piping/piping.i"
+	@echo "... Piping/piping.s"
+	@echo "... Piping/stacktrace.o"
+	@echo "... Piping/stacktrace.i"
+	@echo "... Piping/stacktrace.s"
+	@echo "... Piping/util.o"
+	@echo "... Piping/util.i"
+	@echo "... Piping/util.s"
 	@echo "... Shell/aliases.o"
 	@echo "... Shell/aliases.i"
 	@echo "... Shell/aliases.s"
@@ -1164,6 +1461,9 @@ help:
 	@echo "... Shell/builtins.o"
 	@echo "... Shell/builtins.i"
 	@echo "... Shell/builtins.s"
+	@echo "... Shell/cd.o"
+	@echo "... Shell/cd.i"
+	@echo "... Shell/cd.s"
 	@echo "... Shell/shell.o"
 	@echo "... Shell/shell.i"
 	@echo "... Shell/shell.s"
@@ -1173,9 +1473,9 @@ help:
 	@echo "... Shell/stacktrace.o"
 	@echo "... Shell/stacktrace.i"
 	@echo "... Shell/stacktrace.s"
-	@echo "... Shell/test_split.o"
-	@echo "... Shell/test_split.i"
-	@echo "... Shell/test_split.s"
+	@echo "... Shell/test_argv.o"
+	@echo "... Shell/test_argv.i"
+	@echo "... Shell/test_argv.s"
 	@echo "... Shell/util.o"
 	@echo "... Shell/util.i"
 	@echo "... Shell/util.s"

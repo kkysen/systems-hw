@@ -19,12 +19,6 @@
     #include <execinfo.h>
 #endif
 
-#define PTR_MAX_STRLEN (((sizeof(void *) * 8) / 4) + 1)
-
-#ifndef PATH_MAX
-    #define PATH_MAX 4096
-#endif
-
 #ifdef __APPLE__
     #define addr2line_base "atos -o "
 #else

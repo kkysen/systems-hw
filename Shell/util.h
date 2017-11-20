@@ -11,6 +11,12 @@ typedef unsigned int uint;
 
 #define arraylen(array) (sizeof((array)) / sizeof(*(array)))
 
+#define PTR_MAX_STRLEN (((sizeof(void *) * 8) / 4) + 1)
+
+#ifndef PATH_MAX
+    #define PATH_MAX 4096
+#endif
+
 char *copy_str(const char *s);
 
 #endif //SYSTEMS_UTIL_H

@@ -18,6 +18,7 @@
 #include "shell_util.h"
 #include "builtins.h"
 #include "aliases.h"
+#include "cd.h"
 
 const bool RAW_TTY = false;
 
@@ -52,6 +53,7 @@ void init_shell() {
     set_stack_trace_signal_handler();
     setup_tty();
     HOME = getenv("HOME");
+    set_current_dir();
 }
 
 static char *line = NULL;
@@ -158,7 +160,7 @@ int execute() {
 void loop() {
     int status;
     do {
-        printf(">");
+        printf("%s$ ", CURRENT_DIR);
         char *const line = read_line();
         if (!line) {
             printf("\n");

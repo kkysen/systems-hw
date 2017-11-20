@@ -6,6 +6,7 @@
       <w>arraysize</w>
       <w>closedir</w>
       <w>collatz</w>
+      <w>cpid</w>
       <w>delim</w>
       <w>dest</w>
       <w>fdopendir</w>

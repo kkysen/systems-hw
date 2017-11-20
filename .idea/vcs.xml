@@ -2,15 +2,18 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ArgParse" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ArrayPointers" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/BackupStrings" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/DevRandom" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Euler" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FileStats" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Forking" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GccStrncpyBug" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/LinkedList" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ListDir" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/MusicLibraryOrganizer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Piping" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SignalHandlerExample" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/StringFunctionDemonstrations" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Strings" vcs="Git" />
