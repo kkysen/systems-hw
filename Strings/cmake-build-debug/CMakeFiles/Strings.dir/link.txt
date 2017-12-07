@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Strings.dir/string_funcs.c.o CMakeFiles/Strings.dir/string_tests.c.o CMakeFiles/Strings.dir/alias.c.o CMakeFiles/Strings.dir/python.c.o CMakeFiles/Strings.dir/io.c.o  -o Strings.exe -Wl,--out-implib,libStrings.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

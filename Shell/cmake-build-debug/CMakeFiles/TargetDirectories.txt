@@ -1,0 +1,5 @@
+/cygdrive/c/Users/kkyse/workspace/Systems/Shell/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/kkyse/workspace/Systems/Shell/cmake-build-debug/CMakeFiles/test_str_utils.dir
+/cygdrive/c/Users/kkyse/workspace/Systems/Shell/cmake-build-debug/CMakeFiles/WinShell.dir
+/cygdrive/c/Users/kkyse/workspace/Systems/Shell/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/kkyse/workspace/Systems/Shell/cmake-build-debug/CMakeFiles/Shell.dir

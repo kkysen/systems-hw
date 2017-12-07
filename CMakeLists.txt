@@ -4,16 +4,11 @@ project(Systems)
 set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCE_FILES
-        main.c
         Euler/euler.c
-        test.c
         ArrayPointers/arrays_pointers.c
         StringFunctionDemonstrations/string_function_demos.c
         Strings/string_funcs.c
         Strings/string_tests.c
-        Strings/fb.h
-        Strings/alias.c
-        Strings/python.c
         BackupStrings/string_funcs.c
         BackupStrings/string_tests.c
         LinkedList/linked_list.c

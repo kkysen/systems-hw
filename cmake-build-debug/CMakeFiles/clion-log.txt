@@ -1,15 +1,4 @@
 C:\Users\kkyse\.CLion2017.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/kkyse/workspace/Systems
 -- Configuring done
-CMake Error at CMakeLists.txt:123 (add_executable):
-  Cannot find source file:
-
-    Strings/fb.h
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
-  .hxx .in .txx
-
-
-CMake Error: CMake can not determine linker language for target: Systems
-CMake Error: Cannot determine link language for target "Systems".
 -- Generating done
 -- Build files have been written to: /cygdrive/c/Users/kkyse/workspace/Systems/cmake-build-debug

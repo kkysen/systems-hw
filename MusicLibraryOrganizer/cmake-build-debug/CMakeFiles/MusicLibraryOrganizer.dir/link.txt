@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/MusicLibraryOrganizer.dir/main.c.o CMakeFiles/MusicLibraryOrganizer.dir/song.c.o CMakeFiles/MusicLibraryOrganizer.dir/song_library.c.o CMakeFiles/MusicLibraryOrganizer.dir/song_node.c.o  -o MusicLibraryOrganizer.exe -Wl,--out-implib,libMusicLibraryOrganizer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

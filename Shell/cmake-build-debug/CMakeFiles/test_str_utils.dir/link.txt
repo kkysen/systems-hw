@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/test_str_utils.dir/test/test_str_utils.c.o CMakeFiles/test_str_utils.dir/util/str_utils.c.o  -o test_str_utils.exe -Wl,--out-implib,libtest_str_utils.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/ListDir.dir/file_stats.c.o CMakeFiles/ListDir.dir/listdir.c.o  -o ListDir.exe -Wl,--out-implib,libListDir.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

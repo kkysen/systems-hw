@@ -52,8 +52,6 @@ Mkfile.old
 dkms.conf
 
 # My Stuff
-.idea
 .git/
 .gitignore
 .gitmodules
-#*/LICENSE
