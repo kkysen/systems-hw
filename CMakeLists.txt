@@ -43,24 +43,6 @@ set(SOURCE_FILES
         SignalHandlerExample/stacktrace.h
         SignalHandlerExample/sigaction.h
         Exec/exec.c
-        Shell/shell.c
-        Shell/shell.h
-        Shell/test_argv.c
-        Shell/argv.c
-        Shell/argv.h
-        Shell/util.c
-        Shell/util.h
-        Shell/stacktrace.c
-        Shell/stacktrace.h
-        Shell/sigaction.h
-        Shell/builtins.c
-        Shell/builtins.h
-        Shell/shell_util.c
-        Shell/shell_util.h
-        Shell/aliases.c
-        Shell/aliases.h
-        Shell/cd.c
-        Shell/cd.h
         ArgParse/arg_parse.c
         ArgParse/util.c
         ArgParse/util.h
@@ -79,5 +61,64 @@ set(SOURCE_FILES
         Piping/sigaction.h
         Piping/stacktrace.c
         Piping/stacktrace.h
+        Shell/aliases.c
+        Shell/aliases.h
+        Shell/builtins/builtins.c
+        Shell/builtins/builtins.h
+        Shell/builtins/cd.c
+        Shell/builtins/cd.h
+        Shell/shell.c
+        Shell/shell.h
+        Shell/shell_utils.c
+        Shell/shell_utils.h
+        Shell/util/sigaction.h
+        Shell/util/stacktrace.c
+        Shell/util/stacktrace.h
+        Shell/test/test_argv.c
+        Shell/util/utils.c
+        Shell/util/utils.h
+        Shell/argvv.c
+        Shell/argvv.h
+        Shell/preprocessing.c
+        Shell/preprocessing.h
+        Shell/util/str_utils.c
+        Shell/util/str_utils.h
+        Shell/shell_io.c
+        Shell/shell_io.h
+        Shell/builtins/exit.c
+        Shell/builtins/exit.h
+        Shell/builtins/alias.c
+        Shell/builtins/alias.h
+        Shell/builtins/unalias.c
+        Shell/builtins/unalias.h
+        Shell/builtins/source.c
+        Shell/builtins/source.h
+        Shell/util/io_utils.c
+        Shell/util/io_utils.h
+        Shell/test/test_str_utils.c
+        Shell/run_commands.c
+        Shell/run_commands.h
+        Shell/util/pipes.c
+        Shell/util/pipes.h
+        Shell/util/semaphores.c
+        Shell/util/semaphores.h
+        Shell/util/shared_memory.c
+        Shell/util/shared_memory.h
+        Shell/util/shared_locks.c
+        Shell/util/shared_locks.h
+        Shell/util/string_builder.c
+        Shell/util/string_builder.h
+        Shell/test/test_string_builder.c
+        Shell/builtins/pid.c
+        Shell/builtins/pid.h
+        Shell/chars.c
+        SemaphoreController/semaphore_controller.c
+        SemaphoreController/util/sigaction.h
+        SemaphoreController/util/stacktrace.c
+        SemaphoreController/util/stacktrace.h
+        SemaphoreController/util/string_builder.h
+        SemaphoreController/util/string_builder.h
+        SemaphoreController/util/utils.c
+        SemaphoreController/util/utils.h
         )
 add_executable(Systems ${SOURCE_FILES})

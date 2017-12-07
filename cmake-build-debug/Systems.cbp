@@ -215,28 +215,94 @@
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Piping/util.h">
 			<Option target="Systems"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/SemaphoreController/semaphore_controller.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/SemaphoreController/util/sigaction.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/SemaphoreController/util/stacktrace.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/SemaphoreController/util/stacktrace.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/SemaphoreController/util/string_builder.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/SemaphoreController/util/utils.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/SemaphoreController/util/utils.h">
+			<Option target="Systems"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/aliases.c">
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/aliases.h">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/argv.c">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/argvv.c">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/argv.h">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/argvv.h">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins.c">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/alias.c">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins.h">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/alias.h">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/cd.c">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/builtins.c">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/cd.h">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/builtins.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/cd.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/cd.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/exit.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/exit.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/pid.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/pid.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/source.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/source.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/unalias.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/builtins/unalias.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/chars.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/preprocessing.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/preprocessing.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/run_commands.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/run_commands.h">
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell.c">
@@ -245,28 +311,82 @@
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell.h">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell_util.c">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell_io.c">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell_util.h">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell_io.h">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/sigaction.h">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell_utils.c">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/stacktrace.c">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/shell_utils.h">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/stacktrace.h">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/test/test_argv.c">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/test_argv.c">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/test/test_str_utils.c">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util.c">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/test/test_string_builder.c">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util.h">
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/io_utils.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/io_utils.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/pipes.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/pipes.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/semaphores.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/semaphores.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/shared_locks.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/shared_locks.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/shared_memory.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/shared_memory.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/sigaction.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/stacktrace.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/stacktrace.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/str_utils.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/str_utils.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/string_builder.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/string_builder.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/utils.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Shell/util/utils.h">
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/SignalHandlerExample/sigaction.h">
