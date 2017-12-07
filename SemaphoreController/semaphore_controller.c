@@ -3,6 +3,7 @@
 //
 
 #include <semaphore.h>
+#include <limits.h>
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <stdio.h>
@@ -10,10 +11,15 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <assert.h>
-#include <limits.h>
 
 #include "util/stacktrace.h"
 #include "util/utils.h"
+
+/*
+ * I used the newer and simpler POSIX semaphores
+ * instead of the older, more complicated System V semaphores,
+ * whose API we learned in class.
+ */
 
 typedef sem_t Semaphore;
 
@@ -26,7 +32,7 @@ int create_semaphore(const char *const semaphore_name, const int initial_value) 
         }
         errno = 0;
         printf("The semaphore named \"%s\" already exists.\n", semaphore_name);
-        return 0;
+        return 1;
     }
     
     if (sem_close(semaphore) == -1) {
@@ -47,8 +53,9 @@ int read_semaphore(const char *const semaphore_name, int *const semaphore_value)
         printf("The semaphore named \"%s\" doesnt exist yet.\n"
                        "You must create it first "
                        "by running \"%s -c N\", "
-                       "where N = the initial value of the semaphore.",
+                       "where N = the initial value of the semaphore.\n",
                semaphore_name, semaphore_name);
+        return 1;
     }
     
     if (sem_getvalue(semaphore, semaphore_value) == -1) {
@@ -65,6 +72,10 @@ int read_semaphore(const char *const semaphore_name, int *const semaphore_value)
 
 int destroy_semaphore(const char *const semaphore_name) {
     if (sem_unlink(semaphore_name) == -1) {
+        if (errno == ENOENT) {
+            errno = 0;
+            return 1;
+        }
         perror("sem_unlink");
         return -1;
     }
@@ -73,9 +84,10 @@ int destroy_semaphore(const char *const semaphore_name) {
 
 void usage(const char *const program_name) {
     printf("Usage: %s -flag:\n"
-                   "\t-c N: create a semaphore if it doesn't exist with an initial value of N\n"
-                   "\t-v: view the current value of the semaphore\n"
-                   "\t-r: remove the semaphore\n", program_name);
+                   "    where -flag = \n"
+                   "        -c N: create a semaphore if it doesn't exist with an initial value of N\n"
+                   "        -v: view the current value of the semaphore\n"
+                   "        -r: remove the semaphore\n", program_name);
 }
 
 #define einval(assertion, message) \
@@ -110,20 +122,28 @@ int main(const int argc, const char *const *const argv) {
             einval(initial_value_long < 0, "N must be a positive");
             einval(initial_value_long > INT_MAX, "N must be a positive, signed 32-bit integer");
             const int initial_value = (int) initial_value_long;
-            assert(create_semaphore(semaphore_name, initial_value));
+            assert(create_semaphore(semaphore_name, initial_value) != -1);
             break;
         }
         case 'v': {
             einval(argc != 2, "no arguments may follow -v");
             int semaphore_value;
-            assert(read_semaphore(semaphore_name, &semaphore_value) != -1);
-            printf("The value of the semaphore named \"%s\" is: %d.\n",
+            const int ret_val = read_semaphore(semaphore_name, &semaphore_value);
+            assert(ret_val != -1);
+            if (ret_val != 0) {
+                break;
+            }
+            printf("The value of the semaphore named \"%s\" is %d.\n",
                    semaphore_name, semaphore_value);
             break;
         }
         case 'r': {
             einval(argc != 2, "no arguments may follow -r");
-            assert(destroy_semaphore(semaphore_name) != -1);
+            const int ret_val = destroy_semaphore(semaphore_name);
+            assert(ret_val != -1);
+            if (ret_val != 0) {
+                break;
+            }
             printf("Removed the semaphore named \"%s\".\n", semaphore_name);
             break;
         }
