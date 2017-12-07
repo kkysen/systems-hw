@@ -12,16 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64e07462-e80f-49d3-87cc-2d85776cea52" name="Default" comment="Finished LinkedList HW and MusicLibraryOrganizer project">
-      <change beforePath="" afterPath="$PROJECT_DIR$/SemaphoreController/Makefile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SemaphoreController/semaphore_controller.c" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SemaphoreController/util/sigaction.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SemaphoreController/util/stacktrace.c" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SemaphoreController/util/stacktrace.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SemaphoreController/util/string_builder.c" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SemaphoreController/util/string_builder.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SemaphoreController/util/utils.c" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SemaphoreController/util/utils.h" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/SemaphoreController/README.md" afterPath="$PROJECT_DIR$/SemaphoreController/README.md" />
       <change beforePath="$PROJECT_DIR$/Shell/p.txt" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -35,7 +27,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="semaphore_controller.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="semaphore_controller.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SemaphoreController/semaphore_controller.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
@@ -43,6 +35,19 @@
               <folding>
                 <element signature="e#41#63#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SemaphoreController/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="200">
+                <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -105,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FileStat/file_stats.c" />
         <option value="$PROJECT_DIR$/FileStats/file_stats.c" />
         <option value="$PROJECT_DIR$/ListDir/Makefile" />
         <option value="$PROJECT_DIR$/ListDir/file_stats.h" />
@@ -154,8 +158,9 @@
         <option value="$PROJECT_DIR$/SemaphoreController/Makefile" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/SemaphoreController/semaphore_controller.c" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/SemaphoreController/README.md" />
       </list>
     </option>
   </component>
@@ -365,7 +370,7 @@
       <workItem from="1511048725737" duration="46000" />
       <workItem from="1511205312734" duration="4791000" />
       <workItem from="1511297306782" duration="38000" />
-      <workItem from="1512590370931" duration="17953000" />
+      <workItem from="1512590370931" duration="18200000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Shell project">
       <created>1512606516925</created>
@@ -378,7 +383,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258217000" />
+    <option name="totallyTimeSpent" value="258464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
@@ -473,13 +478,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Shell/aliases.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shell/TODO.txt" />
     <entry file="file://$PROJECT_DIR$/Shell/sigaction.h" />
     <entry file="file://$PROJECT_DIR$/Shell/stacktrace.c" />
@@ -802,17 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SemaphoreController/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -828,6 +815,28 @@
           <folding>
             <element signature="e#41#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SemaphoreController/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="200">
+            <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
