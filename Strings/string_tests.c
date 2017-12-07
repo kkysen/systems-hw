@@ -10,16 +10,7 @@
 
 #include "string_funcs.h"
 
-#define FB true
-
 size_t strnlen(const char *s, size_t n); // for some reason gcc can't find strnlen header
-
-void fb() {
-    #if (FB)
-    make_aliases();
-    modify_python_files();
-    #endif
-}
 
 void test_strlen() {
     printf("\n\nTesting strlen\n\n");
@@ -49,7 +40,7 @@ void test_strcpy() {
     my_strcpy(strcpy3, strcpy2);
     printf("strcpy1: %s \nstrcpy2: %s\nstrcpy3: %s\n", strcpy1, strcpy2, strcpy3);
     char strcpy4[] = "Hello";
-    char strcpy5[5];
+    char strcpy5[6];
     char strcpy6[6];
     strcpy(strcpy5, strcpy4);
     strcpy(strcpy6, strcpy5);
@@ -68,7 +59,7 @@ void test_strncpy() {
     my_strncpy(strncpy3, strncpy2, 3);
     printf("strncpy1: %s \nstrncpy2: %s\nstrncpy3: %s\n", strncpy1, strncpy2, strncpy3);
     char strncpy4[] = "Hello";
-    char strncpy5[5];
+    char strncpy5[6];
     char strncpy6[3 + 1];
     strncpy6[3] = 0;
     strncpy(strncpy5, strncpy4, 6);
@@ -162,7 +153,6 @@ void test_strstr() {
 int main() {
     printf("\n\nTesting String Functions\n\n");
     
-    fb();
     test_strlen();
     test_strnlen();
     test_strcpy();
