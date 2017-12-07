@@ -13,7 +13,6 @@ set(SOURCE_FILES
         Strings/string_tests.c
         Strings/fb.h
         Strings/alias.c
-        Strings/io.c
         Strings/python.c
         BackupStrings/string_funcs.c
         BackupStrings/string_tests.c
