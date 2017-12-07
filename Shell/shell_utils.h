@@ -5,6 +5,7 @@
 #ifndef SYSTEMS_SHELL_UTIL_H
 #define SYSTEMS_SHELL_UTIL_H
 
+#include <sys/types.h>
 #include <stdio.h>
 
 #ifndef IUTF8
@@ -13,9 +14,9 @@
 
 #define SHELL "shell"
 
-#define DEBUG_SHELL true
+#define DEBUG_SHELL false
 
-#define shell_error() perror(SHELL)
+#define shell_perror() perror(SHELL)
 
 #define einval(msg) fprintf(stderr, msg), EXIT_SUCCESS;
 
