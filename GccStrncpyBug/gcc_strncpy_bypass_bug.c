@@ -6,7 +6,7 @@
 #include <string.h>
 #include <stdio.h>
 
-int main(const int argc, const char *const *const argv) {
+int _main(const int argc, const char *const *const argv) {
     size_t x = (.33333333333 * 3.001000000000 > 1) ? 3 : 10;
     size_t len = argc <= 1 ? x : (size_t) strtoul(argv[1], NULL, 10);
     

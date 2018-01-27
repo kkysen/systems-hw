@@ -36,7 +36,6 @@ set(SOURCE_FILES
         SignalHandlerExample/stacktrace.c
         SignalHandlerExample/stacktrace.h
         SignalHandlerExample/sigaction.h
-        Exec/exec.c
         ArgParse/arg_parse.c
         ArgParse/util.c
         ArgParse/util.h
@@ -114,5 +113,68 @@ set(SOURCE_FILES
         SemaphoreController/util/string_builder.h
         SemaphoreController/util/utils.c
         SemaphoreController/util/utils.h
-        )
+        StoryGameCopy/khyber/story.h
+        StoryGameCopy/khyber/story_controller.c
+        StoryGameCopy/khyber/util/sigaction.h
+        StoryGameCopy/khyber/util/stacktrace.c
+        StoryGameCopy/khyber/util/stacktrace.h
+        StoryGameCopy/khyber/util/string_builder.c
+        StoryGameCopy/khyber/util/string_builder.h
+        StoryGameCopy/khyber/util/utils.c
+        StoryGameCopy/khyber/util/utils.h
+        StoryGameCopy/khyber/util/ipc_utils.c 
+        StoryGameCopy/khyber/util/ipc_utils.h 
+        StoryGameCopy/khyber/util/resource_utils.c 
+        StoryGameCopy/khyber/util/resource_utils.h 
+        StoryGameCopy/khyber/util/io_utils.c 
+        StoryGameCopy/khyber/util/io_utils.h 
+        StoryGameCopy/khyber/story_controller.h 
+        StoryGameCopy/khyber/client.c 
+        StoryGameCopy/khyber/client.h 
+        StoryGameCopy/khyber/story.c 
+        StoryGameCopy/khyber/control.c
+        StoryGame/client.c
+        StoryGame/control.c
+        StoryGame/head.h
+        LocalPipeNetworking/pipe_networking.c
+        LocalPipeNetworking/pipe_networking.h
+        LocalPipeNetworking/client.c
+        LocalPipeNetworking/client.h
+        LocalPipeNetworking/basic_server.c
+        LocalPipeNetworking/basic_server.h
+        LocalPipeNetworking/util/sigaction.h
+        LocalPipeNetworking/util/stacktrace.c
+        LocalPipeNetworking/util/stacktrace.h
+        LocalPipeNetworking/util/string_builder.c
+        LocalPipeNetworking/util/string_builder.h
+        LocalPipeNetworking/util/string_utils.c
+        LocalPipeNetworking/util/string_utils.h
+        LocalPipeNetworking/util/utils.c
+        LocalPipeNetworking/util/utils.h
+        LocalPipeNetworking/util/random.c
+        LocalPipeNetworking/util/random.h
+        LocalPipeNetworking/util/io.h
+        ForkingServer/pipe_networking.c
+        ForkingServer/pipe_networking.h
+        ForkingServer/client.c
+        ForkingServer/client.h
+        ForkingServer/basic_server.c
+        ForkingServer/basic_server.h
+        ForkingServer/util/sigaction.h
+        ForkingServer/util/stacktrace.c
+        ForkingServer/util/stacktrace.h
+        ForkingServer/util/string_builder.c
+        ForkingServer/util/string_builder.h
+        ForkingServer/util/string_utils.c
+        ForkingServer/util/string_utils.h
+        ForkingServer/util/utils.c
+        ForkingServer/util/utils.h
+        ForkingServer/util/random.c
+        ForkingServer/util/random.h
+        ForkingServer/util/io.h
+        ForkingServer/src/client.c
+        ForkingServer/src/forking_server.c
+        ForkingServer/src/pipe_networking.c
+        ForkingServer/src/pipe_networking.h
+        ForkingServer/forking_server.c ForkingServer/forking_server.h ForkingServer/util/sigaction.c ForkingServer/util/hash.c ForkingServer/util/hash.h ForkingServer/modify_text.c ForkingServer/modify_text.h ForkingServer/util/io.c ForkingServer/util/sized_string.c ForkingServer/util/sized_string.h)
 add_executable(Systems ${SOURCE_FILES})

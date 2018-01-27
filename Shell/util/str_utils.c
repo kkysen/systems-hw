@@ -3,11 +3,12 @@
 //
 
 #include "str_utils.h"
-#include "utils.h"
 
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+
+#include "utils.h"
 
 char *str_copy_n(const char *const s, const size_t length) {
     const size_t size = (length + 1) * sizeof(char);

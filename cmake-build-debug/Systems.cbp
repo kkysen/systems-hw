@@ -119,9 +119,6 @@
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Euler/euler.c">
 			<Option target="Systems"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Exec/exec.c">
-			<Option target="Systems"/>
-		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/FileStats/file_stats.c">
 			<Option target="Systems"/>
 		</Unit>
@@ -141,6 +138,102 @@
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Forking/util.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/basic_server.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/basic_server.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/client.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/client.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/forking_server.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/forking_server.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/modify_text.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/modify_text.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/pipe_networking.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/pipe_networking.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/src/client.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/src/forking_server.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/src/pipe_networking.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/src/pipe_networking.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/hash.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/hash.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/io.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/io.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/random.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/random.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/sigaction.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/sigaction.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/sized_string.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/sized_string.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/stacktrace.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/stacktrace.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/string_builder.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/string_builder.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/string_utils.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/string_utils.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/utils.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ForkingServer/util/utils.h">
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/GccStrncpyBug/gcc_strncpy_bypass_bug.c">
@@ -171,6 +264,60 @@
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/ListDir/listdir.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/basic_server.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/basic_server.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/client.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/client.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/pipe_networking.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/pipe_networking.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/util/io.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/util/random.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/util/random.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/util/sigaction.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/util/stacktrace.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/util/stacktrace.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/util/string_builder.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/util/string_builder.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/util/string_utils.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/util/string_utils.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/util/utils.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/LocalPipeNetworking/util/utils.h">
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/MusicLibraryOrganizer/main.c">
@@ -405,6 +552,75 @@
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/Stacktrace/stacktrace.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGame/client.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGame/control.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGame/head.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/client.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/client.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/control.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/story.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/story.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/story_controller.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/story_controller.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/util/io_utils.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/util/io_utils.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/util/ipc_utils.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/util/ipc_utils.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/util/resource_utils.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/util/resource_utils.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/util/sigaction.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/util/stacktrace.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/util/stacktrace.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/util/string_builder.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/util/string_builder.h">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/util/utils.c">
+			<Option target="Systems"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StoryGameCopy/khyber/util/utils.h">
 			<Option target="Systems"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/kkyse/workspace/Systems/StringFunctionDemonstrations/string_function_demos.c">

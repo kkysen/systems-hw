@@ -43,7 +43,7 @@ int print_file_stats(const char *const path) {
     return 0;
 }
 
-int main(const int argc, const char *const *const argv) {
+int _main(const int argc, const char *const *const argv) {
     printf("\n\nPrinting file stats about this executable (%s)\n", argv[0]);
     if (print_file_stats(argv[0]) == -1) {
         exit(EXIT_FAILURE);

@@ -4,17 +4,27 @@
       <w>addr</w>
       <w>arraylen</w>
       <w>arraysize</w>
+      <w>atexit</w>
+      <w>calloc</w>
       <w>closedir</w>
       <w>collatz</w>
       <w>cpid</w>
       <w>delim</w>
       <w>dest</w>
+      <w>eexist</w>
+      <w>eexists</w>
+      <w>enoent</w>
       <w>fdopendir</w>
       <w>fopen</w>
+      <w>fprint</w>
       <w>fstatat</w>
+      <w>getpid</w>
+      <w>hashsum</w>
+      <w>hashsums</w>
       <w>iutf</w>
       <w>jawad</w>
       <w>membersize</w>
+      <w>mkfifo</w>
       <w>multiline</w>
       <w>ncat</w>
       <w>ncmp</w>
@@ -24,8 +34,17 @@
       <w>opendir</w>
       <w>printf</w>
       <w>proc</w>
+      <w>rdonly</w>
       <w>readdir</w>
       <w>readlink</w>
+      <w>semctl</w>
+      <w>semget</w>
+      <w>semid</w>
+      <w>semop</w>
+      <w>shmat</w>
+      <w>shmctl</w>
+      <w>shmget</w>
+      <w>shmid</w>
       <w>sigemptyset</w>
       <w>sighandler</w>
       <w>sigusr</w>
@@ -41,10 +60,14 @@
       <w>strsep</w>
       <w>strstr</w>
       <w>stty</w>
+      <w>subserver</w>
       <w>subsignal</w>
+      <w>templated</w>
       <w>termios</w>
       <w>unalias</w>
       <w>wmissing</w>
+      <w>wronly</w>
+      <w>xopen</w>
     </words>
   </dictionary>
 </component>

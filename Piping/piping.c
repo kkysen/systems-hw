@@ -31,7 +31,7 @@ const Pipe open_pipe() {
     return pipe_;
 }
 
-int main(const int argc, const char *const *const argv) {
+int _main(const int argc, const char *const *const argv) {
     set_stack_trace_signal_handler();
     
     const Pipe pipe1 = open_pipe();

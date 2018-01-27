@@ -1,0 +1,222 @@
+
+
+khyberS -- 2017-12-25 04:00:55
+Added a bunch of my utility code from past projects under src/util/.
+    string_utils.h contains a bunch of useful string functions.
+    stacktrace.h can set a signal handler that prints a stacktrace on any signal, including SIGSEGV.
+    utils.h has a bunch of useful error message and debug macros.
+    The other files have some other things that might be useful later.
+Added sdl_utils.h, which contains useful error message and debug macros for SDL errors.
+Added sdl_colors.h, which has named color constants.
+Fixed some of the code in vector.h and wrote as much of it with macros,
+    so that the vector doesn't have to be copied on each function call.
+    The ones that I couldn't macro-ize, I inlined.
+Rewrote most of the main.c code in game.h using a Game struct that contains all the data for a single game.
+    Game_init() is a pseudo-constructor that initializes the SDL stuff and allocates memory for other fields,
+        and it handles errors well, propagating -1 returns and printout out error messages and line numbers.
+    Game_destroy() destroys and frees all the SDL and other allocated memory,
+        and sets all the fields to 0 or NULL or the appropriate base value.
+    Game_add_player() just adds a new players to the game through the Players *players field (see below).
+    Game_run() starts and runs the core game loop.
+        On every frame, it checks to see if Game.interrupt, a function pointer, has been set.
+        If it has, then it is called.
+        This allows another thread to interrupt the game in anyway it desires,
+        such as setting Game.is_running = false to pause the game
+        or setting Game.quit = true to quit the game.
+        It always calls Game_loop().
+    Game_loop() runs the each core game loop.
+        It fetches the current time/tick using SDL_GetPerformanceCounter()
+        and computes the delta_time compared to the Game.prev_time
+        in seconds, using SDL_GetPerformanceFrequency().
+        This delta_time is used to call Game_update(),
+        and then Game_render() is called.
+        (V-Sync takes care of ensuring that FPS doesn't go higher than necessary).
+        Game.prev_time is always updated, even if Game.is_running is false.
+    Game_update() updates the entire tree of game objects according to a delta_time.
+        Right now, the tree of game objects only consists of the players in Game.players,
+        but it will later include everything else as well, such as bullets and obstacles.
+    Game_render() renders every game object given an SDL_Renderer.
+        This is called after Game_update() has been called for each game object.
+        Before calling rendering the game objects, Game_renders() clears the screen with black,
+        and after rendering the game objects, it calls SDL_RenderPresent() to actually render everything.
+Wrote the Players struct in players.h.
+    Players keeps track of a dynamic array of players, with a maximum number of players set (a uint8_t).
+    It has functions to add players (Players_add()),
+    update them (Players_update()), and render them (Players_render()).
+    The latter two just call Player_update() and Player_render(), respectively, on each Player in the array.
+Created mostly empty files for Bullet, Obstacle, Bullets, and Obstacles,
+    which will have a similar relationship as Player and Players.
+
+khyberS -- 2017-12-26 16:22:23
+Added a Game_hash() method that hashes all the game objects and other fields.
+    This can be used to communicate between server and client and
+    ensure that both game simulations are accurate, i.e. they have the same hash.
+    By using a hash, everything doesn't have to be compared, just a long sent over network to verify.
+    A client could potentially try to do something illegal, and this will allow the server to verify
+    that the server and client game simulations are synced.
+    The hashing uses 64-bit hash methods in hash.h,
+    such as FNV-1a for strings and
+    a weird method I came up multiply the hash as a double with the previous hash
+    and reinterpreting it as a uint64_t again.
+Typedef'd the Game.interruptor field to GameInterruptor and created default GameInterruptors.
+    By setting the volatile Game.interruptor field,
+    the function will be safely called to modify the game in the game thread.
+    This can pause the game (GameInterruptor_pause()) or quit the game (GameInterruptor_quit())
+    and potentially anything else.
+    Game_pause() and Game_quit() just set these interruptors for the game.
+Game_new() allocated and initializes a new Game with default values using Game_init().
+Create a Sprite struct
+    that contains an SDL_Texture*,
+    the width and height of the texture,
+    and the GameTexture enum as a unique id.
+Created a lazy, caching mechanism for loading SDL_Textures and their corresponding Sprites.
+    get_sprite() returns a Sprite* into a static array according to a GameTexture.
+        If the Sprite for that GameTexture has already been loaded, it's returned.
+        Otherwise, the SDL_Texture* is loaded and the new Sprite created and returned.
+    get_texture() does the same, just using the SDL_Texture* texture field in Sprite.
+    get_sprite() and get_texture() both take a SDL_Renderer*,
+        because it's necessary for IMG_LoadTexture(), which actually loads the SDL_Texture*.
+    The GameTexture enum is mapped to a static array of filenames in the src/textures/ directory,
+        such that each GameTexture corresponds to a texture file in src/textures/,
+        which is loaded into the Sprite[].
+
+khyberS -- 2017-12-26 20:51:11
+Updated DESIGN.txt with a better explanation of the game and more data structures and algorithms.
+
+khyberS -- 2017-12-27 04:28:10
+Got everything to compile correctly and start running,
+    but on my Windows laptop w/ Cygwin,
+    SDL_Init() fails because SDL_GetNumVideoDisplays() == 0
+    and thus there are no available video devices.
+
+khyberS -- 2017-12-28 15:49:52
+Got the game to actually start and render a static spaceship correctly.
+    It only works on my Ubuntu VM right now, not Windows, which is unfortunate, but okay.
+Made some changes to Game, GameState, and Player.
+    Figured out how to somewhat simulate access modifiers by creating overlapping fields through unions,
+        where one version of the field is mutable and the other is const.
+Added branchless clamp() and Vector_clamp() functions (macros) in Vector.h
+    which ensure a value is between two other values
+    without using any branching if statements, but instead the branchless, optimized fmaxf() and fminf().
+Added a Game_quit_later() method that quits the game (double) seconds later.
+    This is down by spawning a new thread that sleeps for that many seconds and then calls Game_quit().
+    Added a double_sleep() function that sleeps for that many seconds specified as a double.
+Fixed Player so that its position is the center of the sprite.
+    Also added Sprite.center, which is the float center of the size of the sprite.
+    This is useful in calculating the SDL_Rect border of the spaceship that should be rendered.
+Wrote most of Player_render() so that it render's the spaceship
+    with the correct size and position.
+    However, the orientation doesn't rotate around the correct center right now,
+    even though I set the rotation center as Player.position as an SDL_Point.
+
+khyberS -- 2017-12-29 02:51:17
+Added todo.txt containing stuff we need to do.
+    Right now, I added mostly network stuff.
+Added install-libffcall.sh, an install script for libffcall,
+    which lets us create native closures in C,
+    which in turn allows us to create native OOP in C.
+    We're thinking about using this if it's easy enough to use and useful enough.
+
+khyberS -- 2018-01-23 22:02:49
+Added documentation to reaction.h and reaction.c, including Reaction_example().
+Commented out the SHA hash stuff in hash.c that's not needed right now.
+    This allows us to not link with -lssl, which wasn't working on the school computers.
+Added install-sdl2.sh, a script that installs the necessary SDL2 libraries (including SDL2_image).
+
+khyberS -- 2018-01-23 23:37:05
+Added networking util functions in networking.h that bind, listen, and connect to IP addresses and ports.
+
+khyberS -- 2018-01-24 03:57:44
+Added Game_client_connect() in game_client_connect.h,
+    which connects a client Game to a server Game.
+Some of the helper functions and (de)serialization isn't finished yet,
+    but the main stuff is finished.
+Note: I added the newer Game version in game2.h.
+
+khyberS -- 2018-01-24 04:29:29
+Started adding code for serialization for each of the game objects in src/serialize,
+    but all the actual code isn't written yet, only the headers and default serialize() method.
+
+khyberS -- 2018-01-24 17:56:30
+Finished everything in Game_client_connect()
+    except for choosing the new player's texture and name.
+Wrote serializers and deserializers for Game, GameState, Players, and Player in src/serialize,
+    which don't serialize all data and when deserializing,
+    fill in these fields with client defaults.
+Added the Buffer class,
+    which has the generic macro methods
+    Buffer_put(), Buffer_put_array(), Buffer_get(), and Buffer_get_array().
+buffer.h also has the macro functions set_field_memory() and set_field(),
+    which set const fields or variables using memcpy().
+
+khyberS -- 2018-01-24 18:39:37
+Finished the functions for choosing the new player's texture and name
+    except for the actual functions that read in input (now in client_init_input.h).
+    These functions are repeatedly called until a unique name and texture are chosen.
+
+khyberS -- 2018-01-24 20:33:34
+Wrote all of Game_server_init(),
+    which starts a game server based on GameServerOptions.
+    The Game has to be allocated on the heap because it is shared across threads.
+    A new thread is created to listen for and accept new client connections,
+        and do the other side of Game_client_connect() with them in order to add them to the game.
+
+khyberS -- 2018-01-25 01:27:55
+Added arg_parse.h in src/util, which parses command line arguments into an Options[].
+Wrote Game_server_main(), which is a main() function for the server,
+    which takes command line arguments for the
+    port, title, fps, width, height, and max num players.
+
+adrisJ -- 2018-01-12
+Write SDL Example of creating a window that can be drawn in
+
+adrisJ -- 2018-01-14
+Write basic game example with Game loop and Game tick/render event.
+
+adrisJ -- 2018-01-17
+Write GameObject example where game can hold, render and update multiple game objects
+
+adrisJ -- 2018-01-20
+Test very basic networking across a server and multiple clients
+
+adrisJ -- 2018-01-23
+Revamped networking system: Created protocols for sending data between
+the client and the server, wrote "client_handler.c" and "server_handler.c",
+tested and verified that networking is possible between two different clients
+on a local machine
+Protocol involves giving each client and "id" that the server defines when
+a client connects. This "id" is given to each player object, which then gets
+its inputs based on its "id". This is also how the client identifies its own
+player
+
+adrisJ -- 2018-01-24
+Made networking function with command line arguments
+Implemented networking for updated player objects
+
+adrisJ -- 2018-01-25
+Incorporate networking for bullets and incorporate bullets into the ObjectHandler
+(so bullets can be spawned)
+
+jawadulK -- 2017-12-23
+Created basic game objects like players and vectors and their functions
+
+jawadulK -- 2017-12-26
+Worked on design document
+
+jawadulK -- 2018-01-16
+Reverted to a working version and branched it off
+
+jawadulK -- 2017-1-25
+Edited inputs to be based off mouse events
+
+jawadulK -- 2017-1-25-6
+Several changes to game mechanics
+
+khyberS -- 2017-1-25
+Added sprites,
+    better rendering,
+    clamping to the screen's edges,
+and lots of debugging.
+
+khyberS -- 2017-1-26
+Implemented middle click as a game restart button.

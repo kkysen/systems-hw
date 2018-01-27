@@ -9,14 +9,18 @@
     <mapping directory="$PROJECT_DIR$/Euler" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FileStats" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Forking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ForkingServer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/GccStrncpyBug" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/LinkedList" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ListDir" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LocalPipeNetworking" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/MusicLibraryOrganizer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Piping" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SemaphoreController" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Shell" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SignalHandlerExample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/StoryGame" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/StoryGameCopy" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/StringFunctionDemonstrations" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Strings" vcs="Git" />
   </component>

@@ -156,7 +156,7 @@ bool has_flag(const int argc, const char *const *const argv, const char *const f
     return strcmp(flag, argv[1]) == 0;
 }
 
-int main(const int argc, const char *const *const argv) {
+int _main(const int argc, const char *const *const argv) {
     if (has_flag(argc, argv, "-help")) {
         printf("Usage: ./listdir [-r] <directory>\n");
         printf("    -r: list directory sizes recursively\n");

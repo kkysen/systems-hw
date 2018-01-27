@@ -150,6 +150,8 @@ static void catch_signal_and_print_msg(int signal, int code, StringBuilder *cons
         catch_signal(SIGTERM, "Termination: a termination request was sent to the program");
         catch_signal(SIGABRT, "Abort: usually caused by an abort() or assert()");
         catch_signal(SIGALRM, "Alarm");
+//        catch_signal(SIGQUIT, "Quit");
+        catch_signal(SIGTSTP, "Terminal stop");
         case SIGFPE:
             switch (code) {
                 catch_FPE(FPE_INTDIV, "integer divide by zero");
@@ -237,6 +239,8 @@ void set_stack_trace_signal_handler() {
         add_action(SIGILL);
         add_action(SIGTERM);
         add_action(SIGABRT);
+//        add_action(SIGQUIT);
+        add_action(SIGTSTP);
         
 //        p("set stacktrace signal handler");
     }

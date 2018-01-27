@@ -83,7 +83,7 @@ void recurse(int i) {
     cause_segfault();
 }
 
-int main(const int argc, const char *const *const argv) {
+int _main(const int argc, const char *const *const argv) {
     srand(1);
     set_stack_trace_signal_handler();
     //add_sigaction();

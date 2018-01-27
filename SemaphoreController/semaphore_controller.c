@@ -23,7 +23,7 @@
 
 typedef sem_t Semaphore;
 
-int create_semaphore(const char *const semaphore_name, const int initial_value) {
+int _create_semaphore(const char *const semaphore_name, const int initial_value) {
     Semaphore *semaphore = sem_open(semaphore_name, O_CREAT | O_EXCL, S_IRUSR | S_IWUSR, initial_value);
     if (semaphore == SEM_FAILED) {
         if (errno != EEXIST) {
@@ -42,7 +42,7 @@ int create_semaphore(const char *const semaphore_name, const int initial_value) 
     return 0;
 }
 
-int read_semaphore(const char *const semaphore_name, int *const semaphore_value) {
+int _read_semaphore(const char *const semaphore_name, int *const semaphore_value) {
     Semaphore *semaphore = sem_open(semaphore_name, 0);
     if (semaphore == SEM_FAILED) {
         if (errno != ENOENT) {
@@ -70,7 +70,7 @@ int read_semaphore(const char *const semaphore_name, int *const semaphore_value)
     return 0;
 }
 
-int destroy_semaphore(const char *const semaphore_name) {
+int _destroy_semaphore(const char *const semaphore_name) {
     if (sem_unlink(semaphore_name) == -1) {
         if (errno == ENOENT) {
             errno = 0;
@@ -82,7 +82,7 @@ int destroy_semaphore(const char *const semaphore_name) {
     return 0;
 }
 
-void usage(const char *const program_name) {
+void _usage(const char *const program_name) {
     printf("Usage: %s -flag:\n"
                    "    where -flag = \n"
                    "        -c N: create a semaphore if it doesn't exist with an initial value of N\n"
@@ -96,11 +96,11 @@ void usage(const char *const program_name) {
         return EXIT_FAILURE; \
     }
 
-int main(const int argc, const char *const *const argv) {
+int _main(const int argc, const char *const *const argv) {
     set_stack_trace_signal_handler();
     
     if (argc <= 1) {
-        usage(argv[0]);
+        _usage(argv[0]);
         return EXIT_SUCCESS;
     }
     
@@ -122,13 +122,13 @@ int main(const int argc, const char *const *const argv) {
             einval(initial_value_long < 0, "N must be a positive");
             einval(initial_value_long > INT_MAX, "N must be a positive, signed 32-bit integer");
             const int initial_value = (int) initial_value_long;
-            assert(create_semaphore(semaphore_name, initial_value) != -1);
+            assert(_create_semaphore(semaphore_name, initial_value) != -1);
             break;
         }
         case 'v': {
             einval(argc != 2, "no arguments may follow -v");
             int semaphore_value;
-            const int ret_val = read_semaphore(semaphore_name, &semaphore_value);
+            const int ret_val = _read_semaphore(semaphore_name, &semaphore_value);
             assert(ret_val != -1);
             if (ret_val != 0) {
                 break;
@@ -139,7 +139,7 @@ int main(const int argc, const char *const *const argv) {
         }
         case 'r': {
             einval(argc != 2, "no arguments may follow -r");
-            const int ret_val = destroy_semaphore(semaphore_name);
+            const int ret_val = _destroy_semaphore(semaphore_name);
             assert(ret_val != -1);
             if (ret_val != 0) {
                 break;

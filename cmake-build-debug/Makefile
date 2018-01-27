@@ -339,33 +339,6 @@ Euler/euler.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Euler/euler.c.s
 .PHONY : Euler/euler.c.s
 
-Exec/exec.o: Exec/exec.c.o
-
-.PHONY : Exec/exec.o
-
-# target to build an object file
-Exec/exec.c.o:
-	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Exec/exec.c.o
-.PHONY : Exec/exec.c.o
-
-Exec/exec.i: Exec/exec.c.i
-
-.PHONY : Exec/exec.i
-
-# target to preprocess a source file
-Exec/exec.c.i:
-	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Exec/exec.c.i
-.PHONY : Exec/exec.c.i
-
-Exec/exec.s: Exec/exec.c.s
-
-.PHONY : Exec/exec.s
-
-# target to generate assembly for a file
-Exec/exec.c.s:
-	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Exec/exec.c.s
-.PHONY : Exec/exec.c.s
-
 FileStats/file_stats.o: FileStats/file_stats.c.o
 
 .PHONY : FileStats/file_stats.o
@@ -473,6 +446,465 @@ Forking/util.s: Forking/util.c.s
 Forking/util.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Forking/util.c.s
 .PHONY : Forking/util.c.s
+
+ForkingServer/basic_server.o: ForkingServer/basic_server.c.o
+
+.PHONY : ForkingServer/basic_server.o
+
+# target to build an object file
+ForkingServer/basic_server.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/basic_server.c.o
+.PHONY : ForkingServer/basic_server.c.o
+
+ForkingServer/basic_server.i: ForkingServer/basic_server.c.i
+
+.PHONY : ForkingServer/basic_server.i
+
+# target to preprocess a source file
+ForkingServer/basic_server.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/basic_server.c.i
+.PHONY : ForkingServer/basic_server.c.i
+
+ForkingServer/basic_server.s: ForkingServer/basic_server.c.s
+
+.PHONY : ForkingServer/basic_server.s
+
+# target to generate assembly for a file
+ForkingServer/basic_server.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/basic_server.c.s
+.PHONY : ForkingServer/basic_server.c.s
+
+ForkingServer/client.o: ForkingServer/client.c.o
+
+.PHONY : ForkingServer/client.o
+
+# target to build an object file
+ForkingServer/client.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/client.c.o
+.PHONY : ForkingServer/client.c.o
+
+ForkingServer/client.i: ForkingServer/client.c.i
+
+.PHONY : ForkingServer/client.i
+
+# target to preprocess a source file
+ForkingServer/client.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/client.c.i
+.PHONY : ForkingServer/client.c.i
+
+ForkingServer/client.s: ForkingServer/client.c.s
+
+.PHONY : ForkingServer/client.s
+
+# target to generate assembly for a file
+ForkingServer/client.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/client.c.s
+.PHONY : ForkingServer/client.c.s
+
+ForkingServer/forking_server.o: ForkingServer/forking_server.c.o
+
+.PHONY : ForkingServer/forking_server.o
+
+# target to build an object file
+ForkingServer/forking_server.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/forking_server.c.o
+.PHONY : ForkingServer/forking_server.c.o
+
+ForkingServer/forking_server.i: ForkingServer/forking_server.c.i
+
+.PHONY : ForkingServer/forking_server.i
+
+# target to preprocess a source file
+ForkingServer/forking_server.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/forking_server.c.i
+.PHONY : ForkingServer/forking_server.c.i
+
+ForkingServer/forking_server.s: ForkingServer/forking_server.c.s
+
+.PHONY : ForkingServer/forking_server.s
+
+# target to generate assembly for a file
+ForkingServer/forking_server.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/forking_server.c.s
+.PHONY : ForkingServer/forking_server.c.s
+
+ForkingServer/modify_text.o: ForkingServer/modify_text.c.o
+
+.PHONY : ForkingServer/modify_text.o
+
+# target to build an object file
+ForkingServer/modify_text.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/modify_text.c.o
+.PHONY : ForkingServer/modify_text.c.o
+
+ForkingServer/modify_text.i: ForkingServer/modify_text.c.i
+
+.PHONY : ForkingServer/modify_text.i
+
+# target to preprocess a source file
+ForkingServer/modify_text.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/modify_text.c.i
+.PHONY : ForkingServer/modify_text.c.i
+
+ForkingServer/modify_text.s: ForkingServer/modify_text.c.s
+
+.PHONY : ForkingServer/modify_text.s
+
+# target to generate assembly for a file
+ForkingServer/modify_text.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/modify_text.c.s
+.PHONY : ForkingServer/modify_text.c.s
+
+ForkingServer/pipe_networking.o: ForkingServer/pipe_networking.c.o
+
+.PHONY : ForkingServer/pipe_networking.o
+
+# target to build an object file
+ForkingServer/pipe_networking.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/pipe_networking.c.o
+.PHONY : ForkingServer/pipe_networking.c.o
+
+ForkingServer/pipe_networking.i: ForkingServer/pipe_networking.c.i
+
+.PHONY : ForkingServer/pipe_networking.i
+
+# target to preprocess a source file
+ForkingServer/pipe_networking.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/pipe_networking.c.i
+.PHONY : ForkingServer/pipe_networking.c.i
+
+ForkingServer/pipe_networking.s: ForkingServer/pipe_networking.c.s
+
+.PHONY : ForkingServer/pipe_networking.s
+
+# target to generate assembly for a file
+ForkingServer/pipe_networking.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/pipe_networking.c.s
+.PHONY : ForkingServer/pipe_networking.c.s
+
+ForkingServer/src/client.o: ForkingServer/src/client.c.o
+
+.PHONY : ForkingServer/src/client.o
+
+# target to build an object file
+ForkingServer/src/client.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/src/client.c.o
+.PHONY : ForkingServer/src/client.c.o
+
+ForkingServer/src/client.i: ForkingServer/src/client.c.i
+
+.PHONY : ForkingServer/src/client.i
+
+# target to preprocess a source file
+ForkingServer/src/client.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/src/client.c.i
+.PHONY : ForkingServer/src/client.c.i
+
+ForkingServer/src/client.s: ForkingServer/src/client.c.s
+
+.PHONY : ForkingServer/src/client.s
+
+# target to generate assembly for a file
+ForkingServer/src/client.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/src/client.c.s
+.PHONY : ForkingServer/src/client.c.s
+
+ForkingServer/src/forking_server.o: ForkingServer/src/forking_server.c.o
+
+.PHONY : ForkingServer/src/forking_server.o
+
+# target to build an object file
+ForkingServer/src/forking_server.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/src/forking_server.c.o
+.PHONY : ForkingServer/src/forking_server.c.o
+
+ForkingServer/src/forking_server.i: ForkingServer/src/forking_server.c.i
+
+.PHONY : ForkingServer/src/forking_server.i
+
+# target to preprocess a source file
+ForkingServer/src/forking_server.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/src/forking_server.c.i
+.PHONY : ForkingServer/src/forking_server.c.i
+
+ForkingServer/src/forking_server.s: ForkingServer/src/forking_server.c.s
+
+.PHONY : ForkingServer/src/forking_server.s
+
+# target to generate assembly for a file
+ForkingServer/src/forking_server.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/src/forking_server.c.s
+.PHONY : ForkingServer/src/forking_server.c.s
+
+ForkingServer/src/pipe_networking.o: ForkingServer/src/pipe_networking.c.o
+
+.PHONY : ForkingServer/src/pipe_networking.o
+
+# target to build an object file
+ForkingServer/src/pipe_networking.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/src/pipe_networking.c.o
+.PHONY : ForkingServer/src/pipe_networking.c.o
+
+ForkingServer/src/pipe_networking.i: ForkingServer/src/pipe_networking.c.i
+
+.PHONY : ForkingServer/src/pipe_networking.i
+
+# target to preprocess a source file
+ForkingServer/src/pipe_networking.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/src/pipe_networking.c.i
+.PHONY : ForkingServer/src/pipe_networking.c.i
+
+ForkingServer/src/pipe_networking.s: ForkingServer/src/pipe_networking.c.s
+
+.PHONY : ForkingServer/src/pipe_networking.s
+
+# target to generate assembly for a file
+ForkingServer/src/pipe_networking.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/src/pipe_networking.c.s
+.PHONY : ForkingServer/src/pipe_networking.c.s
+
+ForkingServer/util/hash.o: ForkingServer/util/hash.c.o
+
+.PHONY : ForkingServer/util/hash.o
+
+# target to build an object file
+ForkingServer/util/hash.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/hash.c.o
+.PHONY : ForkingServer/util/hash.c.o
+
+ForkingServer/util/hash.i: ForkingServer/util/hash.c.i
+
+.PHONY : ForkingServer/util/hash.i
+
+# target to preprocess a source file
+ForkingServer/util/hash.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/hash.c.i
+.PHONY : ForkingServer/util/hash.c.i
+
+ForkingServer/util/hash.s: ForkingServer/util/hash.c.s
+
+.PHONY : ForkingServer/util/hash.s
+
+# target to generate assembly for a file
+ForkingServer/util/hash.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/hash.c.s
+.PHONY : ForkingServer/util/hash.c.s
+
+ForkingServer/util/io.o: ForkingServer/util/io.c.o
+
+.PHONY : ForkingServer/util/io.o
+
+# target to build an object file
+ForkingServer/util/io.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/io.c.o
+.PHONY : ForkingServer/util/io.c.o
+
+ForkingServer/util/io.i: ForkingServer/util/io.c.i
+
+.PHONY : ForkingServer/util/io.i
+
+# target to preprocess a source file
+ForkingServer/util/io.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/io.c.i
+.PHONY : ForkingServer/util/io.c.i
+
+ForkingServer/util/io.s: ForkingServer/util/io.c.s
+
+.PHONY : ForkingServer/util/io.s
+
+# target to generate assembly for a file
+ForkingServer/util/io.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/io.c.s
+.PHONY : ForkingServer/util/io.c.s
+
+ForkingServer/util/random.o: ForkingServer/util/random.c.o
+
+.PHONY : ForkingServer/util/random.o
+
+# target to build an object file
+ForkingServer/util/random.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/random.c.o
+.PHONY : ForkingServer/util/random.c.o
+
+ForkingServer/util/random.i: ForkingServer/util/random.c.i
+
+.PHONY : ForkingServer/util/random.i
+
+# target to preprocess a source file
+ForkingServer/util/random.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/random.c.i
+.PHONY : ForkingServer/util/random.c.i
+
+ForkingServer/util/random.s: ForkingServer/util/random.c.s
+
+.PHONY : ForkingServer/util/random.s
+
+# target to generate assembly for a file
+ForkingServer/util/random.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/random.c.s
+.PHONY : ForkingServer/util/random.c.s
+
+ForkingServer/util/sigaction.o: ForkingServer/util/sigaction.c.o
+
+.PHONY : ForkingServer/util/sigaction.o
+
+# target to build an object file
+ForkingServer/util/sigaction.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/sigaction.c.o
+.PHONY : ForkingServer/util/sigaction.c.o
+
+ForkingServer/util/sigaction.i: ForkingServer/util/sigaction.c.i
+
+.PHONY : ForkingServer/util/sigaction.i
+
+# target to preprocess a source file
+ForkingServer/util/sigaction.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/sigaction.c.i
+.PHONY : ForkingServer/util/sigaction.c.i
+
+ForkingServer/util/sigaction.s: ForkingServer/util/sigaction.c.s
+
+.PHONY : ForkingServer/util/sigaction.s
+
+# target to generate assembly for a file
+ForkingServer/util/sigaction.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/sigaction.c.s
+.PHONY : ForkingServer/util/sigaction.c.s
+
+ForkingServer/util/sized_string.o: ForkingServer/util/sized_string.c.o
+
+.PHONY : ForkingServer/util/sized_string.o
+
+# target to build an object file
+ForkingServer/util/sized_string.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/sized_string.c.o
+.PHONY : ForkingServer/util/sized_string.c.o
+
+ForkingServer/util/sized_string.i: ForkingServer/util/sized_string.c.i
+
+.PHONY : ForkingServer/util/sized_string.i
+
+# target to preprocess a source file
+ForkingServer/util/sized_string.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/sized_string.c.i
+.PHONY : ForkingServer/util/sized_string.c.i
+
+ForkingServer/util/sized_string.s: ForkingServer/util/sized_string.c.s
+
+.PHONY : ForkingServer/util/sized_string.s
+
+# target to generate assembly for a file
+ForkingServer/util/sized_string.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/sized_string.c.s
+.PHONY : ForkingServer/util/sized_string.c.s
+
+ForkingServer/util/stacktrace.o: ForkingServer/util/stacktrace.c.o
+
+.PHONY : ForkingServer/util/stacktrace.o
+
+# target to build an object file
+ForkingServer/util/stacktrace.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/stacktrace.c.o
+.PHONY : ForkingServer/util/stacktrace.c.o
+
+ForkingServer/util/stacktrace.i: ForkingServer/util/stacktrace.c.i
+
+.PHONY : ForkingServer/util/stacktrace.i
+
+# target to preprocess a source file
+ForkingServer/util/stacktrace.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/stacktrace.c.i
+.PHONY : ForkingServer/util/stacktrace.c.i
+
+ForkingServer/util/stacktrace.s: ForkingServer/util/stacktrace.c.s
+
+.PHONY : ForkingServer/util/stacktrace.s
+
+# target to generate assembly for a file
+ForkingServer/util/stacktrace.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/stacktrace.c.s
+.PHONY : ForkingServer/util/stacktrace.c.s
+
+ForkingServer/util/string_builder.o: ForkingServer/util/string_builder.c.o
+
+.PHONY : ForkingServer/util/string_builder.o
+
+# target to build an object file
+ForkingServer/util/string_builder.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/string_builder.c.o
+.PHONY : ForkingServer/util/string_builder.c.o
+
+ForkingServer/util/string_builder.i: ForkingServer/util/string_builder.c.i
+
+.PHONY : ForkingServer/util/string_builder.i
+
+# target to preprocess a source file
+ForkingServer/util/string_builder.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/string_builder.c.i
+.PHONY : ForkingServer/util/string_builder.c.i
+
+ForkingServer/util/string_builder.s: ForkingServer/util/string_builder.c.s
+
+.PHONY : ForkingServer/util/string_builder.s
+
+# target to generate assembly for a file
+ForkingServer/util/string_builder.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/string_builder.c.s
+.PHONY : ForkingServer/util/string_builder.c.s
+
+ForkingServer/util/string_utils.o: ForkingServer/util/string_utils.c.o
+
+.PHONY : ForkingServer/util/string_utils.o
+
+# target to build an object file
+ForkingServer/util/string_utils.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/string_utils.c.o
+.PHONY : ForkingServer/util/string_utils.c.o
+
+ForkingServer/util/string_utils.i: ForkingServer/util/string_utils.c.i
+
+.PHONY : ForkingServer/util/string_utils.i
+
+# target to preprocess a source file
+ForkingServer/util/string_utils.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/string_utils.c.i
+.PHONY : ForkingServer/util/string_utils.c.i
+
+ForkingServer/util/string_utils.s: ForkingServer/util/string_utils.c.s
+
+.PHONY : ForkingServer/util/string_utils.s
+
+# target to generate assembly for a file
+ForkingServer/util/string_utils.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/string_utils.c.s
+.PHONY : ForkingServer/util/string_utils.c.s
+
+ForkingServer/util/utils.o: ForkingServer/util/utils.c.o
+
+.PHONY : ForkingServer/util/utils.o
+
+# target to build an object file
+ForkingServer/util/utils.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/utils.c.o
+.PHONY : ForkingServer/util/utils.c.o
+
+ForkingServer/util/utils.i: ForkingServer/util/utils.c.i
+
+.PHONY : ForkingServer/util/utils.i
+
+# target to preprocess a source file
+ForkingServer/util/utils.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/utils.c.i
+.PHONY : ForkingServer/util/utils.c.i
+
+ForkingServer/util/utils.s: ForkingServer/util/utils.c.s
+
+.PHONY : ForkingServer/util/utils.s
+
+# target to generate assembly for a file
+ForkingServer/util/utils.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ForkingServer/util/utils.c.s
+.PHONY : ForkingServer/util/utils.c.s
 
 GccStrncpyBug/gcc_strncpy_bypass_bug.o: GccStrncpyBug/gcc_strncpy_bypass_bug.c.o
 
@@ -635,6 +1067,222 @@ ListDir/listdir.s: ListDir/listdir.c.s
 ListDir/listdir.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/ListDir/listdir.c.s
 .PHONY : ListDir/listdir.c.s
+
+LocalPipeNetworking/basic_server.o: LocalPipeNetworking/basic_server.c.o
+
+.PHONY : LocalPipeNetworking/basic_server.o
+
+# target to build an object file
+LocalPipeNetworking/basic_server.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/basic_server.c.o
+.PHONY : LocalPipeNetworking/basic_server.c.o
+
+LocalPipeNetworking/basic_server.i: LocalPipeNetworking/basic_server.c.i
+
+.PHONY : LocalPipeNetworking/basic_server.i
+
+# target to preprocess a source file
+LocalPipeNetworking/basic_server.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/basic_server.c.i
+.PHONY : LocalPipeNetworking/basic_server.c.i
+
+LocalPipeNetworking/basic_server.s: LocalPipeNetworking/basic_server.c.s
+
+.PHONY : LocalPipeNetworking/basic_server.s
+
+# target to generate assembly for a file
+LocalPipeNetworking/basic_server.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/basic_server.c.s
+.PHONY : LocalPipeNetworking/basic_server.c.s
+
+LocalPipeNetworking/client.o: LocalPipeNetworking/client.c.o
+
+.PHONY : LocalPipeNetworking/client.o
+
+# target to build an object file
+LocalPipeNetworking/client.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/client.c.o
+.PHONY : LocalPipeNetworking/client.c.o
+
+LocalPipeNetworking/client.i: LocalPipeNetworking/client.c.i
+
+.PHONY : LocalPipeNetworking/client.i
+
+# target to preprocess a source file
+LocalPipeNetworking/client.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/client.c.i
+.PHONY : LocalPipeNetworking/client.c.i
+
+LocalPipeNetworking/client.s: LocalPipeNetworking/client.c.s
+
+.PHONY : LocalPipeNetworking/client.s
+
+# target to generate assembly for a file
+LocalPipeNetworking/client.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/client.c.s
+.PHONY : LocalPipeNetworking/client.c.s
+
+LocalPipeNetworking/pipe_networking.o: LocalPipeNetworking/pipe_networking.c.o
+
+.PHONY : LocalPipeNetworking/pipe_networking.o
+
+# target to build an object file
+LocalPipeNetworking/pipe_networking.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/pipe_networking.c.o
+.PHONY : LocalPipeNetworking/pipe_networking.c.o
+
+LocalPipeNetworking/pipe_networking.i: LocalPipeNetworking/pipe_networking.c.i
+
+.PHONY : LocalPipeNetworking/pipe_networking.i
+
+# target to preprocess a source file
+LocalPipeNetworking/pipe_networking.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/pipe_networking.c.i
+.PHONY : LocalPipeNetworking/pipe_networking.c.i
+
+LocalPipeNetworking/pipe_networking.s: LocalPipeNetworking/pipe_networking.c.s
+
+.PHONY : LocalPipeNetworking/pipe_networking.s
+
+# target to generate assembly for a file
+LocalPipeNetworking/pipe_networking.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/pipe_networking.c.s
+.PHONY : LocalPipeNetworking/pipe_networking.c.s
+
+LocalPipeNetworking/util/random.o: LocalPipeNetworking/util/random.c.o
+
+.PHONY : LocalPipeNetworking/util/random.o
+
+# target to build an object file
+LocalPipeNetworking/util/random.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/random.c.o
+.PHONY : LocalPipeNetworking/util/random.c.o
+
+LocalPipeNetworking/util/random.i: LocalPipeNetworking/util/random.c.i
+
+.PHONY : LocalPipeNetworking/util/random.i
+
+# target to preprocess a source file
+LocalPipeNetworking/util/random.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/random.c.i
+.PHONY : LocalPipeNetworking/util/random.c.i
+
+LocalPipeNetworking/util/random.s: LocalPipeNetworking/util/random.c.s
+
+.PHONY : LocalPipeNetworking/util/random.s
+
+# target to generate assembly for a file
+LocalPipeNetworking/util/random.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/random.c.s
+.PHONY : LocalPipeNetworking/util/random.c.s
+
+LocalPipeNetworking/util/stacktrace.o: LocalPipeNetworking/util/stacktrace.c.o
+
+.PHONY : LocalPipeNetworking/util/stacktrace.o
+
+# target to build an object file
+LocalPipeNetworking/util/stacktrace.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/stacktrace.c.o
+.PHONY : LocalPipeNetworking/util/stacktrace.c.o
+
+LocalPipeNetworking/util/stacktrace.i: LocalPipeNetworking/util/stacktrace.c.i
+
+.PHONY : LocalPipeNetworking/util/stacktrace.i
+
+# target to preprocess a source file
+LocalPipeNetworking/util/stacktrace.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/stacktrace.c.i
+.PHONY : LocalPipeNetworking/util/stacktrace.c.i
+
+LocalPipeNetworking/util/stacktrace.s: LocalPipeNetworking/util/stacktrace.c.s
+
+.PHONY : LocalPipeNetworking/util/stacktrace.s
+
+# target to generate assembly for a file
+LocalPipeNetworking/util/stacktrace.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/stacktrace.c.s
+.PHONY : LocalPipeNetworking/util/stacktrace.c.s
+
+LocalPipeNetworking/util/string_builder.o: LocalPipeNetworking/util/string_builder.c.o
+
+.PHONY : LocalPipeNetworking/util/string_builder.o
+
+# target to build an object file
+LocalPipeNetworking/util/string_builder.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/string_builder.c.o
+.PHONY : LocalPipeNetworking/util/string_builder.c.o
+
+LocalPipeNetworking/util/string_builder.i: LocalPipeNetworking/util/string_builder.c.i
+
+.PHONY : LocalPipeNetworking/util/string_builder.i
+
+# target to preprocess a source file
+LocalPipeNetworking/util/string_builder.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/string_builder.c.i
+.PHONY : LocalPipeNetworking/util/string_builder.c.i
+
+LocalPipeNetworking/util/string_builder.s: LocalPipeNetworking/util/string_builder.c.s
+
+.PHONY : LocalPipeNetworking/util/string_builder.s
+
+# target to generate assembly for a file
+LocalPipeNetworking/util/string_builder.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/string_builder.c.s
+.PHONY : LocalPipeNetworking/util/string_builder.c.s
+
+LocalPipeNetworking/util/string_utils.o: LocalPipeNetworking/util/string_utils.c.o
+
+.PHONY : LocalPipeNetworking/util/string_utils.o
+
+# target to build an object file
+LocalPipeNetworking/util/string_utils.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/string_utils.c.o
+.PHONY : LocalPipeNetworking/util/string_utils.c.o
+
+LocalPipeNetworking/util/string_utils.i: LocalPipeNetworking/util/string_utils.c.i
+
+.PHONY : LocalPipeNetworking/util/string_utils.i
+
+# target to preprocess a source file
+LocalPipeNetworking/util/string_utils.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/string_utils.c.i
+.PHONY : LocalPipeNetworking/util/string_utils.c.i
+
+LocalPipeNetworking/util/string_utils.s: LocalPipeNetworking/util/string_utils.c.s
+
+.PHONY : LocalPipeNetworking/util/string_utils.s
+
+# target to generate assembly for a file
+LocalPipeNetworking/util/string_utils.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/string_utils.c.s
+.PHONY : LocalPipeNetworking/util/string_utils.c.s
+
+LocalPipeNetworking/util/utils.o: LocalPipeNetworking/util/utils.c.o
+
+.PHONY : LocalPipeNetworking/util/utils.o
+
+# target to build an object file
+LocalPipeNetworking/util/utils.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/utils.c.o
+.PHONY : LocalPipeNetworking/util/utils.c.o
+
+LocalPipeNetworking/util/utils.i: LocalPipeNetworking/util/utils.c.i
+
+.PHONY : LocalPipeNetworking/util/utils.i
+
+# target to preprocess a source file
+LocalPipeNetworking/util/utils.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/utils.c.i
+.PHONY : LocalPipeNetworking/util/utils.c.i
+
+LocalPipeNetworking/util/utils.s: LocalPipeNetworking/util/utils.c.s
+
+.PHONY : LocalPipeNetworking/util/utils.s
+
+# target to generate assembly for a file
+LocalPipeNetworking/util/utils.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/LocalPipeNetworking/util/utils.c.s
+.PHONY : LocalPipeNetworking/util/utils.c.s
 
 MusicLibraryOrganizer/main.o: MusicLibraryOrganizer/main.c.o
 
@@ -1716,6 +2364,330 @@ Stacktrace/stacktrace.c.s:
 	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/Stacktrace/stacktrace.c.s
 .PHONY : Stacktrace/stacktrace.c.s
 
+StoryGame/client.o: StoryGame/client.c.o
+
+.PHONY : StoryGame/client.o
+
+# target to build an object file
+StoryGame/client.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGame/client.c.o
+.PHONY : StoryGame/client.c.o
+
+StoryGame/client.i: StoryGame/client.c.i
+
+.PHONY : StoryGame/client.i
+
+# target to preprocess a source file
+StoryGame/client.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGame/client.c.i
+.PHONY : StoryGame/client.c.i
+
+StoryGame/client.s: StoryGame/client.c.s
+
+.PHONY : StoryGame/client.s
+
+# target to generate assembly for a file
+StoryGame/client.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGame/client.c.s
+.PHONY : StoryGame/client.c.s
+
+StoryGame/control.o: StoryGame/control.c.o
+
+.PHONY : StoryGame/control.o
+
+# target to build an object file
+StoryGame/control.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGame/control.c.o
+.PHONY : StoryGame/control.c.o
+
+StoryGame/control.i: StoryGame/control.c.i
+
+.PHONY : StoryGame/control.i
+
+# target to preprocess a source file
+StoryGame/control.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGame/control.c.i
+.PHONY : StoryGame/control.c.i
+
+StoryGame/control.s: StoryGame/control.c.s
+
+.PHONY : StoryGame/control.s
+
+# target to generate assembly for a file
+StoryGame/control.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGame/control.c.s
+.PHONY : StoryGame/control.c.s
+
+StoryGameCopy/khyber/client.o: StoryGameCopy/khyber/client.c.o
+
+.PHONY : StoryGameCopy/khyber/client.o
+
+# target to build an object file
+StoryGameCopy/khyber/client.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/client.c.o
+.PHONY : StoryGameCopy/khyber/client.c.o
+
+StoryGameCopy/khyber/client.i: StoryGameCopy/khyber/client.c.i
+
+.PHONY : StoryGameCopy/khyber/client.i
+
+# target to preprocess a source file
+StoryGameCopy/khyber/client.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/client.c.i
+.PHONY : StoryGameCopy/khyber/client.c.i
+
+StoryGameCopy/khyber/client.s: StoryGameCopy/khyber/client.c.s
+
+.PHONY : StoryGameCopy/khyber/client.s
+
+# target to generate assembly for a file
+StoryGameCopy/khyber/client.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/client.c.s
+.PHONY : StoryGameCopy/khyber/client.c.s
+
+StoryGameCopy/khyber/control.o: StoryGameCopy/khyber/control.c.o
+
+.PHONY : StoryGameCopy/khyber/control.o
+
+# target to build an object file
+StoryGameCopy/khyber/control.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/control.c.o
+.PHONY : StoryGameCopy/khyber/control.c.o
+
+StoryGameCopy/khyber/control.i: StoryGameCopy/khyber/control.c.i
+
+.PHONY : StoryGameCopy/khyber/control.i
+
+# target to preprocess a source file
+StoryGameCopy/khyber/control.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/control.c.i
+.PHONY : StoryGameCopy/khyber/control.c.i
+
+StoryGameCopy/khyber/control.s: StoryGameCopy/khyber/control.c.s
+
+.PHONY : StoryGameCopy/khyber/control.s
+
+# target to generate assembly for a file
+StoryGameCopy/khyber/control.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/control.c.s
+.PHONY : StoryGameCopy/khyber/control.c.s
+
+StoryGameCopy/khyber/story.o: StoryGameCopy/khyber/story.c.o
+
+.PHONY : StoryGameCopy/khyber/story.o
+
+# target to build an object file
+StoryGameCopy/khyber/story.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/story.c.o
+.PHONY : StoryGameCopy/khyber/story.c.o
+
+StoryGameCopy/khyber/story.i: StoryGameCopy/khyber/story.c.i
+
+.PHONY : StoryGameCopy/khyber/story.i
+
+# target to preprocess a source file
+StoryGameCopy/khyber/story.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/story.c.i
+.PHONY : StoryGameCopy/khyber/story.c.i
+
+StoryGameCopy/khyber/story.s: StoryGameCopy/khyber/story.c.s
+
+.PHONY : StoryGameCopy/khyber/story.s
+
+# target to generate assembly for a file
+StoryGameCopy/khyber/story.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/story.c.s
+.PHONY : StoryGameCopy/khyber/story.c.s
+
+StoryGameCopy/khyber/story_controller.o: StoryGameCopy/khyber/story_controller.c.o
+
+.PHONY : StoryGameCopy/khyber/story_controller.o
+
+# target to build an object file
+StoryGameCopy/khyber/story_controller.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/story_controller.c.o
+.PHONY : StoryGameCopy/khyber/story_controller.c.o
+
+StoryGameCopy/khyber/story_controller.i: StoryGameCopy/khyber/story_controller.c.i
+
+.PHONY : StoryGameCopy/khyber/story_controller.i
+
+# target to preprocess a source file
+StoryGameCopy/khyber/story_controller.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/story_controller.c.i
+.PHONY : StoryGameCopy/khyber/story_controller.c.i
+
+StoryGameCopy/khyber/story_controller.s: StoryGameCopy/khyber/story_controller.c.s
+
+.PHONY : StoryGameCopy/khyber/story_controller.s
+
+# target to generate assembly for a file
+StoryGameCopy/khyber/story_controller.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/story_controller.c.s
+.PHONY : StoryGameCopy/khyber/story_controller.c.s
+
+StoryGameCopy/khyber/util/io_utils.o: StoryGameCopy/khyber/util/io_utils.c.o
+
+.PHONY : StoryGameCopy/khyber/util/io_utils.o
+
+# target to build an object file
+StoryGameCopy/khyber/util/io_utils.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/io_utils.c.o
+.PHONY : StoryGameCopy/khyber/util/io_utils.c.o
+
+StoryGameCopy/khyber/util/io_utils.i: StoryGameCopy/khyber/util/io_utils.c.i
+
+.PHONY : StoryGameCopy/khyber/util/io_utils.i
+
+# target to preprocess a source file
+StoryGameCopy/khyber/util/io_utils.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/io_utils.c.i
+.PHONY : StoryGameCopy/khyber/util/io_utils.c.i
+
+StoryGameCopy/khyber/util/io_utils.s: StoryGameCopy/khyber/util/io_utils.c.s
+
+.PHONY : StoryGameCopy/khyber/util/io_utils.s
+
+# target to generate assembly for a file
+StoryGameCopy/khyber/util/io_utils.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/io_utils.c.s
+.PHONY : StoryGameCopy/khyber/util/io_utils.c.s
+
+StoryGameCopy/khyber/util/ipc_utils.o: StoryGameCopy/khyber/util/ipc_utils.c.o
+
+.PHONY : StoryGameCopy/khyber/util/ipc_utils.o
+
+# target to build an object file
+StoryGameCopy/khyber/util/ipc_utils.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/ipc_utils.c.o
+.PHONY : StoryGameCopy/khyber/util/ipc_utils.c.o
+
+StoryGameCopy/khyber/util/ipc_utils.i: StoryGameCopy/khyber/util/ipc_utils.c.i
+
+.PHONY : StoryGameCopy/khyber/util/ipc_utils.i
+
+# target to preprocess a source file
+StoryGameCopy/khyber/util/ipc_utils.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/ipc_utils.c.i
+.PHONY : StoryGameCopy/khyber/util/ipc_utils.c.i
+
+StoryGameCopy/khyber/util/ipc_utils.s: StoryGameCopy/khyber/util/ipc_utils.c.s
+
+.PHONY : StoryGameCopy/khyber/util/ipc_utils.s
+
+# target to generate assembly for a file
+StoryGameCopy/khyber/util/ipc_utils.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/ipc_utils.c.s
+.PHONY : StoryGameCopy/khyber/util/ipc_utils.c.s
+
+StoryGameCopy/khyber/util/resource_utils.o: StoryGameCopy/khyber/util/resource_utils.c.o
+
+.PHONY : StoryGameCopy/khyber/util/resource_utils.o
+
+# target to build an object file
+StoryGameCopy/khyber/util/resource_utils.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/resource_utils.c.o
+.PHONY : StoryGameCopy/khyber/util/resource_utils.c.o
+
+StoryGameCopy/khyber/util/resource_utils.i: StoryGameCopy/khyber/util/resource_utils.c.i
+
+.PHONY : StoryGameCopy/khyber/util/resource_utils.i
+
+# target to preprocess a source file
+StoryGameCopy/khyber/util/resource_utils.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/resource_utils.c.i
+.PHONY : StoryGameCopy/khyber/util/resource_utils.c.i
+
+StoryGameCopy/khyber/util/resource_utils.s: StoryGameCopy/khyber/util/resource_utils.c.s
+
+.PHONY : StoryGameCopy/khyber/util/resource_utils.s
+
+# target to generate assembly for a file
+StoryGameCopy/khyber/util/resource_utils.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/resource_utils.c.s
+.PHONY : StoryGameCopy/khyber/util/resource_utils.c.s
+
+StoryGameCopy/khyber/util/stacktrace.o: StoryGameCopy/khyber/util/stacktrace.c.o
+
+.PHONY : StoryGameCopy/khyber/util/stacktrace.o
+
+# target to build an object file
+StoryGameCopy/khyber/util/stacktrace.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/stacktrace.c.o
+.PHONY : StoryGameCopy/khyber/util/stacktrace.c.o
+
+StoryGameCopy/khyber/util/stacktrace.i: StoryGameCopy/khyber/util/stacktrace.c.i
+
+.PHONY : StoryGameCopy/khyber/util/stacktrace.i
+
+# target to preprocess a source file
+StoryGameCopy/khyber/util/stacktrace.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/stacktrace.c.i
+.PHONY : StoryGameCopy/khyber/util/stacktrace.c.i
+
+StoryGameCopy/khyber/util/stacktrace.s: StoryGameCopy/khyber/util/stacktrace.c.s
+
+.PHONY : StoryGameCopy/khyber/util/stacktrace.s
+
+# target to generate assembly for a file
+StoryGameCopy/khyber/util/stacktrace.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/stacktrace.c.s
+.PHONY : StoryGameCopy/khyber/util/stacktrace.c.s
+
+StoryGameCopy/khyber/util/string_builder.o: StoryGameCopy/khyber/util/string_builder.c.o
+
+.PHONY : StoryGameCopy/khyber/util/string_builder.o
+
+# target to build an object file
+StoryGameCopy/khyber/util/string_builder.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/string_builder.c.o
+.PHONY : StoryGameCopy/khyber/util/string_builder.c.o
+
+StoryGameCopy/khyber/util/string_builder.i: StoryGameCopy/khyber/util/string_builder.c.i
+
+.PHONY : StoryGameCopy/khyber/util/string_builder.i
+
+# target to preprocess a source file
+StoryGameCopy/khyber/util/string_builder.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/string_builder.c.i
+.PHONY : StoryGameCopy/khyber/util/string_builder.c.i
+
+StoryGameCopy/khyber/util/string_builder.s: StoryGameCopy/khyber/util/string_builder.c.s
+
+.PHONY : StoryGameCopy/khyber/util/string_builder.s
+
+# target to generate assembly for a file
+StoryGameCopy/khyber/util/string_builder.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/string_builder.c.s
+.PHONY : StoryGameCopy/khyber/util/string_builder.c.s
+
+StoryGameCopy/khyber/util/utils.o: StoryGameCopy/khyber/util/utils.c.o
+
+.PHONY : StoryGameCopy/khyber/util/utils.o
+
+# target to build an object file
+StoryGameCopy/khyber/util/utils.c.o:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/utils.c.o
+.PHONY : StoryGameCopy/khyber/util/utils.c.o
+
+StoryGameCopy/khyber/util/utils.i: StoryGameCopy/khyber/util/utils.c.i
+
+.PHONY : StoryGameCopy/khyber/util/utils.i
+
+# target to preprocess a source file
+StoryGameCopy/khyber/util/utils.c.i:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/utils.c.i
+.PHONY : StoryGameCopy/khyber/util/utils.c.i
+
+StoryGameCopy/khyber/util/utils.s: StoryGameCopy/khyber/util/utils.c.s
+
+.PHONY : StoryGameCopy/khyber/util/utils.s
+
+# target to generate assembly for a file
+StoryGameCopy/khyber/util/utils.c.s:
+	$(MAKE) -f CMakeFiles/Systems.dir/build.make CMakeFiles/Systems.dir/StoryGameCopy/khyber/util/utils.c.s
+.PHONY : StoryGameCopy/khyber/util/utils.c.s
+
 StringFunctionDemonstrations/string_function_demos.o: StringFunctionDemonstrations/string_function_demos.c.o
 
 .PHONY : StringFunctionDemonstrations/string_function_demos.o
@@ -1830,9 +2802,6 @@ help:
 	@echo "... Euler/euler.o"
 	@echo "... Euler/euler.i"
 	@echo "... Euler/euler.s"
-	@echo "... Exec/exec.o"
-	@echo "... Exec/exec.i"
-	@echo "... Exec/exec.s"
 	@echo "... FileStats/file_stats.o"
 	@echo "... FileStats/file_stats.i"
 	@echo "... FileStats/file_stats.s"
@@ -1845,6 +2814,57 @@ help:
 	@echo "... Forking/util.o"
 	@echo "... Forking/util.i"
 	@echo "... Forking/util.s"
+	@echo "... ForkingServer/basic_server.o"
+	@echo "... ForkingServer/basic_server.i"
+	@echo "... ForkingServer/basic_server.s"
+	@echo "... ForkingServer/client.o"
+	@echo "... ForkingServer/client.i"
+	@echo "... ForkingServer/client.s"
+	@echo "... ForkingServer/forking_server.o"
+	@echo "... ForkingServer/forking_server.i"
+	@echo "... ForkingServer/forking_server.s"
+	@echo "... ForkingServer/modify_text.o"
+	@echo "... ForkingServer/modify_text.i"
+	@echo "... ForkingServer/modify_text.s"
+	@echo "... ForkingServer/pipe_networking.o"
+	@echo "... ForkingServer/pipe_networking.i"
+	@echo "... ForkingServer/pipe_networking.s"
+	@echo "... ForkingServer/src/client.o"
+	@echo "... ForkingServer/src/client.i"
+	@echo "... ForkingServer/src/client.s"
+	@echo "... ForkingServer/src/forking_server.o"
+	@echo "... ForkingServer/src/forking_server.i"
+	@echo "... ForkingServer/src/forking_server.s"
+	@echo "... ForkingServer/src/pipe_networking.o"
+	@echo "... ForkingServer/src/pipe_networking.i"
+	@echo "... ForkingServer/src/pipe_networking.s"
+	@echo "... ForkingServer/util/hash.o"
+	@echo "... ForkingServer/util/hash.i"
+	@echo "... ForkingServer/util/hash.s"
+	@echo "... ForkingServer/util/io.o"
+	@echo "... ForkingServer/util/io.i"
+	@echo "... ForkingServer/util/io.s"
+	@echo "... ForkingServer/util/random.o"
+	@echo "... ForkingServer/util/random.i"
+	@echo "... ForkingServer/util/random.s"
+	@echo "... ForkingServer/util/sigaction.o"
+	@echo "... ForkingServer/util/sigaction.i"
+	@echo "... ForkingServer/util/sigaction.s"
+	@echo "... ForkingServer/util/sized_string.o"
+	@echo "... ForkingServer/util/sized_string.i"
+	@echo "... ForkingServer/util/sized_string.s"
+	@echo "... ForkingServer/util/stacktrace.o"
+	@echo "... ForkingServer/util/stacktrace.i"
+	@echo "... ForkingServer/util/stacktrace.s"
+	@echo "... ForkingServer/util/string_builder.o"
+	@echo "... ForkingServer/util/string_builder.i"
+	@echo "... ForkingServer/util/string_builder.s"
+	@echo "... ForkingServer/util/string_utils.o"
+	@echo "... ForkingServer/util/string_utils.i"
+	@echo "... ForkingServer/util/string_utils.s"
+	@echo "... ForkingServer/util/utils.o"
+	@echo "... ForkingServer/util/utils.i"
+	@echo "... ForkingServer/util/utils.s"
 	@echo "... GccStrncpyBug/gcc_strncpy_bypass_bug.o"
 	@echo "... GccStrncpyBug/gcc_strncpy_bypass_bug.i"
 	@echo "... GccStrncpyBug/gcc_strncpy_bypass_bug.s"
@@ -1863,6 +2883,30 @@ help:
 	@echo "... ListDir/listdir.o"
 	@echo "... ListDir/listdir.i"
 	@echo "... ListDir/listdir.s"
+	@echo "... LocalPipeNetworking/basic_server.o"
+	@echo "... LocalPipeNetworking/basic_server.i"
+	@echo "... LocalPipeNetworking/basic_server.s"
+	@echo "... LocalPipeNetworking/client.o"
+	@echo "... LocalPipeNetworking/client.i"
+	@echo "... LocalPipeNetworking/client.s"
+	@echo "... LocalPipeNetworking/pipe_networking.o"
+	@echo "... LocalPipeNetworking/pipe_networking.i"
+	@echo "... LocalPipeNetworking/pipe_networking.s"
+	@echo "... LocalPipeNetworking/util/random.o"
+	@echo "... LocalPipeNetworking/util/random.i"
+	@echo "... LocalPipeNetworking/util/random.s"
+	@echo "... LocalPipeNetworking/util/stacktrace.o"
+	@echo "... LocalPipeNetworking/util/stacktrace.i"
+	@echo "... LocalPipeNetworking/util/stacktrace.s"
+	@echo "... LocalPipeNetworking/util/string_builder.o"
+	@echo "... LocalPipeNetworking/util/string_builder.i"
+	@echo "... LocalPipeNetworking/util/string_builder.s"
+	@echo "... LocalPipeNetworking/util/string_utils.o"
+	@echo "... LocalPipeNetworking/util/string_utils.i"
+	@echo "... LocalPipeNetworking/util/string_utils.s"
+	@echo "... LocalPipeNetworking/util/utils.o"
+	@echo "... LocalPipeNetworking/util/utils.i"
+	@echo "... LocalPipeNetworking/util/utils.s"
 	@echo "... MusicLibraryOrganizer/main.o"
 	@echo "... MusicLibraryOrganizer/main.i"
 	@echo "... MusicLibraryOrganizer/main.s"
@@ -1983,6 +3027,42 @@ help:
 	@echo "... Stacktrace/stacktrace.o"
 	@echo "... Stacktrace/stacktrace.i"
 	@echo "... Stacktrace/stacktrace.s"
+	@echo "... StoryGame/client.o"
+	@echo "... StoryGame/client.i"
+	@echo "... StoryGame/client.s"
+	@echo "... StoryGame/control.o"
+	@echo "... StoryGame/control.i"
+	@echo "... StoryGame/control.s"
+	@echo "... StoryGameCopy/khyber/client.o"
+	@echo "... StoryGameCopy/khyber/client.i"
+	@echo "... StoryGameCopy/khyber/client.s"
+	@echo "... StoryGameCopy/khyber/control.o"
+	@echo "... StoryGameCopy/khyber/control.i"
+	@echo "... StoryGameCopy/khyber/control.s"
+	@echo "... StoryGameCopy/khyber/story.o"
+	@echo "... StoryGameCopy/khyber/story.i"
+	@echo "... StoryGameCopy/khyber/story.s"
+	@echo "... StoryGameCopy/khyber/story_controller.o"
+	@echo "... StoryGameCopy/khyber/story_controller.i"
+	@echo "... StoryGameCopy/khyber/story_controller.s"
+	@echo "... StoryGameCopy/khyber/util/io_utils.o"
+	@echo "... StoryGameCopy/khyber/util/io_utils.i"
+	@echo "... StoryGameCopy/khyber/util/io_utils.s"
+	@echo "... StoryGameCopy/khyber/util/ipc_utils.o"
+	@echo "... StoryGameCopy/khyber/util/ipc_utils.i"
+	@echo "... StoryGameCopy/khyber/util/ipc_utils.s"
+	@echo "... StoryGameCopy/khyber/util/resource_utils.o"
+	@echo "... StoryGameCopy/khyber/util/resource_utils.i"
+	@echo "... StoryGameCopy/khyber/util/resource_utils.s"
+	@echo "... StoryGameCopy/khyber/util/stacktrace.o"
+	@echo "... StoryGameCopy/khyber/util/stacktrace.i"
+	@echo "... StoryGameCopy/khyber/util/stacktrace.s"
+	@echo "... StoryGameCopy/khyber/util/string_builder.o"
+	@echo "... StoryGameCopy/khyber/util/string_builder.i"
+	@echo "... StoryGameCopy/khyber/util/string_builder.s"
+	@echo "... StoryGameCopy/khyber/util/utils.o"
+	@echo "... StoryGameCopy/khyber/util/utils.i"
+	@echo "... StoryGameCopy/khyber/util/utils.s"
 	@echo "... StringFunctionDemonstrations/string_function_demos.o"
 	@echo "... StringFunctionDemonstrations/string_function_demos.i"
 	@echo "... StringFunctionDemonstrations/string_function_demos.s"
