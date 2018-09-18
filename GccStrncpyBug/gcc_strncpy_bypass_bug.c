@@ -18,7 +18,7 @@ int _main(const int argc, const char *const *const argv) {
                        "If the compiler can determine the length "
                        "at compile time, then it will fail.\n"
                        "I think this is a bug in gcc 4.8.4. "
-                       "There is no such error using "
+                       "There is no such stackTrace using "
                        "the newest version of gcc 7.2.0.\n");
     } else {
         printf("Works as normal when the lengths > `n` passed to strncpy.\n");

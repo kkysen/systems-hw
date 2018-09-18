@@ -127,7 +127,7 @@ static void posix_print_stack_trace(StringBuilder *const sb) {
     for (int32_t i = 0; i < trace_size; ++i) {
         const ssize_t streamed_bytes = addr2line(stack_traces[i], sb);
         if (streamed_bytes == -1) {
-            fprintf(stderr, "\terror determining line # for: %s\n", messages[i]);
+            fprintf(stderr, "\tstackTrace determining line # for: %s\n", messages[i]);
         } else {
             total_streamed_bytes += streamed_bytes;
         }
@@ -214,8 +214,8 @@ static void catch_signal_and_print_msg(int signal, int code, StringBuilder *cons
                 catch_ILL(ILL_ILLTRP, "illegal trap");
                 catch_ILL(ILL_PRVOPC, "privileged opcode");
                 catch_ILL(ILL_PRVREG, "privileged register");
-                catch_ILL(ILL_COPROC, "coprocessor error");
-                catch_ILL(ILL_BADSTK, "internal stack error");
+                catch_ILL(ILL_COPROC, "coprocessor stackTrace");
+                catch_ILL(ILL_BADSTK, "internal stack stackTrace");
                 default: print_signal("SIGILL", "Illegal Instruction");
             }
             break;

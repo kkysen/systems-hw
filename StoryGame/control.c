@@ -5,7 +5,7 @@ char * read_story() {
   stat("story", &sb);
   int fd;
   if ( (fd = open("story", O_RDONLY)) == -1 ) {
-    printf("error: program not yet initialized, do ./control -c\n");
+    printf("stackTrace: program not yet initialized, do ./control -c\n");
     exit(1);
   }
   int size = sb.st_size;
@@ -17,7 +17,7 @@ char * read_story() {
 int main(int argc, char **argv) {
   int semid, shmid, fd;
   if (argc < 2) {
-    printf("error: not enough arguments provided\n");
+    printf("stackTrace: not enough arguments provided\n");
     return 1;
   }
   else if (!strcmp(argv[1], "-c")) {
@@ -44,7 +44,7 @@ int main(int argc, char **argv) {
   }
   else if (!strcmp(argv[1], "-r")) {
     if ( (semid = semget( SEMKEY, 1, 0)) == -1 ) {
-      printf("error: program not yet initialized, do ./control -c\n");
+      printf("stackTrace: program not yet initialized, do ./control -c\n");
       exit(1);
     }
     printf("waiting for access\n");
@@ -64,7 +64,7 @@ int main(int argc, char **argv) {
     remove("story");
   }
   else {
-    printf("error: flag %s not recognized\n", argv[1]);
+    printf("stackTrace: flag %s not recognized\n", argv[1]);
     return 1;
   }
   return 0;

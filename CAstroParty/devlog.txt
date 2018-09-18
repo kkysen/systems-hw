@@ -145,8 +145,8 @@ Wrote serializers and deserializers for Game, GameState, Players, and Player in 
     fill in these fields with client defaults.
 Added the Buffer class,
     which has the generic macro methods
-    Buffer_put(), Buffer_put_array(), Buffer_get(), and Buffer_get_array().
-buffer.h also has the macro functions set_field_memory() and set_field(),
+    Buffer_put(), Buffer_putArray(), Buffer_get(), and Buffer_getArray().
+buffer.h also has the macro functions setFieldMemory() and setField(),
     which set const fields or variables using memcpy().
 
 khyberS -- 2018-01-24 18:39:37

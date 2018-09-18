@@ -3,7 +3,7 @@
 int main() {
   int fd, semid, shmid;
   if ( (semid = semget( SEMKEY, 1, 0)) == -1 ) {
-    printf("error: program not yet initialized, do ./control -c\n");
+    printf("stackTrace: program not yet initialized, do ./control -c\n");
     exit(1);
   }
   printf("waiting for access\n");

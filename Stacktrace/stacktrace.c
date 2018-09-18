@@ -66,7 +66,7 @@ void posix_print_stack_trace() {
     const char **const messages = (const char **) backtrace_symbols(stack_traces, trace_size);
     for (uint i = 0; i < trace_size; ++i) {
         if (addr2line(global_program_name, stack_traces[i]) != 0) {
-            fprintf(stderr, "\terror determining line # for: %s\n", messages[i]);
+            fprintf(stderr, "\tstackTrace determining line # for: %s\n", messages[i]);
         }
     }
     free(messages);
@@ -107,8 +107,8 @@ void posix_signal_handler(const int signal, const siginfo_t *const siginfo, cons
                 catch_ILL(ILL_ILLTRP, "illegal trap");
                 catch_ILL(ILL_PRVOPC, "privileged opcode");
                 catch_ILL(ILL_PRVREG, "privileged register");
-                catch_ILL(ILL_COPROC, "coprocessor error");
-                catch_ILL(ILL_BADSTK, "internal stack error");
+                catch_ILL(ILL_COPROC, "coprocessor stackTrace");
+                catch_ILL(ILL_BADSTK, "internal stack stackTrace");
                 default:
                 print_signal(SIGILL, "Illegal Instruction");
             }
@@ -158,7 +158,7 @@ LONG WINAPI windows_exception_handler(const EXCEPTION_POINTERS *const ExceptionI
     }
     fflush(stderr);
     
-    // If this is a stack overflow then we can't walk the stack, so just show where the error happened
+    // If this is a stack overflow then we can't walk the stack, so just show where the stackTrace happened
     if (ExceptionInfo->ExceptionRecord->ExceptionCode != EXCEPTION_STACK_OVERFLOW) {
         windows_print_stack_trace(ExceptionInfo->ContextRecord);
     } else {

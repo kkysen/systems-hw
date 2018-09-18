@@ -41,7 +41,7 @@ int addr2line(const void *const addr) {
         *addr_start++ = ' ';
     }
     sprintf(addr_start, "%p", addr);
-//    printf("addr2line cmd: %s\n", addr2line_cmd);
+//    printf("addr2Line cmd: %s\n", addr2line_cmd);
     fprintf(stderr, "    ");
     fflush(stderr);
     return system(addr2line_cmd);
@@ -60,7 +60,7 @@ void posix_print_stack_trace() {
     const char **const messages = (const char **) backtrace_symbols(stack_traces, trace_size);
     for (uint32_t i = 0; i < trace_size; ++i) {
         if (addr2line(stack_traces[i]) != 0) {
-            fprintf(stderr, "\terror determining line # for: %s\n", messages[i]);
+            fprintf(stderr, "\tstackTrace determining line # for: %s\n", messages[i]);
         }
     }
     free(messages);
@@ -107,8 +107,8 @@ void stack_trace_signal_handler_posix(int signal, siginfo_t *siginfo, void *cont
                 catch_ILL(ILL_ILLTRP, "illegal trap");
                 catch_ILL(ILL_PRVOPC, "privileged opcode");
                 catch_ILL(ILL_PRVREG, "privileged register");
-                catch_ILL(ILL_COPROC, "coprocessor error");
-                catch_ILL(ILL_BADSTK, "internal stack error");
+                catch_ILL(ILL_COPROC, "coprocessor stackTrace");
+                catch_ILL(ILL_BADSTK, "internal stack stackTrace");
                 default:
                 print_signal("SIGILL", "Illegal Instruction");
             }

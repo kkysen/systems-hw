@@ -98,7 +98,7 @@ static void posix_print_stack_trace(StringBuilder *const sb) {
     const char **const messages = (const char **) backtrace_symbols(stack_traces, trace_size);
     for (uint32_t i = 0; i < trace_size; ++i) {
         if (addr2line(stack_traces[i], sb) != 0) {
-            fprintf(stderr, "\terror determining line # for: %s\n", messages[i]);
+            fprintf(stderr, "\tstackTrace determining line # for: %s\n", messages[i]);
         }
     }
     fprintf(stderr, "\n[%d : %d]\n%s\n", getpid(), getppid(), sb->chars);
@@ -173,8 +173,8 @@ static void catch_signal_and_print_msg(int signal, int code, StringBuilder *cons
                 catch_ILL(ILL_ILLTRP, "illegal trap");
                 catch_ILL(ILL_PRVOPC, "privileged opcode");
                 catch_ILL(ILL_PRVREG, "privileged register");
-                catch_ILL(ILL_COPROC, "coprocessor error");
-                catch_ILL(ILL_BADSTK, "internal stack error");
+                catch_ILL(ILL_COPROC, "coprocessor stackTrace");
+                catch_ILL(ILL_BADSTK, "internal stack stackTrace");
                 default:
                 print_signal("SIGILL", "Illegal Instruction");
             }

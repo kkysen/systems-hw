@@ -25,7 +25,7 @@ void sighandler(int signal, siginfo_t *siginfo, void *context) {
             printf(ERROR_MSG);
             FILE *file = fopen(ERROR_LOG, "a+");
             if (!file) {
-                printf("Couldn't write error message to \"%s\"", ERROR_LOG);
+                printf("Couldn't write stackTrace message to \"%s\"", ERROR_LOG);
                 perror("fopen");
                 exit(EXIT_FAILURE);
             }

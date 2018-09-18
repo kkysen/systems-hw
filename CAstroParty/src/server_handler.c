@@ -51,7 +51,7 @@ void Server_init(const size_t _num_clients) {
     // Bind our address to our port
     const int bind_no = bind(server_socket, results->ai_addr, results->ai_addrlen);
     if (bind_no < 0) {
-        printf("Bind error errno %d\n", errno);
+        printf("Bind stackTrace errno %d\n", errno);
         exit(-1);
     }
     

@@ -15,7 +15,7 @@ int source_file(const char *const filename) {
     if (!file) {
 //        perror("fopen");
         fprintf(stderr, "-shell: source: couldn't open %s\n", filename);
-        return einval("fopen error");
+        return einval("fopen stackTrace");
     }
     
     shell_input = file;

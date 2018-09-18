@@ -365,7 +365,7 @@ void loop(Commands *const commands, const bool user) {
         }
         const ssize_t i = parse_commands(line, commands);
         if (i < 0) {
-            printf("syntax error at index %zd\n", ~i);
+            printf("syntax stackTrace at index %zd\n", ~i);
             continue;
         }
         
